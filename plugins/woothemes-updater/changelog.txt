@@ -1,0 +1,28 @@
+*** WooThemes Updater Changelog ***
+2013.06.12 - version 1.1.1
+ * Bug fixes.
+
+2013.05.29 - version 1.1.0
+ * Update notifications without license.
+ * Better NetWork integration.
+
+2013.02.01 - version 1.0.4
+ * woothemes-updater.php - Trailing Space cleanup.
+ * /classes/class-woothemes-updater-api.php - Disable ssl_verify in API call.s Trailing space clean up.
+ * /classes/class-woothemes-updater-api.php - Trailing Space cleanup.
+ * /classes/class-woothemes-updater-self-updater.php - Trailing Space cleanup.
+ * /classes/class-woothemes-updater-updater-checker.php - Trailing Space cleanup.
+
+2012.12.10 - version 1.0.3
+ * /classes/class-woothemes-updater-api.php - Use is_numeric instead of is_int - fails on strings.
+
+2012.12.10 - version 1.0.2
+ * /classes/class-woothemes-updater-admin.php - Pass file name of plugin to activate.
+ * /screens/screen-manage.php - Show links to license and faq page.
+ * /classes/class-woothemes-updater-api.php - Use plugin file name when displaying error message for incorrect product id.
+
+2012.12.10 - version 1.0.1
+ * /screens/screen-manage.php - Always show the "activate" button.
+
+2012.12.05 - version 1.0.0
+ * First release. Woo!

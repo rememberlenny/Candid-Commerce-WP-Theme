@@ -1,0 +1,10 @@
+table#shipping_rates .check-column {
+  min-width: 42px;
+}
+table#shipping_rates input,
+table#shipping_rates select {
+  width: 100%;
+}
+table#shipping_rates td {
+  cursor: move;
+}
