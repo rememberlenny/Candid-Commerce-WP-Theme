@@ -133,3 +133,7 @@ require get_template_directory() . '/atriangle/woocommerce.php';
  * Load Atriangle (atr-) hooks.
  */
 require get_template_directory() . '/atriangle/page-hooks.php';
+/**
+ * Load Atriangle (atr-) hooks.
+ */
+require get_template_directory() . '/atriangle/foundation-integration.php';

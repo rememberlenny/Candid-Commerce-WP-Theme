@@ -1,0 +1,43 @@
+.slide-case{
+  max-width: 60em;
+}
+
+
+.orbit-container{
+  background: none;
+  border-bottom: 1px solid #333;
+
+  img{
+    margin-left: 2.5em;
+  }
+}
+.orbit-bullets{
+  margin: 0px auto 16px auto;
+  top: 8px;
+  float: right;
+  margin-right: 42px;
+}
+.orbit-slide-number{
+  visibility: hidden;
+}
+
+.orbit-container .orbit-prev, 
+.orbit-container .orbit-next{
+  background: none;
+}
+.orbit-container .orbit-prev{
+  span{
+    border-right-color: rgb(51, 51, 51);
+  }
+}
+.orbit-container .orbit-next{  
+  span{
+    border-left-color: rgb(51, 51, 51);
+  }
+}
+.orbit-progress{
+  visibility: hidden;
+}
+.orbit-container .orbit-timer {
+  top: 476px;
+}

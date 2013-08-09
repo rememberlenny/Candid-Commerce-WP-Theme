@@ -545,7 +545,7 @@ select {
   margin-right: auto;
   margin-top: 0;
   margin-bottom: 0;
-  max-width: 62.5em;
+  max-width: 55em;
   *zoom: 1;
 }
 /* line 121, ../../../../../../.rvm/gems/ruby-2.0.0-p247/gems/zurb-foundation-4.3.1/scss/foundation/components/_global.scss */
@@ -4883,7 +4883,7 @@ label.error {
 
   /* line 385, ../../../../../../.rvm/gems/ruby-2.0.0-p247/gems/zurb-foundation-4.3.1/scss/foundation/components/_top-bar.scss */
   .contain-to-grid .top-bar {
-    max-width: 62.5em;
+    max-width: 55em;
     margin: 0 auto;
     margin-bottom: 1.875em;
   }
@@ -7545,47 +7545,101 @@ object {
   margin-right: 5px;
 }
 
-/* line 3, sass/element/header/nav.scss */
-#masthead {
-  border-bottom: 1px solid #333333;
-  margin: 0 auto;
-  padding-bottom: 15px;
+/* line 4, sass/element/header/nav.scss */
+#masthead #site-navigation {
+  border-bottom: 1px solid #333;
+  margin-bottom: 26px;
 }
 /* line 8, sass/element/header/nav.scss */
-#masthead #site-navigation {
-  margin: 0 auto;
-  float: none;
+#masthead .social-icon-case {
+  float: left;
+}
+/* line 10, sass/element/header/nav.scss */
+#masthead .social-icon-case .inline-list {
+  display: inline-block;
 }
 /* line 13, sass/element/header/nav.scss */
+#masthead .social-icon-case .inline-list li {
+  margin-left: 0px;
+}
+/* line 19, sass/element/header/nav.scss */
 #masthead #menu-main-header {
   display: block;
 }
-/* line 16, sass/element/header/nav.scss */
+/* line 22, sass/element/header/nav.scss */
 #masthead #menu-main-header li {
   padding-left: 2%;
   padding-right: 2%;
   margin-top: .2em;
 }
-/* line 23, sass/element/header/nav.scss */
+/* line 29, sass/element/header/nav.scss */
 #masthead .site-branding {
   margin-bottom: 20px;
 }
-/* line 31, sass/element/header/nav.scss */
+/* line 37, sass/element/header/nav.scss */
 #masthead form.search-form {
   display: inline-block !important;
   float: right;
 }
-/* line 35, sass/element/header/nav.scss */
-#masthead form .search-field {
-  width: 150px !important;
-  padding-right: 63px;
-}
-/* line 42, sass/element/header/nav.scss */
+/* line 44, sass/element/header/nav.scss */
 #masthead form:hover .search-submit, #masthead form:focus .search-submit, #masthead form:active .search-submit {
   opacity: 1;
 }
-/* line 46, sass/element/header/nav.scss */
+/* line 48, sass/element/header/nav.scss */
 #masthead form .search-submit {
   opacity: 0;
-  margin-left: -68px;
+}
+
+/* line 1, sass/element/slider/navigation.scss */
+.slide-case {
+  max-width: 60em;
+}
+
+/* line 6, sass/element/slider/navigation.scss */
+.orbit-container {
+  background: none;
+  border-bottom: 1px solid #333;
+}
+/* line 10, sass/element/slider/navigation.scss */
+.orbit-container img {
+  margin-left: 2.5em;
+}
+
+/* line 14, sass/element/slider/navigation.scss */
+.orbit-bullets {
+  margin: 0px auto 16px auto;
+  top: 8px;
+  float: right;
+  margin-right: 42px;
+}
+
+/* line 20, sass/element/slider/navigation.scss */
+.orbit-slide-number {
+  visibility: hidden;
+}
+
+/* line 25, sass/element/slider/navigation.scss */
+.orbit-container .orbit-prev,
+.orbit-container .orbit-next {
+  background: none;
+}
+
+/* line 29, sass/element/slider/navigation.scss */
+.orbit-container .orbit-prev span {
+  border-right-color: #333333;
+}
+
+/* line 34, sass/element/slider/navigation.scss */
+.orbit-container .orbit-next span {
+  border-left-color: #333333;
+}
+
+/* line 38, sass/element/slider/navigation.scss */
+.orbit-progress {
+  visibility: hidden;
+}
+
+/* line 41, sass/element/slider/navigation.scss */
+.orbit-container .orbit-timer {
+  top: 476px;
 }

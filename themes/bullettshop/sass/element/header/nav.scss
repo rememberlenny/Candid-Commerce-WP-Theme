@@ -1,13 +1,19 @@
 $nav-padding: 2%;
 
 #masthead{
-  border-bottom: 1px solid #333333;
-  margin: 0 auto;
-  padding-bottom: 15px;
-
   #site-navigation{
-    margin: 0 auto;
-    float: none;
+    border-bottom: 1px solid #333;
+    margin-bottom: 26px;
+  }
+  .social-icon-case{
+    float:left;
+    .inline-list{
+      display: inline-block; 
+
+      li{
+        margin-left: 0px;
+      }
+    }
   }
 
   #menu-main-header{
@@ -32,10 +38,6 @@ $nav-padding: 2%;
       display: inline-block !important;
       float: right;
     }
-    .search-field{
-      width: 150px !important;
-      padding-right: 63px;
-    }
     &:hover,
     &:focus,
     &:active{
@@ -45,7 +47,6 @@ $nav-padding: 2%;
     }
     .search-submit{
       opacity: 0;
-      margin-left: -68px;
     }
 
   }
