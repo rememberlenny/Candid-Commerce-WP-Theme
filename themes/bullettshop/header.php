@@ -19,20 +19,30 @@
 </head>
 
 <body <?php body_class(); ?>>
+
 <div id="page" class="hfeed site">
 	<?php do_action( 'before' ); ?>
 	<header id="masthead" class="site-header" role="banner">
 		<div class="site-branding">
-			<h1 class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h1>
+			<h1 class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home"><img src="<?php echo ot_get_option( 'header_logo' ); ?>" alt="<?php bloginfo( 'name' ); ?>"></a></h1>
 			<h2 class="site-description"><?php bloginfo( 'description' ); ?></h2>
 		</div>
 
 		<nav id="site-navigation" class="main-navigation" role="navigation">
+			<div class="social-icon-case">
+				<a href="#" class="social-icon"><img src="<?php bloginfo('template_directory'); ?>/images/common-assets/icon-facebook.png"></a>
+				<a href="#" class="social-icon"><img src="<?php bloginfo('template_directory'); ?>/images/common-assets/icon-twitter.png"></a>
+				<a href="#" class="social-icon"><img src="<?php bloginfo('template_directory'); ?>/images/common-assets/icon-insta.png"></a>
+				<a href="#" class="social-icon"><img src="<?php bloginfo('template_directory'); ?>/images/common-assets/icon-tumblr.png"></a>
+			</div>
 			<h1 class="menu-toggle"><?php _e( 'Menu', 'bullettshop' ); ?></h1>
+			
 			<div class="screen-reader-text skip-link"><a href="#content" title="<?php esc_attr_e( 'Skip to content', 'bullettshop' ); ?>"><?php _e( 'Skip to content', 'bullettshop' ); ?></a></div>
 
 			<?php wp_nav_menu( array( 'theme_location' => 'primary' ) ); ?>
+			<?php include (TEMPLATEPATH . '/searchform-header.php'); ?>
 		</nav><!-- #site-navigation -->
+	
 	</header><!-- #masthead -->
 
 	<div id="content" class="site-content">

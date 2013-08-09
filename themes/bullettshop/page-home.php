@@ -1,7 +1,7 @@
 <?php
 /**
- * Template Name: Default Page
- * The template for displaying all pages.
+ * Template Name: Home Page
+ * The template for displaying home page.
  *
  * This is the template that displays all pages by default.
  * Please note that this is the WordPress construct of pages
@@ -12,6 +12,8 @@
  */
 
 get_header(); ?>
+
+	<?php wooslider(); ?>
 
 	<div id="primary" class="content-area">
 		<main id="main" class="site-main" role="main">

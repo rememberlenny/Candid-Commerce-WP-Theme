@@ -1,0 +1,46 @@
+/* line 3, ../../sass/element/header/nav.scss */
+#masthead {
+  border-bottom: 1px solid #333333;
+  width: 970px;
+  margin: 0 auto;
+  padding-bottom: 15px;
+}
+/* line 9, ../../sass/element/header/nav.scss */
+#masthead #site-navigation {
+  width: 960px;
+  margin: 0 auto;
+  float: none;
+}
+/* line 15, ../../sass/element/header/nav.scss */
+#masthead #menu-main-header {
+  display: block;
+}
+/* line 18, ../../sass/element/header/nav.scss */
+#masthead #menu-main-header li {
+  padding-left: 2%;
+  padding-right: 2%;
+  margin-top: .2em;
+}
+/* line 25, ../../sass/element/header/nav.scss */
+#masthead .site-branding {
+  margin-bottom: 20px;
+}
+/* line 33, ../../sass/element/header/nav.scss */
+#masthead form.search-form {
+  display: inline-block !important;
+  float: right;
+}
+/* line 37, ../../sass/element/header/nav.scss */
+#masthead form .search-field {
+  width: 150px !important;
+  padding-right: 63px;
+}
+/* line 44, ../../sass/element/header/nav.scss */
+#masthead form:hover .search-submit, #masthead form:focus .search-submit, #masthead form:active .search-submit {
+  opacity: 1;
+}
+/* line 48, ../../sass/element/header/nav.scss */
+#masthead form .search-submit {
+  opacity: 0;
+  margin-left: -68px;
+}

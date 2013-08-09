@@ -1,0 +1,56 @@
+$nav-padding: 2%;
+
+#masthead{
+  border-bottom: 1px solid #333333;
+  width: 970px;
+  margin: 0 auto;
+  padding-bottom: 15px;
+
+  #site-navigation{
+    width: 960px;
+    margin: 0 auto;
+    float: none;
+  }
+
+  #menu-main-header{
+    display: block;
+
+    li{
+      padding-left  : $nav-padding;
+      padding-right : $nav-padding;
+      margin-top: .2em;
+    }
+  }
+
+  .site-branding{
+    margin-bottom: 20px;
+  }
+
+  .menu-main-header-container{
+  }
+
+  form{
+    &.search-form{
+      display: inline-block !important;
+      float: right;
+    }
+    .search-field{
+      width: 150px !important;
+      padding-right: 63px;
+    }
+    &:hover,
+    &:focus,
+    &:active{
+      .search-submit{
+        opacity: 1;
+      }
+    }
+    .search-submit{
+      opacity: 0;
+      margin-left: -68px;
+    }
+
+  }
+
+
+}
