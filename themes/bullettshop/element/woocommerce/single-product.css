@@ -1,0 +1,28 @@
+/* line 4, ../../sass/element/woocommerce/single-product.scss */
+#content div.product {
+  margin-top: 1.3em;
+}
+/* line 6, ../../sass/element/woocommerce/single-product.scss */
+#content div.product .entry-summary {
+  margin-top: 0em;
+}
+/* line 9, ../../sass/element/woocommerce/single-product.scss */
+#content div.product div.thumbnails {
+  padding-top: 0em !important;
+}
+/* line 11, ../../sass/element/woocommerce/single-product.scss */
+#content div.product div.thumbnails a {
+  width: 100% !important;
+  float: right;
+  margin-top: 0.9375em;
+}
+/* line 15, ../../sass/element/woocommerce/single-product.scss */
+#content div.product div.thumbnails a:first-child {
+  margin-top: 0em;
+}
+
+/* line 23, ../../sass/element/woocommerce/single-product.scss */
+.woocommerce-main-image {
+  float: right;
+  padding-right: 0em;
+}

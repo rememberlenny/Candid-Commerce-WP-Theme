@@ -5,10 +5,17 @@ remove_action( 'woocommerce_before_main_content', 'woocommerce_output_content_wr
 remove_action( 'woocommerce_after_main_content', 'woocommerce_output_content_wrapper_end', 10);
 
 
-//Add own functions to display the wrappers
+// Add own functions to display the wrappers
 add_action('woocommerce_before_main_content', 'atr_header_post', 10);
 add_action('woocommerce_after_main_content', 'atr_footer_pre', 10);
 
 add_theme_support( 'woocommerce' );
+
+// Remove breadcrumbs from all pages
+add_action( 'init', 'jk_remove_wc_breadcrumbs' );
+
+function jk_remove_wc_breadcrumbs() {
+    remove_action( 'woocommerce_before_main_content', 'woocommerce_breadcrumb', 20, 0 );
+}
 
 ?>

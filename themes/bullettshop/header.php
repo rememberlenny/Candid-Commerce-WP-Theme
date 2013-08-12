@@ -54,7 +54,14 @@
 		</nav><!-- #site-navigation -->
 	
 	</header><!-- #masthead -->
+	
+	<?php
+  if (is_page('47'))
+		get_template_part( 'modules/slider'); 
+	?>
 
-	<div id="content" class="site-content">
+	<div id="content" class="site-content row">
+
+	
 
 	<?php atr_header_post(); ?>

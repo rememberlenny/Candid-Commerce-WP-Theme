@@ -16,15 +16,7 @@ get_header(); ?>
 
 	<div id="primary" class="content-area">
 		
-		<?php get_template_part( 'modules/slider'); ?>
-
-		<main id="main" class="site-main row" role="main">
-		
-			<?php while ( have_posts() ) : the_post(); ?>
-
-				<?php get_template_part( 'content', 'product' ); ?>
-
-			<?php endwhile; // end of the loop. ?>
+		<main id="main" class="row site-main row" role="main">
 
 		</main><!-- #main -->
 	</div><!-- #primary -->

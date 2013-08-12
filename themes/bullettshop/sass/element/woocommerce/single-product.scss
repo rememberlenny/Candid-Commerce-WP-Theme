@@ -1,0 +1,26 @@
+$default-spacing: 0.9375em;
+
+#content{
+  div.product{
+    margin-top: 1.3em;
+    .entry-summary{
+      margin-top: 0em;
+    }
+    div.thumbnails{
+      padding-top: 0em !important;
+      a{
+        width: 100% !important;
+        float:right;
+        margin-top: $default-spacing;
+        &:first-child{
+          margin-top: 0em;
+        }
+      }
+    }
+  }
+}
+
+.woocommerce-main-image{
+  float: right; 
+  padding-right: 0em; // Makes main image fluid against right
+}

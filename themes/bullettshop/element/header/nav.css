@@ -3,42 +3,46 @@
   border-bottom: 1px solid #333;
   margin-bottom: 26px;
 }
-/* line 8, ../../sass/element/header/nav.scss */
+/* line 7, ../../sass/element/header/nav.scss */
+#masthead #site-navigation a {
+  color: black;
+}
+/* line 11, ../../sass/element/header/nav.scss */
 #masthead .social-icon-case {
   float: left;
 }
-/* line 10, ../../sass/element/header/nav.scss */
+/* line 13, ../../sass/element/header/nav.scss */
 #masthead .social-icon-case .inline-list {
   display: inline-block;
 }
-/* line 13, ../../sass/element/header/nav.scss */
+/* line 16, ../../sass/element/header/nav.scss */
 #masthead .social-icon-case .inline-list li {
   margin-left: 0px;
 }
-/* line 19, ../../sass/element/header/nav.scss */
+/* line 22, ../../sass/element/header/nav.scss */
 #masthead #menu-main-header {
   display: block;
 }
-/* line 22, ../../sass/element/header/nav.scss */
+/* line 25, ../../sass/element/header/nav.scss */
 #masthead #menu-main-header li {
   padding-left: 2%;
   padding-right: 2%;
-  margin-top: .2em;
+  margin-top: .1em;
 }
-/* line 29, ../../sass/element/header/nav.scss */
+/* line 32, ../../sass/element/header/nav.scss */
 #masthead .site-branding {
   margin-bottom: 20px;
 }
-/* line 37, ../../sass/element/header/nav.scss */
+/* line 40, ../../sass/element/header/nav.scss */
 #masthead form.search-form {
   display: inline-block !important;
   float: right;
 }
-/* line 44, ../../sass/element/header/nav.scss */
+/* line 47, ../../sass/element/header/nav.scss */
 #masthead form:hover .search-submit, #masthead form:focus .search-submit, #masthead form:active .search-submit {
   opacity: 1;
 }
-/* line 48, ../../sass/element/header/nav.scss */
+/* line 51, ../../sass/element/header/nav.scss */
 #masthead form .search-submit {
   opacity: 0;
 }

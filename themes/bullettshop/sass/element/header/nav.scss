@@ -4,6 +4,9 @@ $nav-padding: 2%;
   #site-navigation{
     border-bottom: 1px solid #333;
     margin-bottom: 26px;
+    a{
+      color: black;
+    }
   }
   .social-icon-case{
     float:left;
@@ -22,7 +25,7 @@ $nav-padding: 2%;
     li{
       padding-left  : $nav-padding;
       padding-right : $nav-padding;
-      margin-top: .2em;
+      margin-top: .1em;
     }
   }
 

@@ -3,51 +3,42 @@
   max-width: 60em;
 }
 
-/* line 6, ../../sass/element/slider/navigation.scss */
+/* line 5, ../../sass/element/slider/navigation.scss */
 .orbit-container {
   background: none;
-  border-bottom: 1px solid #333;
 }
-/* line 10, ../../sass/element/slider/navigation.scss */
+/* line 7, ../../sass/element/slider/navigation.scss */
 .orbit-container img {
   margin-left: 2.5em;
 }
 
-/* line 14, ../../sass/element/slider/navigation.scss */
-.orbit-bullets {
-  margin: 0px auto 16px auto;
-  top: 8px;
-  float: right;
-  margin-right: 42px;
-}
-
-/* line 20, ../../sass/element/slider/navigation.scss */
-.orbit-slide-number {
-  visibility: hidden;
-}
-
-/* line 25, ../../sass/element/slider/navigation.scss */
+/* line 13, ../../sass/element/slider/navigation.scss */
 .orbit-container .orbit-prev,
 .orbit-container .orbit-next {
   background: none;
 }
 
-/* line 29, ../../sass/element/slider/navigation.scss */
+/* line 17, ../../sass/element/slider/navigation.scss */
+.orbit-container .orbit-prev {
+  top: 0%;
+  margin-top: 0px;
+  width: 180px;
+  height: 478px;
+}
+/* line 18, ../../sass/element/slider/navigation.scss */
 .orbit-container .orbit-prev span {
   border-right-color: #333333;
 }
 
-/* line 34, ../../sass/element/slider/navigation.scss */
+/* line 27, ../../sass/element/slider/navigation.scss */
+.orbit-container .orbit-next {
+  top: 0%;
+  margin-top: 0px;
+  width: 180px;
+  height: 478px;
+}
+/* line 28, ../../sass/element/slider/navigation.scss */
 .orbit-container .orbit-next span {
   border-left-color: #333333;
-}
-
-/* line 38, ../../sass/element/slider/navigation.scss */
-.orbit-progress {
-  visibility: hidden;
-}
-
-/* line 41, ../../sass/element/slider/navigation.scss */
-.orbit-container .orbit-timer {
-  top: 476px;
+  left: 87%;
 }
