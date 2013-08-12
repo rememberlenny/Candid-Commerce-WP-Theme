@@ -595,13 +595,13 @@ p.demo_store {
 		padding: 6px 10px;
 	    text-decoration:none;
 	    font-weight:bold;
-	    @include border_radius(2px);
+	    // @include border_radius(2px);
 	    left: auto;
 	    text-shadow:0 1px 0 $secondary + #111;
 	    color: $secondarytext;
-	    @include darkorlighttextshadow( $secondarytext );
+	    // @include darkorlighttextshadow( $secondarytext );
 	    border: 1px solid darken( $secondary, 20 );
-		@include vertical_gradient( $secondary, darken( $secondary, 10 ) );
+		// @include vertical_gradient( $secondary, darken( $secondary, 10 ) );
 		white-space: nowrap;
 		display: inline-block;
 
@@ -656,15 +656,15 @@ p.demo_store {
 		}
 
 		&.alt {
-			@include vertical_gradient( $primary, darken( $primary, 10 ) );
+			/*@include vertical_gradient( $primary, darken( $primary, 10 ) );*/
 			border-color: darken($primary, 20);
 			color: $primarytext;
-			@include darkorlighttextshadow( $primarytext, 0.6 );
+			/*@include darkorlighttextshadow( $primarytext, 0.6 );*/
 
 			&:hover {
-				@include vertical_gradient( $primary, darken( $primary, 15 ) );
+				/*@include vertical_gradient( $primary, darken( $primary, 15 ) );*/
 				color:$primarytext + #111;
-				@include darkorlighttextshadow( $primarytext + #111, 0.6 );
+				/*@include darkorlighttextshadow( $primarytext + #111, 0.6 );*/
 			}
 		}
 	}
@@ -702,10 +702,10 @@ p.demo_store {
 			text-align: center;
 			border: 1px solid darken( $secondary, 20 );
 			border-right: 0;
-			@include border_radius_right(0);
+			/*@include border_radius_right(0);
 			@include inset_box_shadow( 0, 0, 2px, 0, $secondary );
 			font-weight:bold;
-			@include border_radius_left(2px);
+			@include border_radius_left(2px);*/
 		}
 
 		/* Hide buttons for opera */
@@ -729,14 +729,14 @@ p.demo_store {
 		    cursor: pointer;
 		    line-height: 13px;
 		    font-size: 12px;
-		    @include border_radius(2px);
+		    /*@include border_radius(2px);*/
 
 		    color: $secondarytext;
-			@include darkorlighttextshadow( $secondarytext );
-			border: 1px solid darken( $secondary, 20 );
-			@include vertical_gradient( $secondary, darken( $secondary, 10 ) );
+			/*@include darkorlighttextshadow( $secondarytext );
+			border: 1px solid darken( $secondary, 20 );*/
+			/*@include vertical_gradient( $secondary, darken( $secondary, 10 ) );*/
 
-		    -webkit-box-shadow:
+		    /*-webkit-box-shadow:
 		        inset 0 -1px 0 rgba(0,0,0,0.075),
 		        inset 0 1px 0 rgba(255,255,255,0.3),
 		        0 1px 2px rgba(0,0,0,0.1);
@@ -747,10 +747,10 @@ p.demo_store {
 		    box-shadow:
 		        inset 0 -1px 0 rgba(0,0,0,0.075),
 		        inset 0 1px 0 rgba(255,255,255,0.3),
-		        0 1px 2px rgba(0,0,0,0.1);
+		        0 1px 2px rgba(0,0,0,0.1);*/
 
 		    &:hover {
-		    	@include vertical_gradient( $secondary, darken( $secondary, 15 ) );
+		    	/*@include vertical_gradient( $secondary, darken( $secondary, 15 ) );*/
 		    }
 		}
 

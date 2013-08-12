@@ -19,19 +19,10 @@ $tabs = apply_filters( 'woocommerce_product_tabs', array() );
 
 if ( ! empty( $tabs ) ) : ?>
 
-	<div class="woocommerce-tabs">
-		<ul class="tabs">
-			<?php foreach ( $tabs as $key => $tab ) : ?>
-
-				<li class="<?php echo $key ?>_tab">
-					<a href="#tab-<?php echo $key ?>"><?php echo apply_filters( 'woocommerce_product_' . $key . '_tab_title', $tab['title'], $key ) ?></a>
-				</li>
-
-			<?php endforeach; ?>
-		</ul>
+	<div class="woocommerce">
 		<?php foreach ( $tabs as $key => $tab ) : ?>
 
-			<div class="panel entry-content" id="tab-<?php echo $key ?>">
+			<div class="entry-content" id="tab-<?php echo $key ?>">
 				<?php call_user_func( $tab['callback'], $key, $tab ) ?>
 			</div>
 

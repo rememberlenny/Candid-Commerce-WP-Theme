@@ -545,7 +545,7 @@ select {
   margin-right: auto;
   margin-top: 0;
   margin-bottom: 0;
-  max-width: 55em;
+  max-width: 59.375em;
   *zoom: 1;
 }
 /* line 121, ../../../../../../.rvm/gems/ruby-2.0.0-p247/gems/zurb-foundation-4.3.1/scss/foundation/components/_global.scss */
@@ -4883,7 +4883,7 @@ label.error {
 
   /* line 385, ../../../../../../.rvm/gems/ruby-2.0.0-p247/gems/zurb-foundation-4.3.1/scss/foundation/components/_top-bar.scss */
   .contain-to-grid .top-bar {
-    max-width: 55em;
+    max-width: 59.375em;
     margin: 0 auto;
     margin-bottom: 1.875em;
   }
@@ -8284,19 +8284,10 @@ p.demo_store {
   padding: 6px 10px;
   text-decoration: none;
   font-weight: bold;
-  -webkit-border-radius: 2px;
-  -moz-border-radius: 2px;
-  border-radius: 2px;
   left: auto;
   text-shadow: 0 1px 0 white;
   color: #5d5d5d;
-  text-shadow: 0 1px 0 rgba(255, 255, 255, 0.8);
   border: 1px solid #c8bfc6;
-  background: #f7f6f7;
-  background: -webkit-gradient(linear, left top, left bottom, from(#f7f6f7), to(#e0dadf));
-  background: -webkit-linear-gradient(#f7f6f7, #e0dadf);
-  background: -moz-linear-gradient(center top, #f7f6f7 0%, #e0dadf 100%);
-  background: -moz-gradient(center top, #f7f6f7 0%, #e0dadf 100%);
   white-space: nowrap;
   display: inline-block;
   -webkit-box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.075), inset 0 1px 0 rgba(255, 255, 255, 0.3), 0 1px 2px rgba(0, 0, 0, 0.1);
@@ -8344,24 +8335,16 @@ p.demo_store {
 }
 /* line 658, sass/base/woocommerce/woocommerce.scss */
 .woocommerce a.button.alt, .woocommerce button.button.alt, .woocommerce input.button.alt, .woocommerce #respond input#submit.alt, .woocommerce #content input.button.alt, .woocommerce-page a.button.alt, .woocommerce-page button.button.alt, .woocommerce-page input.button.alt, .woocommerce-page #respond input#submit.alt, .woocommerce-page #content input.button.alt {
-  background: #ad74a2;
-  background: -webkit-gradient(linear, left top, left bottom, from(#ad74a2), to(#96588a));
-  background: -webkit-linear-gradient(#ad74a2, #96588a);
-  background: -moz-linear-gradient(center top, #ad74a2 0%, #96588a 100%);
-  background: -moz-gradient(center top, #ad74a2 0%, #96588a 100%);
+  /*@include vertical_gradient( $primary, darken( $primary, 10 ) );*/
   border-color: #76456c;
   color: white;
-  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.6);
+  /*@include darkorlighttextshadow( $primarytext, 0.6 );*/
 }
 /* line 664, sass/base/woocommerce/woocommerce.scss */
 .woocommerce a.button.alt:hover, .woocommerce button.button.alt:hover, .woocommerce input.button.alt:hover, .woocommerce #respond input#submit.alt:hover, .woocommerce #content input.button.alt:hover, .woocommerce-page a.button.alt:hover, .woocommerce-page button.button.alt:hover, .woocommerce-page input.button.alt:hover, .woocommerce-page #respond input#submit.alt:hover, .woocommerce-page #content input.button.alt:hover {
-  background: #ad74a2;
-  background: -webkit-gradient(linear, left top, left bottom, from(#ad74a2), to(#864f7b));
-  background: -webkit-linear-gradient(#ad74a2, #864f7b);
-  background: -moz-linear-gradient(center top, #ad74a2 0%, #864f7b 100%);
-  background: -moz-gradient(center top, #ad74a2 0%, #864f7b 100%);
+  /*@include vertical_gradient( $primary, darken( $primary, 15 ) );*/
   color: white;
-  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.6);
+  /*@include darkorlighttextshadow( $primarytext + #111, 0.6 );*/
 }
 /* line 672, sass/base/woocommerce/woocommerce.scss */
 .woocommerce .cart .button, .woocommerce .cart input.button, .woocommerce-page .cart .button, .woocommerce-page .cart input.button {
@@ -8396,22 +8379,10 @@ p.demo_store {
   text-align: center;
   border: 1px solid #c8bfc6;
   border-right: 0;
-  -webkit-border-top-right-radius: 0;
-  -webkit-border-bottom-right-radius: 0;
-  -moz-border-radius-topright: 0;
-  -moz-border-radius-bottomright: 0;
-  border-top-right-radius: 0;
-  border-bottom-right-radius: 0;
-  box-shadow: inset 0 0 2px 0 #f7f6f7;
-  -webkit-box-shadow: inset 0 0 2px 0 #f7f6f7;
-  -moz-box-shadow: inset 0 0 2px 0 #f7f6f7;
-  font-weight: bold;
-  -webkit-border-top-left-radius: 2px;
-  -webkit-border-bottom-left-radius: 2px;
-  -moz-border-radius-topleft: 2px;
-  -moz-border-radius-bottomleft: 2px;
-  border-top-left-radius: 2px;
-  border-bottom-left-radius: 2px;
+  /*@include border_radius_right(0);
+  @include inset_box_shadow( 0, 0, 2px, 0, $secondary );
+  font-weight:bold;
+  @include border_radius_left(2px);*/
 }
 /* line 712, sass/base/woocommerce/woocommerce.scss */
 .woocommerce .quantity noindex:-o-prefocus, .woocommerce .quantity input[type=number], .woocommerce #content .quantity noindex:-o-prefocus, .woocommerce #content .quantity input[type=number], .woocommerce-page .quantity noindex:-o-prefocus, .woocommerce-page .quantity input[type=number], .woocommerce-page #content .quantity noindex:-o-prefocus, .woocommerce-page #content .quantity input[type=number] {
@@ -8434,28 +8405,27 @@ p.demo_store {
   cursor: pointer;
   line-height: 13px;
   font-size: 12px;
-  -webkit-border-radius: 2px;
-  -moz-border-radius: 2px;
-  border-radius: 2px;
+  /*@include border_radius(2px);*/
   color: #5d5d5d;
-  text-shadow: 0 1px 0 rgba(255, 255, 255, 0.8);
-  border: 1px solid #c8bfc6;
-  background: #f7f6f7;
-  background: -webkit-gradient(linear, left top, left bottom, from(#f7f6f7), to(#e0dadf));
-  background: -webkit-linear-gradient(#f7f6f7, #e0dadf);
-  background: -moz-linear-gradient(center top, #f7f6f7 0%, #e0dadf 100%);
-  background: -moz-gradient(center top, #f7f6f7 0%, #e0dadf 100%);
-  -webkit-box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.075), inset 0 1px 0 rgba(255, 255, 255, 0.3), 0 1px 2px rgba(0, 0, 0, 0.1);
-  -moz-box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.075), inset 0 1px 0 rgba(255, 255, 255, 0.3), 0 1px 2px rgba(0, 0, 0, 0.1);
-  box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.075), inset 0 1px 0 rgba(255, 255, 255, 0.3), 0 1px 2px rgba(0, 0, 0, 0.1);
+  /*@include darkorlighttextshadow( $secondarytext );
+  border: 1px solid darken( $secondary, 20 );*/
+  /*@include vertical_gradient( $secondary, darken( $secondary, 10 ) );*/
+  /*-webkit-box-shadow:
+      inset 0 -1px 0 rgba(0,0,0,0.075),
+      inset 0 1px 0 rgba(255,255,255,0.3),
+      0 1px 2px rgba(0,0,0,0.1);
+  -moz-box-shadow:
+      inset 0 -1px 0 rgba(0,0,0,0.075),
+      inset 0 1px 0 rgba(255,255,255,0.3),
+      0 1px 2px rgba(0,0,0,0.1);
+  box-shadow:
+      inset 0 -1px 0 rgba(0,0,0,0.075),
+      inset 0 1px 0 rgba(255,255,255,0.3),
+      0 1px 2px rgba(0,0,0,0.1);*/
 }
 /* line 752, sass/base/woocommerce/woocommerce.scss */
 .woocommerce .quantity .plus:hover, .woocommerce .quantity .minus:hover, .woocommerce #content .quantity .plus:hover, .woocommerce #content .quantity .minus:hover, .woocommerce-page .quantity .plus:hover, .woocommerce-page .quantity .minus:hover, .woocommerce-page #content .quantity .plus:hover, .woocommerce-page #content .quantity .minus:hover {
-  background: #f7f6f7;
-  background: -webkit-gradient(linear, left top, left bottom, from(#f7f6f7), to(#d4cdd2));
-  background: -webkit-linear-gradient(#f7f6f7, #d4cdd2);
-  background: -moz-linear-gradient(center top, #f7f6f7 0%, #d4cdd2 100%);
-  background: -moz-gradient(center top, #f7f6f7 0%, #d4cdd2 100%);
+  /*@include vertical_gradient( $secondary, darken( $secondary, 15 ) );*/
 }
 /* line 757, sass/base/woocommerce/woocommerce.scss */
 .woocommerce .quantity .plus, .woocommerce #content .quantity .plus, .woocommerce-page .quantity .plus, .woocommerce-page #content .quantity .plus {
@@ -9803,6 +9773,19 @@ ul.products .product a.button {
 .woocommerce-main-image {
   float: right;
   padding-right: 0em;
+}
+
+/* line 28, sass/element/woocommerce/single-product.scss */
+.summary.entry-summary {
+  padding-left: 0em;
+}
+
+/* line 4, sass/element/woocommerce/add-to-cart.scss */
+.woocommerce div.product form.cart .button,
+.woocommerce #content div.product form.cart .button,
+.woocommerce-page div.product form.cart .button,
+.woocommerce-page #content div.product form.cart .button {
+  width: 100%;
 }
 
 /* line 2, sass/state/content-body/pre.scss */

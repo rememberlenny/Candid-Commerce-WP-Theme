@@ -26,3 +26,8 @@
   float: right;
   padding-right: 0em;
 }
+
+/* line 28, ../../sass/element/woocommerce/single-product.scss */
+.summary.entry-summary {
+  padding-left: 0eml;
+}
