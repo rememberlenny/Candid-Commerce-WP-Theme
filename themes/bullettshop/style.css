@@ -9691,6 +9691,15 @@ p.demo_store {
   opacity: 0;
 }
 
+/* line 3, sass/element/header/dropdown.scss */
+.main-navigation ul > * {
+  background: white;
+}
+/* line 8, sass/element/header/dropdown.scss */
+.main-navigation ul:hover ul .sub-menu {
+  display: block;
+}
+
 /* line 1, sass/element/slider/navigation.scss */
 .slide-case {
   max-width: 60em;

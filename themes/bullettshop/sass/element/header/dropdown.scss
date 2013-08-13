@@ -1,0 +1,14 @@
+.main-navigation{
+  ul{
+    > *{
+      background: white;
+    }
+    &:hover{
+      ul{
+        .sub-menu{
+          display: block;
+        }
+      }
+    }
+  }  
+} 

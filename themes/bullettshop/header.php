@@ -29,7 +29,7 @@
 		</div>
 
 		<nav id="site-navigation" class="main-navigation" role="navigation">
-			<div class="social-icon-case">
+			<div class="social-icon-case hide-for-small">
 			<ul class="inline-list">
 				<li>
 				<a href="#" class="social-icon"><img src="<?php bloginfo('template_directory'); ?>/images/common-assets/icon-facebook.png"></a>
