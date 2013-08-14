@@ -1,0 +1,6 @@
+/* account for "Menu" being removed from doc flow... */
+.dock #content, .stop #content { margin-top:477px; }
+/* when "Head" is out of view... */
+.dock #slide-case { z-index:0; position:fixed; }
+/* when "Main" is out of view... */
+.stop #slide-case { z-index:0; position:fixed; }

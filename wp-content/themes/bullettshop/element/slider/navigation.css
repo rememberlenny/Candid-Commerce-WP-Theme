@@ -1,0 +1,49 @@
+/* line 2, ../../sass/element/slider/navigation.scss */
+.slide-case img {
+  margin: 0 auto;
+}
+
+/* line 8, ../../sass/element/slider/navigation.scss */
+.orbit-container .orbit-prev,
+.orbit-container .orbit-next {
+  background: none;
+}
+
+/* line 13, ../../sass/element/slider/navigation.scss */
+.orbit-container .orbit-prev span {
+  border-right-color: #333333;
+}
+
+/* line 18, ../../sass/element/slider/navigation.scss */
+.orbit-container .orbit-next span {
+  border-left-color: #333333;
+}
+
+/* line 23, ../../sass/element/slider/navigation.scss */
+.orbit-container {
+  background: white;
+}
+
+/*.slide-case{
+  max-width: 60em;
+}
+
+.orbit-container{
+  background: none;
+  img{
+    margin-left: 2.5em;
+  }
+}
+
+
+  top: 0%;
+  margin-top: 0px;
+  width: 180px;
+  height: 478px;
+}
+
+  top: 0%;
+  margin-top: 0px;
+  width: 180px;
+  height: 478px;
+}*/

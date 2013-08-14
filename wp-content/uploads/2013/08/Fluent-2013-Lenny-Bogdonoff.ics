@@ -1,0 +1,215 @@
+BEGIN:VCALENDAR
+X-WR-CALNAME:Fluent 2013
+VERSION:2.0
+PRODID:Expectnation
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+DTEND;TZID=US/Pacific:20130528T123000
+DTSTART;TZID=US/Pacific:20130528T090000
+DTSTAMP:20130528T223302
+LOCATION:Continental 4
+URL:http://fluentconf.com/fluent2013/public/schedule/detail/28509
+UID:http://fluentconf.com/fluent2013--s2013-05-28-09:00--28509
+SUMMARY:Advanced jQuery Techniques
+DESCRIPTION:Presented by Elijah Manor (appendTo). Join appendTo's Elijah
+  Manor for a dive into advanced topics surrounding the front-end with jQ
+ uery.
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=US/Pacific:20130528T171500
+DTSTART;TZID=US/Pacific:20130528T134500
+DTSTAMP:20130528T222216
+LOCATION:Continental 4
+URL:http://fluentconf.com/fluent2013/public/schedule/detail/28217
+UID:http://fluentconf.com/fluent2013--s2013-05-28-13:45--28217
+SUMMARY:The Real-time Web with Node.js
+DESCRIPTION:Presented by Carlos Souza (Envy Labs), Jacob Swanner (Envy L
+ abs). Building web applications is easy there are plenty of frameworks f
+ or this. Building extremely fast and scalable web services is a much mor
+ e difficult task, especially when you're dealing with hundreds of reques
+ ts per second. This is where Node.js shines, providing the groundwork fo
+ r real-time applications that run across distributed devices.
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=US/Pacific:20130529T114000
+DTSTART;TZID=US/Pacific:20130529T110000
+DTSTAMP:20130124T211923
+LOCATION:Grand Ballroom B
+URL:http://fluentconf.com/fluent2013/public/schedule/detail/27777
+UID:http://fluentconf.com/fluent2013--s2013-05-29-11:00--27777
+SUMMARY:Secrets of Awesome JavaScript API Design
+DESCRIPTION:Presented by Brandon Satrom (Kendo UI). We know what good an
+ d bad JavaScript APIs “feel” like, yet we struggle with designing the ki
+ nds of APIs we enjoy using. The good news is that principles of good Jav
+ aScript API design do exist, and it’s possible to find, if you know wher
+ e to look. In this session, Brandon will introduce four API design princ
+ iples, and walk through examples of these principles as seen in several 
+ popular libraries.
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=US/Pacific:20130529T121000
+DTSTART;TZID=US/Pacific:20130529T115000
+DTSTAMP:20130123T235023
+LOCATION:Continental 5
+URL:http://fluentconf.com/fluent2013/public/schedule/detail/28112
+UID:http://fluentconf.com/fluent2013--s2013-05-29-11:50--28112
+SUMMARY:Getting Good: How to Integrate Novice Developers into Your Team
+DESCRIPTION:Presented by Elise Worthy (Brandworthy). Good developer tale
+ nt is hard to find. If you need to scale your team, what options do you 
+ have? LivingSocial took an unconventional route and brought on 24 ruby n
+ ovices for a 5 month developer bootcamp. The litmus test of the program 
+ comes now that their development careers have started. What lessons can 
+ be learned about integrating junior developers into existing teams with 
+ legacy code?
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=US/Pacific:20130529T123000
+DTSTART;TZID=US/Pacific:20130529T121000
+DTSTAMP:20130124T000038
+LOCATION:Continental 5
+URL:http://fluentconf.com/fluent2013/public/schedule/detail/27961
+UID:http://fluentconf.com/fluent2013--s2013-05-29-12:10--27961
+SUMMARY:Evil Overlord's Tips for Being a Senior Developer
+DESCRIPTION:Presented by Carina C. Zona (See Do Teach). Hollywood super 
+ villains learn their lessons the hard way. You don't have to. What can w
+ e learn about doing good, from thwarted forces of doom? It's been said t
+ hat coders "stand on the shoulders of giants." We'll take a session to s
+ tand on the shoulders of legendary tyrants, get a view from their side, 
+ & discover how to lead with the humor and grace that perpetually evades 
+ those gals and guys.
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=US/Pacific:20130529T142500
+DTSTART;TZID=US/Pacific:20130529T134500
+DTSTAMP:20130522T212717
+LOCATION:Continental 3
+URL:http://fluentconf.com/fluent2013/public/schedule/detail/31023
+UID:http://fluentconf.com/fluent2013--s2013-05-29-13:45--31023
+SUMMARY:Secure RESTful API Automation with JavaScript
+DESCRIPTION:Presented by Jonathan LeBlanc (PayPal). Pragmatic RESTful AP
+ I principles, along with a solid consumption architecture, can allow for
+  a great amount of automation in your program development.  At the same 
+ time, securing the application can be extremely tricky from JavaScript. 
+  In this session we will explore the construction and usage of a secure 
+ API interface using JavaScript.
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=US/Pacific:20130529T151500
+DTSTART;TZID=US/Pacific:20130529T143500
+DTSTAMP:20130124T001147
+LOCATION:Continental 4
+URL:http://fluentconf.com/fluent2013/public/schedule/detail/27996
+UID:http://fluentconf.com/fluent2013--s2013-05-29-14:35--27996
+SUMMARY:Benchmarking the New Front End: How to Quantify Single Page App 
+ Performance
+DESCRIPTION:Presented by Rachel Myers (ModCloth), Emily Nakashima (ModCl
+ oth). There are lots of tools for tracking page load times — but as the 
+ web goes mobile, applications get asynchronous, and functionality moves 
+ to the browser, the meaning of “site performance” is changing. Most meas
+ uring tools haven’t caught up yet. We’ll talk about how to measure your 
+ users’ experiences beyond time to window load. #backbone #ember #html5 #
+ mobile #performance #tools
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=US/Pacific:20130529T163500
+DTSTART;TZID=US/Pacific:20130529T161500
+DTSTAMP:20130424T171031
+LOCATION:Continental 5
+URL:http://fluentconf.com/fluent2013/public/schedule/detail/27859
+UID:http://fluentconf.com/fluent2013--s2013-05-29-16:15--27859
+SUMMARY:Scraping the World with JavaScript
+DESCRIPTION:Presented by Sylvain Zimmer (dotConferences). Crawlers and s
+ crapers have been around for ages. However, being able to write them eas
+ ily in JavaScript has been a significant advance in recent years because
+  there is now little that a browser can do and a scraper can't. Brace yo
+ urselves for the next chapter in the struggle between scrapers and data 
+ protecters!
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=US/Pacific:20130529T165500
+DTSTART;TZID=US/Pacific:20130529T163500
+DTSTAMP:20130124T002019
+LOCATION:Continental 5
+URL:http://fluentconf.com/fluent2013/public/schedule/detail/27841
+UID:http://fluentconf.com/fluent2013--s2013-05-29-16:35--27841
+SUMMARY:GC.unmagic()
+DESCRIPTION:Presented by David Bruant (Freelance). The garbage collectio
+ n is used as a magic mechanism, but isn't.
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=US/Pacific:20130529T174500
+DTSTART;TZID=US/Pacific:20130529T170500
+DTSTAMP:20130124T001826
+LOCATION:Continental 5
+URL:http://fluentconf.com/fluent2013/public/schedule/detail/27878
+UID:http://fluentconf.com/fluent2013--s2013-05-29-17:05--27878
+SUMMARY:Classical Inheritance is Obsolete: How to Think in Prototypal OO
+DESCRIPTION:Presented by Eric Elliott (Adobe). "The problem with object-
+ oriented languages is they've got all this implicit environment that the
+ y carry around with them. You wanted a banana but what you got was a gor
+ illa holding the banana and the entire jungle." — Joe Armstrong Learn ho
+ w to use: Exemplar prototypes Prototype mixins Prototype-powered flyweig
+ hts Prototype-backed factory functions
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=US/Pacific:20130530T123000
+DTSTART;TZID=US/Pacific:20130530T115000
+DTSTAMP:20130124T003244
+LOCATION:Golden Gate 6-8
+URL:http://fluentconf.com/fluent2013/public/schedule/detail/27857
+UID:http://fluentconf.com/fluent2013--s2013-05-30-11:50--27857
+SUMMARY:Improving JavaScript Code Quality: Strategies and Tools
+DESCRIPTION:Presented by Ariya Hidayat (Sencha). The quality of JavaScri
+ pt-based web applications can be improved by choosing the development st
+ rategies which minimize common mistakes, avoid API ambiguities, and redu
+ ce any syntax confusion. This talk highlights the recent developments on
+  language tools which aim at solving near-future JavaScript quality anal
+ ysis, from run-time complexity profiling to framework-aware static code 
+ inspection.
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=US/Pacific:20130530T142500
+DTSTART;TZID=US/Pacific:20130530T134500
+DTSTAMP:20130124T002349
+LOCATION:Continental 4
+URL:http://fluentconf.com/fluent2013/public/schedule/detail/27897
+UID:http://fluentconf.com/fluent2013--s2013-05-30-13:45--27897
+SUMMARY:How To: Make Fast Design-Decisions as a Developer
+DESCRIPTION:Presented by Julie Horvath (GitHub, Inc.). There are now app
+ roximately 1 billion frontend frameworks, libraries, and tools to choose
+  from when building web applications. It's easy to get stuck in the mud 
+ while wading through resources to find what'll work best for you and you
+ r team. As a designer and frontend dev at GitHub, a lot of my job is mak
+ ing these decisions. Learn about the frontend arsenal of tools I use to 
+ get there faster.
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=US/Pacific:20130530T151500
+DTSTART;TZID=US/Pacific:20130530T143500
+DTSTAMP:20130124T003155
+LOCATION:Grand Ballroom A
+URL:http://fluentconf.com/fluent2013/public/schedule/detail/28036
+UID:http://fluentconf.com/fluent2013--s2013-05-30-14:35--28036
+SUMMARY:More Than Good Design
+DESCRIPTION:Presented by Sarah Mei (Pivotal Labs). Sometimes, you get a 
+ team of really smart developers with extensive knowledge of software des
+ ign...but together, they write terrible code. Why does this happen? How 
+ can we avoid it? We'll deconstruct some bad JavaScript and start to reco
+ gnize some of the invisible forces that guide our day-to-day software de
+ sign decisions.
+END:VEVENT
+BEGIN:VEVENT
+DTEND;TZID=US/Pacific:20130530T165500
+DTSTART;TZID=US/Pacific:20130530T161500
+DTSTAMP:20130424T160022
+LOCATION:Grand Ballroom A
+URL:http://fluentconf.com/fluent2013/public/schedule/detail/27653
+UID:http://fluentconf.com/fluent2013--s2013-05-30-16:15--27653
+SUMMARY:Web Components: A Tectonic Shift for the Web Platform
+DESCRIPTION:Presented by Eric Bidelman (Google). The declarative renaiss
+ ance is upon us. Web Components (MDV, <template>, custom elements, Shado
+ wDOM, mutation observers) are fundamentally going to change the way we b
+ uild web apps. This session will introduce you to this brave new world o
+ f web programming and discuss how to use web components, today.
+END:VEVENT
+END:VCALENDAR

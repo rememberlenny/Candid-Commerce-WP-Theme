@@ -1,0 +1,80 @@
+@media only screen{
+  .title-area{
+    .social-icon{
+      visibility: hidden;
+    }
+  }
+  .top-bar-menu.right{
+    visibility: hidden;
+  }
+}
+@media only screen and (min-width: 58.75em){
+  .title-area{
+    .social-icon{
+      visibility: visible;
+    }
+  }
+  .top-bar-menu.right{
+      visibility: visible;
+  }
+}
+
+.top-bar .toggle-topbar.menu-icon {
+  margin-top: 0px !important;
+}
+$nav-padding: 2%;
+nav.woocommerce-breadcrumb{
+  font-family: RaisonneDemibold, "RaisonneDemibold", Helvetica, Arial, san-serif;
+  line-height: 1.5em;
+  color: black !important;
+  a{
+    color: black !important;
+  }
+}
+#masthead{
+  #site-navigation{
+    font-family: RaisonneDemibold, "RaisonneDemibold", Helvetica, Arial, san-serif;
+    border-color: #333;
+    margin-bottom: 26px;
+    a{
+      color: black;
+    }
+  }
+  .social-icon-case{
+    float:left;
+    .inline-list{
+      display: inline-block; 
+
+      li{
+        margin-left: 0px;
+      }
+    }
+  }
+
+  .site-branding{
+    margin-bottom: 20px;
+  }
+
+  .menu-main-header-container{
+  }
+
+  form{
+    &.search-form{
+      display: inline-block !important;
+      float: right;
+    }
+    &:hover,
+    &:focus,
+    &:active{
+      .search-submit{
+        opacity: 1;
+      }
+    }
+    .search-submit{
+      opacity: 0;
+    }
+
+  }
+
+
+}

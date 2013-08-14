@@ -1,0 +1,382 @@
+08-12-2013 @ 20:23:47 - > Row 1 - preparing for import.
+08-12-2013 @ 20:23:47 - > > > Product type "variation" not allowed - using simple.
+08-12-2013 @ 20:23:47 - > Row 2 - preparing for import.
+08-12-2013 @ 20:23:47 - > > > Product type "variation" not allowed - using simple.
+08-12-2013 @ 20:23:47 - > Row 3 - preparing for import.
+08-12-2013 @ 20:23:47 - > > > Product type "variation" not allowed - using simple.
+08-12-2013 @ 20:23:47 - > Row 4 - preparing for import.
+08-12-2013 @ 20:23:47 - > > > Product type "variation" not allowed - using simple.
+08-12-2013 @ 20:23:47 - > Row 5 - preparing for import.
+08-12-2013 @ 20:23:47 - > > > Product type "variation" not allowed - using simple.
+08-12-2013 @ 20:23:47 - > Row 6 - preparing for import.
+08-12-2013 @ 20:23:47 - > > > Product type "variation" not allowed - using simple.
+08-12-2013 @ 20:23:48 - > Row 7 - preparing for import.
+08-12-2013 @ 20:23:48 - > > > Product type "variation" not allowed - using simple.
+08-12-2013 @ 20:23:48 - > Row 8 - preparing for import.
+08-12-2013 @ 20:23:48 - > > > Product type "variation" not allowed - using simple.
+08-12-2013 @ 20:23:48 - > Row 9 - preparing for import.
+08-12-2013 @ 20:23:48 - > > > Product type "variation" not allowed - using simple.
+08-12-2013 @ 20:23:49 - > Row 1 - preparing for import.
+08-12-2013 @ 20:23:49 - > > > Product type "variation" not allowed - using simple.
+08-12-2013 @ 20:23:49 - > Row 2 - preparing for import.
+08-12-2013 @ 20:23:49 - > > > Product type "variation" not allowed - using simple.
+08-12-2013 @ 20:23:49 - > Row 3 - preparing for import.
+08-12-2013 @ 20:23:49 - > > > Product type "variation" not allowed - using simple.
+08-12-2013 @ 20:23:49 - > Row 4 - preparing for import.
+08-12-2013 @ 20:23:49 - > > > Product type "variation" not allowed - using simple.
+08-12-2013 @ 20:23:49 - > Row 5 - preparing for import.
+08-12-2013 @ 20:23:49 - > > > Product type "variation" not allowed - using simple.
+08-12-2013 @ 20:23:50 - > Row 6 - preparing for import.
+08-12-2013 @ 20:23:50 - > > > Product type "variation" not allowed - using simple.
+08-12-2013 @ 20:23:50 - > Row 7 - preparing for import.
+08-12-2013 @ 20:23:50 - > > > Product type "variation" not allowed - using simple.
+08-12-2013 @ 20:23:50 - > Row 8 - preparing for import.
+08-12-2013 @ 20:23:50 - > > > Product type "variation" not allowed - using simple.
+08-12-2013 @ 20:23:50 - > Row 9 - preparing for import.
+08-12-2013 @ 20:23:50 - > > > Product type "variation" not allowed - using simple.
+08-12-2013 @ 20:23:50 - > Row 10 - preparing for import.
+08-12-2013 @ 20:23:50 - > > > Product type "variation" not allowed - using simple.
+08-12-2013 @ 20:24:47 - > Row 1 - preparing for import.
+08-12-2013 @ 20:24:47 - > > > Product type "variation" not allowed - using simple.
+08-12-2013 @ 20:24:47 - > Row 2 - preparing for import.
+08-12-2013 @ 20:24:47 - > > > Product type "variation" not allowed - using simple.
+08-12-2013 @ 20:24:47 - > Row 3 - preparing for import.
+08-12-2013 @ 20:24:47 - > > > Product type "variation" not allowed - using simple.
+08-12-2013 @ 20:24:47 - > Row 4 - preparing for import.
+08-12-2013 @ 20:24:47 - > > > Product type "variation" not allowed - using simple.
+08-12-2013 @ 20:24:47 - > Row 5 - preparing for import.
+08-12-2013 @ 20:24:47 - > > > Product type "variation" not allowed - using simple.
+08-12-2013 @ 20:24:47 - > Row 6 - preparing for import.
+08-12-2013 @ 20:24:47 - > > > Product type "variation" not allowed - using simple.
+08-12-2013 @ 20:24:47 - > Row 7 - preparing for import.
+08-12-2013 @ 20:24:47 - > > > Product type "variation" not allowed - using simple.
+08-12-2013 @ 20:24:47 - > Row 8 - preparing for import.
+08-12-2013 @ 20:24:47 - > > > Product type "variation" not allowed - using simple.
+08-12-2013 @ 20:24:47 - > Row 9 - preparing for import.
+08-12-2013 @ 20:24:47 - > > > Product type "variation" not allowed - using simple.
+08-12-2013 @ 20:24:48 - > Row 1 - preparing for import.
+08-12-2013 @ 20:24:48 - > > > Product type "variation" not allowed - using simple.
+08-12-2013 @ 20:24:48 - > Row 2 - preparing for import.
+08-12-2013 @ 20:24:48 - > > > Product type "variation" not allowed - using simple.
+08-12-2013 @ 20:24:48 - > Row 3 - preparing for import.
+08-12-2013 @ 20:24:48 - > > > Product type "variation" not allowed - using simple.
+08-12-2013 @ 20:24:48 - > Row 4 - preparing for import.
+08-12-2013 @ 20:24:48 - > > > Product type "variation" not allowed - using simple.
+08-12-2013 @ 20:24:48 - > Row 5 - preparing for import.
+08-12-2013 @ 20:24:48 - > > > Product type "variation" not allowed - using simple.
+08-12-2013 @ 20:24:48 - > Row 6 - preparing for import.
+08-12-2013 @ 20:24:48 - > > > Product type "variation" not allowed - using simple.
+08-12-2013 @ 20:24:48 - > Row 7 - preparing for import.
+08-12-2013 @ 20:24:48 - > > > Product type "variation" not allowed - using simple.
+08-12-2013 @ 20:24:48 - > Row 8 - preparing for import.
+08-12-2013 @ 20:24:48 - > > > Product type "variation" not allowed - using simple.
+08-12-2013 @ 20:24:48 - > Row 9 - preparing for import.
+08-12-2013 @ 20:24:48 - > > > Product type "variation" not allowed - using simple.
+08-12-2013 @ 20:24:48 - > Row 10 - preparing for import.
+08-12-2013 @ 20:24:48 - > > > Product type "variation" not allowed - using simple.
+08-12-2013 @ 20:24:48 - > Row 1 - preparing for import.
+08-12-2013 @ 20:24:48 - > > > Product type "variation" not allowed - using simple.
+08-12-2013 @ 20:24:49 - > Row 2 - preparing for import.
+08-12-2013 @ 20:24:49 - > > > Product type "variation" not allowed - using simple.
+08-12-2013 @ 20:24:49 - > Row 3 - preparing for import.
+08-12-2013 @ 20:24:49 - > > > Product type "variation" not allowed - using simple.
+08-12-2013 @ 20:24:49 - > Row 4 - preparing for import.
+08-12-2013 @ 20:24:49 - > > > Product type "variation" not allowed - using simple.
+08-12-2013 @ 20:24:49 - > Row 5 - preparing for import.
+08-12-2013 @ 20:24:49 - > > > Product type "variation" not allowed - using simple.
+08-12-2013 @ 20:24:49 - > Row 6 - preparing for import.
+08-12-2013 @ 20:24:49 - > > > Product type "variation" not allowed - using simple.
+08-12-2013 @ 20:24:49 - > Row 7 - preparing for import.
+08-12-2013 @ 20:24:49 - > > > Product type "variation" not allowed - using simple.
+08-12-2013 @ 20:24:49 - > Row 8 - preparing for import.
+08-12-2013 @ 20:24:49 - > > > Product type "variation" not allowed - using simple.
+08-12-2013 @ 20:24:50 - > Row 9 - preparing for import.
+08-12-2013 @ 20:24:50 - > > > Product type "variation" not allowed - using simple.
+08-12-2013 @ 20:24:50 - > Row 10 - preparing for import.
+08-12-2013 @ 20:24:50 - > > > Product type "variation" not allowed - using simple.
+08-12-2013 @ 20:24:51 - > Row 1 - preparing for import.
+08-12-2013 @ 20:24:51 - > > > Product type "variation" not allowed - using simple.
+08-12-2013 @ 20:24:51 - > Row 2 - preparing for import.
+08-12-2013 @ 20:24:51 - > > > Product type "variation" not allowed - using simple.
+08-12-2013 @ 20:24:51 - > Row 3 - preparing for import.
+08-12-2013 @ 20:24:51 - > > > Product type "variation" not allowed - using simple.
+08-12-2013 @ 20:24:51 - > Row 4 - preparing for import.
+08-12-2013 @ 20:24:51 - > > > Product type "variation" not allowed - using simple.
+08-12-2013 @ 20:24:51 - > Row 5 - preparing for import.
+08-12-2013 @ 20:24:51 - > > > Product type "variation" not allowed - using simple.
+08-12-2013 @ 20:24:51 - > Row 6 - preparing for import.
+08-12-2013 @ 20:24:51 - > > > Product type "variation" not allowed - using simple.
+08-12-2013 @ 20:24:51 - > Row 7 - preparing for import.
+08-12-2013 @ 20:24:51 - > > > Product type "variation" not allowed - using simple.
+08-12-2013 @ 20:24:52 - > Row 8 - preparing for import.
+08-12-2013 @ 20:24:52 - > > > Product type "variation" not allowed - using simple.
+08-12-2013 @ 20:24:52 - > Row 9 - preparing for import.
+08-12-2013 @ 20:24:52 - > > > Product type "variation" not allowed - using simple.
+08-12-2013 @ 20:24:52 - > Row 10 - preparing for import.
+08-12-2013 @ 20:24:52 - > > > Product type "variation" not allowed - using simple.
+08-12-2013 @ 20:24:53 - > Row 1 - preparing for import.
+08-12-2013 @ 20:24:53 - > > > Product type "variation" not allowed - using simple.
+08-12-2013 @ 20:24:53 - > Row 2 - preparing for import.
+08-12-2013 @ 20:24:53 - > > > Product type "variation" not allowed - using simple.
+08-12-2013 @ 20:24:53 - > Row 3 - preparing for import.
+08-12-2013 @ 20:24:53 - > > > Product type "variation" not allowed - using simple.
+08-12-2013 @ 20:24:53 - > Row 4 - preparing for import.
+08-12-2013 @ 20:24:53 - > > > Product type "variation" not allowed - using simple.
+08-12-2013 @ 20:24:53 - > Row 5 - preparing for import.
+08-12-2013 @ 20:24:53 - > > > Product type "variation" not allowed - using simple.
+08-12-2013 @ 20:24:53 - > Row 6 - preparing for import.
+08-12-2013 @ 20:24:53 - > > > Product type "variation" not allowed - using simple.
+08-12-2013 @ 20:24:54 - > Row 7 - preparing for import.
+08-12-2013 @ 20:24:54 - > > > Product type "variation" not allowed - using simple.
+08-12-2013 @ 20:24:54 - > Row 8 - preparing for import.
+08-12-2013 @ 20:24:54 - > > > Product type "variation" not allowed - using simple.
+08-12-2013 @ 20:24:54 - > Row 9 - preparing for import.
+08-12-2013 @ 20:24:54 - > > > Product type "variation" not allowed - using simple.
+08-12-2013 @ 20:24:54 - > Row 10 - preparing for import.
+08-12-2013 @ 20:24:54 - > > > Product type "variation" not allowed - using simple.
+08-12-2013 @ 20:24:55 - > Row 1 - preparing for import.
+08-12-2013 @ 20:24:55 - > > > Product type "variation" not allowed - using simple.
+08-12-2013 @ 20:24:55 - > Row 2 - preparing for import.
+08-12-2013 @ 20:24:55 - > > > Product type "variation" not allowed - using simple.
+08-12-2013 @ 20:24:55 - > Row 3 - preparing for import.
+08-12-2013 @ 20:24:55 - > > > Product type "variation" not allowed - using simple.
+08-12-2013 @ 20:24:55 - > Row 4 - preparing for import.
+08-12-2013 @ 20:24:55 - > > > Product type "variation" not allowed - using simple.
+08-12-2013 @ 20:24:56 - > Row 5 - preparing for import.
+08-12-2013 @ 20:24:56 - > > > Product type "variation" not allowed - using simple.
+08-12-2013 @ 20:24:56 - > Row 6 - preparing for import.
+08-12-2013 @ 20:24:56 - > > > Product type "variation" not allowed - using simple.
+08-12-2013 @ 20:24:56 - > Row 7 - preparing for import.
+08-12-2013 @ 20:24:56 - > > > Product type "variation" not allowed - using simple.
+08-12-2013 @ 20:24:56 - > Row 8 - preparing for import.
+08-12-2013 @ 20:24:56 - > > > Product type "variation" not allowed - using simple.
+08-12-2013 @ 20:24:56 - > Row 9 - preparing for import.
+08-12-2013 @ 20:24:56 - > > > Product type "variation" not allowed - using simple.
+08-12-2013 @ 20:24:56 - > Row 10 - preparing for import.
+08-12-2013 @ 20:24:56 - > > > Product type "variation" not allowed - using simple.
+08-12-2013 @ 20:24:57 - > Row 1 - preparing for import.
+08-12-2013 @ 20:24:57 - > > > Product type "variation" not allowed - using simple.
+08-12-2013 @ 20:24:57 - > Row 2 - preparing for import.
+08-12-2013 @ 20:24:57 - > > > Product type "variation" not allowed - using simple.
+08-12-2013 @ 20:24:58 - > Row 3 - preparing for import.
+08-12-2013 @ 20:24:58 - > > > Product type "variation" not allowed - using simple.
+08-12-2013 @ 20:24:58 - > Row 4 - preparing for import.
+08-12-2013 @ 20:24:58 - > > > Product type "variation" not allowed - using simple.
+08-12-2013 @ 20:24:58 - > Row 5 - preparing for import.
+08-12-2013 @ 20:24:58 - > > > Product type "variation" not allowed - using simple.
+08-12-2013 @ 20:24:58 - > Row 6 - preparing for import.
+08-12-2013 @ 20:24:58 - > > > Product type "variation" not allowed - using simple.
+08-12-2013 @ 20:24:58 - > Row 7 - preparing for import.
+08-12-2013 @ 20:24:58 - > > > Product type "variation" not allowed - using simple.
+08-12-2013 @ 20:24:58 - > Row 8 - preparing for import.
+08-12-2013 @ 20:24:58 - > > > Product type "variation" not allowed - using simple.
+08-12-2013 @ 20:24:58 - > Row 9 - preparing for import.
+08-12-2013 @ 20:24:58 - > > > Product type "variation" not allowed - using simple.
+08-12-2013 @ 20:24:58 - > Row 10 - preparing for import.
+08-12-2013 @ 20:24:58 - > > > Product type "variation" not allowed - using simple.
+08-12-2013 @ 20:25:00 - > Row 1 - preparing for import.
+08-12-2013 @ 20:25:00 - > > > Product type "variation" not allowed - using simple.
+08-12-2013 @ 20:25:00 - > Row 2 - preparing for import.
+08-12-2013 @ 20:25:00 - > > > Product type "variation" not allowed - using simple.
+08-12-2013 @ 20:25:00 - > Row 3 - preparing for import.
+08-12-2013 @ 20:25:00 - > > > Product type "variation" not allowed - using simple.
+08-12-2013 @ 20:25:00 - > Row 4 - preparing for import.
+08-12-2013 @ 20:25:00 - > > > Product type "variation" not allowed - using simple.
+08-12-2013 @ 20:25:00 - > Row 5 - preparing for import.
+08-12-2013 @ 20:25:00 - > > > Product type "variation" not allowed - using simple.
+08-12-2013 @ 20:25:00 - > Row 6 - preparing for import.
+08-12-2013 @ 20:25:00 - > > > Product type "variation" not allowed - using simple.
+08-12-2013 @ 20:25:01 - > Row 7 - preparing for import.
+08-12-2013 @ 20:25:01 - > > > Product type "variation" not allowed - using simple.
+08-12-2013 @ 20:25:01 - > Row 8 - preparing for import.
+08-12-2013 @ 20:25:01 - > > > Product type "variation" not allowed - using simple.
+08-12-2013 @ 20:25:01 - > Row 9 - preparing for import.
+08-12-2013 @ 20:25:01 - > > > Product type "variation" not allowed - using simple.
+08-12-2013 @ 20:25:01 - > Row 10 - preparing for import.
+08-12-2013 @ 20:25:01 - > > > Product type "variation" not allowed - using simple.
+08-12-2013 @ 20:25:02 - > Row 1 - preparing for import.
+08-12-2013 @ 20:25:02 - > > > Product type "variation" not allowed - using simple.
+08-12-2013 @ 20:25:02 - > Row 2 - preparing for import.
+08-12-2013 @ 20:25:02 - > > > Product type "variation" not allowed - using simple.
+08-12-2013 @ 20:25:02 - > Row 3 - preparing for import.
+08-12-2013 @ 20:25:02 - > > > Product type "variation" not allowed - using simple.
+08-12-2013 @ 20:25:02 - > Row 4 - preparing for import.
+08-12-2013 @ 20:25:02 - > > > Product type "variation" not allowed - using simple.
+08-12-2013 @ 20:25:02 - > Row 5 - preparing for import.
+08-12-2013 @ 20:25:02 - > > > Product type "variation" not allowed - using simple.
+08-12-2013 @ 20:25:02 - > Row 6 - preparing for import.
+08-12-2013 @ 20:25:02 - > > > Product type "variation" not allowed - using simple.
+08-12-2013 @ 20:25:03 - > Row 7 - preparing for import.
+08-12-2013 @ 20:25:03 - > > > Product type "variation" not allowed - using simple.
+08-12-2013 @ 20:25:03 - > Row 8 - preparing for import.
+08-12-2013 @ 20:25:03 - > > > Product type "variation" not allowed - using simple.
+08-12-2013 @ 20:25:03 - > Row 9 - preparing for import.
+08-12-2013 @ 20:25:03 - > > > Product type "variation" not allowed - using simple.
+08-12-2013 @ 20:25:03 - > Row 10 - preparing for import.
+08-12-2013 @ 20:25:03 - > > > Product type "variation" not allowed - using simple.
+08-12-2013 @ 20:25:04 - > Row 1 - preparing for import.
+08-12-2013 @ 20:25:04 - > > > Product type "variation" not allowed - using simple.
+08-12-2013 @ 20:25:04 - > Row 2 - preparing for import.
+08-12-2013 @ 20:25:04 - > > > Product type "variation" not allowed - using simple.
+08-12-2013 @ 20:25:04 - > Row 3 - preparing for import.
+08-12-2013 @ 20:25:04 - > > > Product type "variation" not allowed - using simple.
+08-12-2013 @ 20:25:04 - > Row 4 - preparing for import.
+08-12-2013 @ 20:25:04 - > > > Product type "variation" not allowed - using simple.
+08-12-2013 @ 20:25:05 - > Row 5 - preparing for import.
+08-12-2013 @ 20:25:05 - > > > Product type "variation" not allowed - using simple.
+08-12-2013 @ 20:25:05 - > Row 6 - preparing for import.
+08-12-2013 @ 20:25:05 - > > > Product type "variation" not allowed - using simple.
+08-12-2013 @ 20:25:05 - > Row 7 - preparing for import.
+08-12-2013 @ 20:25:05 - > > > Product type "variation" not allowed - using simple.
+08-12-2013 @ 20:25:05 - > Row 8 - preparing for import.
+08-12-2013 @ 20:25:05 - > > > Product type "variation" not allowed - using simple.
+08-12-2013 @ 20:25:05 - > Row 9 - preparing for import.
+08-12-2013 @ 20:25:05 - > > > Product type "variation" not allowed - using simple.
+08-12-2013 @ 20:25:05 - > Row 10 - preparing for import.
+08-12-2013 @ 20:25:05 - > > > Product type "variation" not allowed - using simple.
+08-12-2013 @ 20:25:06 - > Row 1 - preparing for import.
+08-12-2013 @ 20:25:06 - > > > Product type "variation" not allowed - using simple.
+08-12-2013 @ 20:25:06 - > Row 2 - preparing for import.
+08-12-2013 @ 20:25:06 - > > > Product type "variation" not allowed - using simple.
+08-12-2013 @ 20:25:07 - > Row 3 - preparing for import.
+08-12-2013 @ 20:25:07 - > > > Product type "variation" not allowed - using simple.
+08-12-2013 @ 20:25:07 - > Row 4 - preparing for import.
+08-12-2013 @ 20:25:07 - > > > Product type "variation" not allowed - using simple.
+08-12-2013 @ 20:25:07 - > Row 5 - preparing for import.
+08-12-2013 @ 20:25:07 - > > > Product type "variation" not allowed - using simple.
+08-12-2013 @ 20:25:07 - > Row 6 - preparing for import.
+08-12-2013 @ 20:25:07 - > > > Product type "variation" not allowed - using simple.
+08-12-2013 @ 20:25:07 - > Row 7 - preparing for import.
+08-12-2013 @ 20:25:07 - > > > Product type "variation" not allowed - using simple.
+08-12-2013 @ 20:25:07 - > Row 8 - preparing for import.
+08-12-2013 @ 20:25:07 - > > > Product type "variation" not allowed - using simple.
+08-12-2013 @ 20:25:07 - > Row 9 - preparing for import.
+08-12-2013 @ 20:25:07 - > > > Product type "variation" not allowed - using simple.
+08-12-2013 @ 20:25:08 - > Row 10 - preparing for import.
+08-12-2013 @ 20:25:08 - > > > Product type "variation" not allowed - using simple.
+08-12-2013 @ 20:25:09 - > Row 1 - preparing for import.
+08-12-2013 @ 20:25:09 - > > > Product type "variation" not allowed - using simple.
+08-12-2013 @ 20:25:09 - > Row 2 - preparing for import.
+08-12-2013 @ 20:25:09 - > > > Product type "variation" not allowed - using simple.
+08-12-2013 @ 20:25:09 - > Row 3 - preparing for import.
+08-12-2013 @ 20:25:09 - > > > Product type "variation" not allowed - using simple.
+08-12-2013 @ 20:25:09 - > Row 4 - preparing for import.
+08-12-2013 @ 20:25:09 - > > > Product type "variation" not allowed - using simple.
+08-12-2013 @ 20:25:09 - > Row 5 - preparing for import.
+08-12-2013 @ 20:25:09 - > > > Product type "variation" not allowed - using simple.
+08-12-2013 @ 20:25:09 - > Row 6 - preparing for import.
+08-12-2013 @ 20:25:09 - > > > Product type "variation" not allowed - using simple.
+08-12-2013 @ 20:25:09 - > Row 7 - preparing for import.
+08-12-2013 @ 20:25:09 - > > > Product type "variation" not allowed - using simple.
+08-12-2013 @ 20:25:10 - > Row 8 - preparing for import.
+08-12-2013 @ 20:25:10 - > > > Product type "variation" not allowed - using simple.
+08-12-2013 @ 20:25:10 - > Row 9 - preparing for import.
+08-12-2013 @ 20:25:10 - > > > Product type "variation" not allowed - using simple.
+08-12-2013 @ 20:25:10 - > Row 10 - preparing for import.
+08-12-2013 @ 20:25:10 - > > > Product type "variation" not allowed - using simple.
+08-12-2013 @ 20:25:11 - > Row 1 - preparing for import.
+08-12-2013 @ 20:25:11 - > > > Product type "variation" not allowed - using simple.
+08-12-2013 @ 20:25:11 - > Row 2 - preparing for import.
+08-12-2013 @ 20:25:11 - > > > Product type "variation" not allowed - using simple.
+08-12-2013 @ 20:25:11 - > Row 3 - preparing for import.
+08-12-2013 @ 20:25:11 - > > > Product type "variation" not allowed - using simple.
+08-12-2013 @ 20:25:11 - > Row 4 - preparing for import.
+08-12-2013 @ 20:25:11 - > > > Product type "variation" not allowed - using simple.
+08-12-2013 @ 20:25:11 - > Row 5 - preparing for import.
+08-12-2013 @ 20:25:11 - > > > Product type "variation" not allowed - using simple.
+08-12-2013 @ 20:25:11 - > Row 6 - preparing for import.
+08-12-2013 @ 20:25:11 - > > > Product type "variation" not allowed - using simple.
+08-12-2013 @ 20:25:12 - > Row 7 - preparing for import.
+08-12-2013 @ 20:25:12 - > > > Product type "variation" not allowed - using simple.
+08-12-2013 @ 20:25:12 - > Row 8 - preparing for import.
+08-12-2013 @ 20:25:12 - > > > Product type "variation" not allowed - using simple.
+08-12-2013 @ 20:25:12 - > Row 9 - preparing for import.
+08-12-2013 @ 20:25:12 - > > > Product type "variation" not allowed - using simple.
+08-12-2013 @ 20:25:12 - > Row 10 - preparing for import.
+08-12-2013 @ 20:25:12 - > > > Product type "variation" not allowed - using simple.
+08-12-2013 @ 20:25:13 - > Row 1 - preparing for import.
+08-12-2013 @ 20:25:13 - > > > Product type "variation" not allowed - using simple.
+08-12-2013 @ 20:25:13 - > Row 2 - preparing for import.
+08-12-2013 @ 20:25:13 - > > > Product type "variation" not allowed - using simple.
+08-12-2013 @ 20:25:13 - > Row 3 - preparing for import.
+08-12-2013 @ 20:25:13 - > > > Product type "variation" not allowed - using simple.
+08-12-2013 @ 20:25:13 - > Row 4 - preparing for import.
+08-12-2013 @ 20:25:13 - > > > Product type "variation" not allowed - using simple.
+08-12-2013 @ 20:25:14 - > Row 5 - preparing for import.
+08-12-2013 @ 20:25:14 - > > > Product type "variation" not allowed - using simple.
+08-12-2013 @ 20:25:14 - > Row 6 - preparing for import.
+08-12-2013 @ 20:25:14 - > > > Product type "variation" not allowed - using simple.
+08-12-2013 @ 20:25:14 - > Row 7 - preparing for import.
+08-12-2013 @ 20:25:14 - > > > Product type "variation" not allowed - using simple.
+08-12-2013 @ 20:25:14 - > Row 8 - preparing for import.
+08-12-2013 @ 20:25:14 - > > > Product type "variation" not allowed - using simple.
+08-12-2013 @ 20:25:14 - > Row 9 - preparing for import.
+08-12-2013 @ 20:25:14 - > > > Product type "variation" not allowed - using simple.
+08-12-2013 @ 20:25:14 - > Row 10 - preparing for import.
+08-12-2013 @ 20:25:14 - > > > Product type "variation" not allowed - using simple.
+08-12-2013 @ 20:25:15 - > Row 1 - preparing for import.
+08-12-2013 @ 20:25:15 - > > > Product type "variation" not allowed - using simple.
+08-12-2013 @ 20:25:15 - > Row 2 - preparing for import.
+08-12-2013 @ 20:25:15 - > > > Product type "variation" not allowed - using simple.
+08-12-2013 @ 20:25:15 - > Row 3 - preparing for import.
+08-12-2013 @ 20:25:15 - > > > Product type "variation" not allowed - using simple.
+08-12-2013 @ 20:25:16 - > Row 4 - preparing for import.
+08-12-2013 @ 20:25:16 - > > > Product type "variation" not allowed - using simple.
+08-12-2013 @ 20:25:16 - > Row 5 - preparing for import.
+08-12-2013 @ 20:25:16 - > > > Product type "variation" not allowed - using simple.
+08-12-2013 @ 20:25:16 - > Row 6 - preparing for import.
+08-12-2013 @ 20:25:16 - > > > Product type "variation" not allowed - using simple.
+08-12-2013 @ 20:25:16 - > Row 7 - preparing for import.
+08-12-2013 @ 20:25:16 - > > > Product type "variation" not allowed - using simple.
+08-12-2013 @ 20:25:16 - > Row 8 - preparing for import.
+08-12-2013 @ 20:25:16 - > > > Product type "variation" not allowed - using simple.
+08-12-2013 @ 20:25:16 - > Row 9 - preparing for import.
+08-12-2013 @ 20:25:16 - > > > Product type "variation" not allowed - using simple.
+08-12-2013 @ 20:25:16 - > Row 10 - preparing for import.
+08-12-2013 @ 20:25:16 - > > > Product type "variation" not allowed - using simple.
+08-12-2013 @ 20:25:17 - > Row 1 - preparing for import.
+08-12-2013 @ 20:25:17 - > > > Product type "variation" not allowed - using simple.
+08-12-2013 @ 20:25:17 - > Row 2 - preparing for import.
+08-12-2013 @ 20:25:17 - > > > Product type "variation" not allowed - using simple.
+08-12-2013 @ 20:25:17 - > Row 3 - preparing for import.
+08-12-2013 @ 20:25:17 - > > > Product type "variation" not allowed - using simple.
+08-12-2013 @ 20:25:18 - > Row 4 - preparing for import.
+08-12-2013 @ 20:25:18 - > > > Product type "variation" not allowed - using simple.
+08-12-2013 @ 20:25:18 - > Row 5 - preparing for import.
+08-12-2013 @ 20:25:18 - > > > Product type "variation" not allowed - using simple.
+08-12-2013 @ 20:25:18 - > Row 6 - preparing for import.
+08-12-2013 @ 20:25:18 - > > > Product type "variation" not allowed - using simple.
+08-12-2013 @ 20:25:18 - > Row 7 - preparing for import.
+08-12-2013 @ 20:25:18 - > > > Product type "variation" not allowed - using simple.
+08-12-2013 @ 20:25:18 - > Row 8 - preparing for import.
+08-12-2013 @ 20:25:18 - > > > Product type "variation" not allowed - using simple.
+08-12-2013 @ 20:25:18 - > Row 9 - preparing for import.
+08-12-2013 @ 20:25:18 - > > > Product type "variation" not allowed - using simple.
+08-12-2013 @ 20:25:18 - > Row 10 - preparing for import.
+08-12-2013 @ 20:25:18 - > > > Product type "variation" not allowed - using simple.
+08-12-2013 @ 20:25:19 - > Row 1 - preparing for import.
+08-12-2013 @ 20:25:19 - > > > Product type "variation" not allowed - using simple.
+08-12-2013 @ 20:25:19 - > Row 2 - preparing for import.
+08-12-2013 @ 20:25:19 - > > > Product type "variation" not allowed - using simple.
+08-12-2013 @ 20:25:19 - > Row 3 - preparing for import.
+08-12-2013 @ 20:25:19 - > > > Product type "variation" not allowed - using simple.
+08-12-2013 @ 20:25:20 - > Row 4 - preparing for import.
+08-12-2013 @ 20:25:20 - > > > Product type "variation" not allowed - using simple.
+08-12-2013 @ 20:25:20 - > Row 5 - preparing for import.
+08-12-2013 @ 20:25:20 - > > > Product type "variation" not allowed - using simple.
+08-12-2013 @ 20:25:20 - > Row 6 - preparing for import.
+08-12-2013 @ 20:25:20 - > > > Product type "variation" not allowed - using simple.
+08-12-2013 @ 20:25:20 - > Row 7 - preparing for import.
+08-12-2013 @ 20:25:20 - > > > Product type "variation" not allowed - using simple.
+08-12-2013 @ 20:25:20 - > Row 8 - preparing for import.
+08-12-2013 @ 20:25:20 - > > > Product type "variation" not allowed - using simple.
+08-12-2013 @ 20:25:20 - > Row 9 - preparing for import.
+08-12-2013 @ 20:25:20 - > > > Product type "variation" not allowed - using simple.
+08-12-2013 @ 20:25:20 - > Row 10 - preparing for import.
+08-12-2013 @ 20:25:20 - > > > Product type "variation" not allowed - using simple.
+08-12-2013 @ 20:25:21 - > Row 1 - preparing for import.
+08-12-2013 @ 20:25:21 - > > > Product type "variation" not allowed - using simple.
+08-12-2013 @ 20:25:21 - > Row 2 - preparing for import.
+08-12-2013 @ 20:25:21 - > > > Product type "variation" not allowed - using simple.
+08-12-2013 @ 20:25:22 - > Row 3 - preparing for import.
+08-12-2013 @ 20:25:22 - > > > Product type "variation" not allowed - using simple.

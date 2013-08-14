@@ -1,0 +1,42 @@
+#global-addons-table td {
+  padding: 7px 9px;
+  vertical-align: middle;
+}
+#global-addons-table th {
+  padding: 7px 9px;
+}
+.global-addons-form td.postbox {
+  padding: 0 !important;
+}
+#woocommerce-product-data ul.product_data_tabs li.addons_tab a {
+  padding: 5px 5px 5px 28px;
+  background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAK0lEQVQYV2NkQANBQUH/QULr1q1jRJZC4YAk6KgQZhW6W9H5jEQrHAK+BgDQHCP18fwBkAAAAABJRU5ErkJggg==);
+  background-repeat: no-repeat;
+  background-position: 8px 8px;
+}
+#product_addons_data .add_new_addon {
+  float: right;
+}
+#product_addons_data textarea.import,
+#product_addons_data textarea.export {
+  width: 100%;
+  display: none;
+  margin: 10px 0 0;
+}
+#product_addons_data .woocommerce_product_addon .product_addon_type {
+  float: none;
+}
+#product_addons_data .woocommerce_product_addon .data table {
+  padding: 0;
+  border: 1px solid #ececec;
+}
+#product_addons_data .woocommerce_product_addon .data table thead th {
+  background: #ececec;
+  padding: 5px;
+}
+#product_addons_data .woocommerce_product_addon .data table tfoot td {
+  border-top: 1px solid #ececec;
+}
+#product_addons_data .woocommerce_product_addon .data input {
+  min-width: 50px;
+}

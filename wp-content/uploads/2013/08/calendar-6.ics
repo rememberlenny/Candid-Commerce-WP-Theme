@@ -1,0 +1,11 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+BEGIN:VEVENT
+URL:http://bigappspitchnight.eventbrite.com
+DTSTART:20130425T223000Z
+DTEND:20130426T010000Z
+SUMMARY:NYC BigApps Rackspace Pitch & Projects Meetup at Harvest
+DESCRIPTION:For details, click here: http://bigappspitchnight.eventbrite.com
+LOCATION:Harvest (8th Floor) - 16 West 22nd Street - New York, NY 10010
+END:VEVENT
+END:VCALENDAR

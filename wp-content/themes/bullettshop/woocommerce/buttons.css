@@ -1,0 +1,4 @@
+/* line 3, ../sass/woocommerce/buttons.scss */
+ul.products .product a.button {
+  display: none;
+}

@@ -1,0 +1,19 @@
+.woocommerce-result-count{
+  display: none;
+}
+.home{
+  #secondary{
+    display: none;
+  }
+  #products{
+    background: white;
+    border-top: 1px solid #333;
+    padding-top: 24px;
+  }
+  .page-title{
+    display: none;
+  }
+  .woocommerce-ordering{
+    display: none;
+  }
+}
