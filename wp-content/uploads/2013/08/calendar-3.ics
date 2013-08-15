@@ -1,0 +1,11 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+BEGIN:VEVENT
+URL:http://vtspeeddating.eventbrite.com
+DTSTART:20130422T220000Z
+DTEND:20130423T010000Z
+SUMMARY:Vitamin T/Aquent Speed Networking at Wix Lounge
+DESCRIPTION:For details, click here: http://vtspeeddating.eventbrite.com
+LOCATION:Wix Lounge - 10 W 18th St - New York, NY 10011
+END:VEVENT
+END:VCALENDAR

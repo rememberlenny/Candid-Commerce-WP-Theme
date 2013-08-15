@@ -1,0 +1,11 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+BEGIN:VEVENT
+URL:http://www.eventbrite.com/event/6226767429
+DTSTART:20130419T230000Z
+DTEND:20130420T010000Z
+SUMMARY:NASA Hackathon Kick-Off Party feat. Astronaut Ron Garan
+DESCRIPTION:For details, click here: http://www.eventbrite.com/event/6226767429
+LOCATION:AlleyNYC - 500 Seventh Avenue - New York, NY 
+END:VEVENT
+END:VCALENDAR
