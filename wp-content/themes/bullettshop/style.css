@@ -8052,7 +8052,7 @@ p.demo_store {
 }
 /* line 459, sass/base/woocommerce/woocommerce.scss */
 .woocommerce .related ul.products li.product, .woocommerce .related ul li.product, .woocommerce .upsells.products ul.products li.product, .woocommerce .upsells.products ul li.product, .woocommerce-page .related ul.products li.product, .woocommerce-page .related ul li.product, .woocommerce-page .upsells.products ul.products li.product, .woocommerce-page .upsells.products ul li.product {
-  width: 48%;
+  /*width: 48%;*/
 }
 /* line 461, sass/base/woocommerce/woocommerce.scss */
 .woocommerce .related ul.products li.product img, .woocommerce .related ul li.product img, .woocommerce .upsells.products ul.products li.product img, .woocommerce .upsells.products ul li.product img, .woocommerce-page .related ul.products li.product img, .woocommerce-page .related ul li.product img, .woocommerce-page .upsells.products ul.products li.product img, .woocommerce-page .upsells.products ul li.product img {

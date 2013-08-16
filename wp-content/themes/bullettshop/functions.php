@@ -131,6 +131,8 @@ require get_template_directory() . '/atriangle/woocommerce.php';
 
 require get_template_directory() . '/atriangle/woocommerce-single-product.php';
 
+require get_template_directory() . '/atriangle/woocommerce-related-product.php';
+
 /**
  * Load Atriangle (atr-) hooks.
  */
