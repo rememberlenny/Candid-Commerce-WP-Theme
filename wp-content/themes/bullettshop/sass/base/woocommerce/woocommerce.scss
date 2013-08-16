@@ -467,13 +467,26 @@ p.demo_store {
 	ul.products {
 		li.product {
 			.text-box{
-				padding: 4px;
+				padding-left: 6px;
+				padding-right: 6px;
+				padding-top: 2px;
+				padding-bottom: 2px;
+				h2.subheader{
+					margin-bottom: 0em;
+				}
+				h3{
+					padding-top: 0em;
+					padding-bottom: 0em;
+					font-weight: normal;
+				}
 			}
 			&:hover{
 				.text-box{
 					border: 2px solid black;
-					padding: 2px;
-					margin: 2px;
+					padding-top: 0px;
+					padding-bottom: 0px;
+					padding-left: 4px;
+					padding-right: 4px;
 				}
 			}
 			text-align: center;
@@ -511,7 +524,7 @@ p.demo_store {
 				display:block;
 			}
 			.price {
-				color: $highlight;
+				color: black;
 				display:block;
 				font-weight:normal;
 				margin-bottom: .5em;
@@ -1391,7 +1404,7 @@ p.demo_store {
 			list-style: none outside;
 		}
 		.amount {
-			font-weight: bold;
+			font-weight: normal;
 		}
 	}
 

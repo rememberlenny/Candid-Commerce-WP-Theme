@@ -15,7 +15,15 @@ function woo_custom_cart_button_text() {
 }
 
 function atc_display_tag(){
-  echo '<h2 class="subheader brand-name">' .'</h2>';
+  if (get_brands()){
+    echo '<h2 class="subheader brand-name">'. get_brands() .'</h2>';
+  }
+}
+
+function atc_title_display(){
+  echo '<h3>'; 
+  echo the_title(); 
+  echo '</h3>';
 }
 
 // Remove all reviews

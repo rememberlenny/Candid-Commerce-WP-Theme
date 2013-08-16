@@ -54,7 +54,9 @@ else
 		?>
 		<div class="text-box">
 			
-			<h3><?php the_title(); ?></h3>
+			
+
+			
 
 			<?php
 				/**
