@@ -15,7 +15,7 @@ function foundation_assets() {
      * jQuery will be used as a fallback if ZeptoJS is not compatible
      * @see foundation_compatibility & http://foundation.zurb.com/docs/javascript.html
      */
-    // wp_deregister_script('jquery');
+wp_deregister_script('jquery');
 
     // Load JavaScripts
     wp_enqueue_script( 'foundation', get_template_directory_uri() . '/js/foundation.min.js', null, '4.0', true );
