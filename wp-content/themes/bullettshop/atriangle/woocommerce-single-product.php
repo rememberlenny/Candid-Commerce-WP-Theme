@@ -16,7 +16,7 @@ function woo_custom_cart_button_text() {
 
 function atc_display_tag(){
   if (get_brands()){
-    echo '<h2 class="subheader brand-name">'. get_brands() .'</h2>';
+    echo '<h2 class="subheader brand-name brand-link">'. get_brands() .'</h2>';
   }
 }
 
