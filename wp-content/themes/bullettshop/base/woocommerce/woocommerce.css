@@ -507,7 +507,7 @@ p.demo_store {
 }
 /* line 378, ../../sass/base/woocommerce/woocommerce.scss */
 .woocommerce div.product form.cart .variations label, .woocommerce #content div.product form.cart .variations label, .woocommerce-page div.product form.cart .variations label, .woocommerce-page #content div.product form.cart .variations label {
-  font-weight: bold;
+  font-weight: normal;
 }
 /* line 381, ../../sass/base/woocommerce/woocommerce.scss */
 .woocommerce div.product form.cart .variations select, .woocommerce #content div.product form.cart .variations select, .woocommerce-page div.product form.cart .variations select, .woocommerce-page #content div.product form.cart .variations select {
@@ -1251,7 +1251,7 @@ p.demo_store {
 }
 /* line 1051, ../../sass/base/woocommerce/woocommerce.scss */
 .woocommerce td.product-name dl.variation dt, .woocommerce-page td.product-name dl.variation dt {
-  font-weight: bold;
+  font-weight: normal;
   float: left;
   clear: left;
   margin: 0 .25em 0 0;
