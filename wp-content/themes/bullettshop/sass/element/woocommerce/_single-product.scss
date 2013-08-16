@@ -1,6 +1,13 @@
 $default-spacing: 0.9375em;
 
 #content{
+  .images{
+    p{ display: none; }
+  }
+  .thumbnails{
+    width: 16%;
+    float: right;
+  }
   .page-title{
     text-align: center;
   }
