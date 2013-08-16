@@ -1,0 +1,27 @@
+div.accordion{
+  h2.title{
+    text-transform: uppercase;
+    a{
+      background: url('images/arrow-flip.png') no-repeat !important;
+      background-position: right -32px !important;
+    }
+  }
+  h2.title,
+  .content{
+    background: none !important;
+    border-left: none !important;
+    border-right: none !important;
+  }
+  section.active{
+    h2.title{
+      a{
+        background: url('images/arrow-flip.png') no-repeat !important;
+        background-position: right 22px !important;
+      }
+      border-bottom: none !important;
+    }
+    div.content{
+      border-top: none !important;
+    }
+  }
+}

@@ -35,4 +35,72 @@ function sb_woo_remove_reviews_tab($tabs) {
  return $tabs;
 }
 
+
+function atc_get_content(){
+  ?>
+  <section>
+    <h2 class="title" data-section-title><a href="#">Description</a></h2>
+    <div class="content" data-section-content>
+      <p>
+        <?php the_content(); ?>
+      </p>
+    </div>
+  </section>
+  <?php 
+}
+
+function atc_get_product_details(){
+  ?>
+  <section>
+    <h2 class="title" data-section-title><a href="#">Details</a></h2>
+    <div class="content" data-section-content>
+      <p>
+        <?php the_field('product_details'); ?>
+      </p>
+    </div>
+  </section>
+  <?php 
+}
+
+
+function atc_get_size_and_fit(){
+  ?>
+  <section>
+    <h2 class="title" data-section-title><a href="#">Sizing & Fit</a></h2>
+    <div class="content" data-section-content>
+      <p>
+        <?php the_field('size_and_fit'); ?>
+      </p>
+    </div>
+  </section>
+  <?php 
+}
+
+function atc_product_accordion(){
 ?>
+  <div class="section-container accordion" data-section="accordion">
+    <?php
+    if( atc_get_content()):
+      atc_get_content();
+    endif;
+    ?>
+
+    <?php
+    if( get_field("size_and_fit")):
+      atc_get_size_and_fit();
+    endif;
+    ?>
+
+    <?php 
+    if( get_field("product_details")):
+      atc_get_product_details();
+    endif;
+    ?>
+  </div>
+<?php
+}
+
+add_filter( 'woocommerce_product_tabs', 'atc_product_accordion', 15);
+
+?>
+

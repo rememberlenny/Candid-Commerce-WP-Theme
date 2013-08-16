@@ -7,13 +7,10 @@
  * @version     2.0.0
  */
 
-// if ( ! defined( 'ABSPATH' ) ) exit; // Exit if accessed directly
+if ( ! defined( 'ABSPATH' ) ) exit; // Exit if accessed directly
 
-// global $woocommerce, $post, $product;
 
-// $heading = apply_filters( 'woocommerce_product_additional_information_heading', __( 'Additional Information', 'woocommerce' ) );
-// ?>
+global $woocommerce, $post, $product;
 
-<h2><?php echo $heading; ?></h2>
+$theID = get_the_ID();
 
-<?php $product->list_attributes(); ?>

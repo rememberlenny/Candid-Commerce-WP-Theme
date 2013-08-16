@@ -3,3 +3,13 @@
     background: none;
   }
 }
+
+.section-container.auto, .section-container.vertical-tabs, .section-container.vertical-nav, .section-container.horizontal-nav, .section-container.accordion{
+}
+
+.accordion{
+  h2{
+    margin: 0px;
+    padding: 0px;
+  }
+}
