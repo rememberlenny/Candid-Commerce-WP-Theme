@@ -422,7 +422,7 @@ if ( is_woocommerce_active() ) :
 				/**
 				 * Check mobile status
 				 */
-				$mobileEnable = $this->woocommerce_image_zoom_mobile_detect();
+				 $mobileEnable = $this->woocommerce_image_zoom_mobile_detect();
 			
 				if ( $this->enableCloud == 'true' && has_post_thumbnail() && $mobileEnable == 'yes' ) :
 					

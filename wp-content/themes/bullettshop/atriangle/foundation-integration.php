@@ -15,7 +15,7 @@ function foundation_assets() {
      * jQuery will be used as a fallback if ZeptoJS is not compatible
      * @see foundation_compatibility & http://foundation.zurb.com/docs/javascript.html
      */
-wp_deregister_script('jquery');
+    // wp_deregister_script('jquery');
 
     // Load JavaScripts
     wp_enqueue_script( 'foundation', get_template_directory_uri() . '/js/foundation.min.js', null, '4.0', true );
@@ -42,7 +42,7 @@ endif;
 if ( ! function_exists( 'foundation_js_init' ) ) :
 
 function foundation_js_init () {
-    echo '<script>$(document).foundation();</script>';
+    echo '<script>jQuery(document).foundation();</script>';
 }
 
 add_action('wp_footer', 'foundation_js_init', 50);
@@ -54,21 +54,21 @@ endif;
  * @see: http://foundation.zurb.com/docs/javascript.html
  */
 
-if ( ! function_exists( 'foundation_comptability' ) ) :
+// if ( ! function_exists( 'foundation_comptability' ) ) :
 
-function foundation_comptability () {
+// function foundation_comptability () {
 
-echo "<script>";
-echo "document.write('<script src=' +";
-echo "('__proto__' in {} ? '" . get_template_directory_uri() . "/js/vendor/jquery" . "' : '" . get_template_directory_uri() . "/js/vendor/jquery" . "') +";
-echo "'.js><\/script>')";
-echo "</script>";
+// echo "<script>";
+// echo "document.write('<script src=' +";
+// echo "('__proto__' in {} ? '" . get_template_directory_uri() . "/js/vendor/jquery" . "' : '" . get_template_directory_uri() . "/js/vendor/jquery" . "') +";
+// echo "'.js><\/script>')";
+// echo "</script>";
 
-}
+// }
 
-add_action('wp_footer', 'foundation_comptability', 10);
+// add_action('wp_footer', 'foundation_comptability', 10);
 
-endif;
+// endif;
 
 
 /**
