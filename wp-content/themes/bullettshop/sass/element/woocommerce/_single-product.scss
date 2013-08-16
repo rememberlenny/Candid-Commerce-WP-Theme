@@ -4,6 +4,9 @@ $default-spacing: 0.9375em;
   .images{
     p{ display: none; }
   }
+  .related{
+    clear: both;
+  }
   .thumbnails{
     width: 16%;
     float: right;
