@@ -9896,7 +9896,7 @@ ul.products .product a.button {
 }
 /* line 7, sass/element/woocommerce/_single-product.scss */
 #content .related {
-  clear: both;
+  float: left;
 }
 /* line 10, sass/element/woocommerce/_single-product.scss */
 #content .thumbnails {
