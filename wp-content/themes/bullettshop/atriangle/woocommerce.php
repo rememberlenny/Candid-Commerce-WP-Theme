@@ -56,6 +56,11 @@ function atc_pagination(){
   add_action( 'woocommerce_before_shop_loop', 'woocommerce_pagination', 35, 0 );
 }
 
+add_action( 'woocommerce_before_shop_loop_item_title', 'woocommerce_rollover_image', 12 );
+
+function woocommerce_rollover_image(){
+    echo '<img src="' . get_field('product_rollover_image') . '" class="rollover" style="display:none;">';
+}
 
 ?>
 

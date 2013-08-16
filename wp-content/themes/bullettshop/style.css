@@ -9988,6 +9988,15 @@ ul.products .product a.button {
   width: 100%;
 }
 
+/* line 4, sass/element/woocommerce/_product-page.scss */
+.products li.product:hover img.wp-post-image {
+  display: none;
+}
+/* line 7, sass/element/woocommerce/_product-page.scss */
+.products li.product:hover .rollover {
+  display: block !important;
+}
+
 /* line 2, sass/state/content-body/_pre.scss */
 .home #content {
   padding-top: 26px;

@@ -1,0 +1,12 @@
+.products{
+  li.product{
+    &:hover{ 
+      img.wp-post-image{
+        display:none;
+      }
+      .rollover{
+        display:block !important;
+      }
+    }
+  }
+}
