@@ -10003,13 +10003,20 @@ ul.products .product a.button {
     text-transform: capitalize;
   }
 }
-/* line 13, sass/element/woocommerce/_sidebar.scss */
-#secondary select {
-  border-radius: 0px !important;
-  background: white !important;
-  box-shadow: none !important !important;
+/* line 11, sass/element/woocommerce/_sidebar.scss */
+select {
+  border: none;
+  outline: 0;
+  -webkit-appearance: none;
+  -webkit-border-radius: 0px;
+  border: 2px solid black;
+  color: black;
+  padding: 0px 5px;
+  background: url("/wp-content/themes/bullettshop/images/arrow-flip.png") no-repeat !important;
+  background-position: 98% 7px !important;
 }
-/* line 18, sass/element/woocommerce/_sidebar.scss */
+
+/* line 23, sass/element/woocommerce/_sidebar.scss */
 #secondary li {
   text-transform: capitalize;
 }
