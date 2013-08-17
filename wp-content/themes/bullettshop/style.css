@@ -9990,7 +9990,7 @@ ul.products .product a.button {
 
 /* line 4, sass/element/woocommerce/_product-page.scss */
 .products li.product:hover img.wp-post-image {
-  display: none;
+  display: none !important;
 }
 /* line 7, sass/element/woocommerce/_product-page.scss */
 .products li.product:hover .rollover {

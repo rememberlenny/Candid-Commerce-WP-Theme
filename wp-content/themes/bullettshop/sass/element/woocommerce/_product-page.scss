@@ -2,7 +2,7 @@
   li.product{
     &:hover{ 
       img.wp-post-image{
-        display:none;
+        display:none !important;
       }
       .rollover{
         display:block !important;
