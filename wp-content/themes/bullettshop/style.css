@@ -10078,4 +10078,6 @@ select {
   display: block;
   clear: both;
   text-align: center;
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
