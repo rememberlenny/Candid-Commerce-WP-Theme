@@ -1911,7 +1911,7 @@ p.demo_store {
 .woocommerce .widget_layered_nav ul li.chosen a, .woocommerce-page .widget_layered_nav ul li.chosen a {
   padding: 0 6px 0 18px;
   border: 2px solid black;
-  background: white url(../images/cross_white.png) no-repeat 6px center;
+  background: white url("/wp-content/themes/bullettshop/images/cross-flip.png") no-repeat left top;
   color: black;
 }
 /* line 1649, ../../sass/base/woocommerce/woocommerce.scss */
