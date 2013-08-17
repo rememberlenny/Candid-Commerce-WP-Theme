@@ -10054,18 +10054,21 @@ select {
   display: none;
 }
 /* line 9, sass/state/home/_product-loop.scss */
-.home #products {
+.home .products {
   width: 100% !important;
   left: 0px !important;
+}
+/* line 13, sass/state/home/_product-loop.scss */
+.home #products {
   background: white;
   border-top: 1px solid #333;
   padding-top: 24px;
 }
-/* line 16, sass/state/home/_product-loop.scss */
+/* line 18, sass/state/home/_product-loop.scss */
 .home .page-title {
   display: none;
 }
-/* line 19, sass/state/home/_product-loop.scss */
+/* line 21, sass/state/home/_product-loop.scss */
 .home .woocommerce-ordering {
   display: none;
 }
