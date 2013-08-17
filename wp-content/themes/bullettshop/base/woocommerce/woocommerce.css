@@ -1910,15 +1910,9 @@ p.demo_store {
 /* line 1640, ../../sass/base/woocommerce/woocommerce.scss */
 .woocommerce .widget_layered_nav ul li.chosen a, .woocommerce-page .widget_layered_nav ul li.chosen a {
   padding: 0 6px 0 18px;
-  border: 1px solid #ad74a2;
+  border: 1px solid black;
   background: #ad74a2 url(../images/cross_white.png) no-repeat 6px center;
-  box-shadow: inset 0 1px 1px rgba(255, 255, 255, 0.5) #888888;
-  -webkit-box-shadow: inset 0 1px 1px rgba(255, 255, 255, 0.5) #888888;
-  -moz-box-shadow: inset 0 1px 1px rgba(255, 255, 255, 0.5) #888888;
   color: white;
-  -webkit-border-radius: 3px;
-  -moz-border-radius: 3px;
-  border-radius: 3px;
 }
 /* line 1649, ../../sass/base/woocommerce/woocommerce.scss */
 .woocommerce .widget_layered_nav ul small.count, .woocommerce-page .widget_layered_nav ul small.count {
@@ -1946,15 +1940,9 @@ p.demo_store {
 /* line 1671, ../../sass/base/woocommerce/woocommerce.scss */
 .woocommerce .widget_layered_nav_filters ul li a, .woocommerce-page .widget_layered_nav_filters ul li a {
   padding: 0 6px 0 18px;
-  border: 1px solid #ad74a2;
+  border: 1px solid black;
   background: #ad74a2 url(../images/cross_white.png) no-repeat 6px center;
-  box-shadow: inset 0 1px 1px rgba(255, 255, 255, 0.5) #888888;
-  -webkit-box-shadow: inset 0 1px 1px rgba(255, 255, 255, 0.5) #888888;
-  -moz-box-shadow: inset 0 1px 1px rgba(255, 255, 255, 0.5) #888888;
   color: white;
-  -webkit-border-radius: 3px;
-  -moz-border-radius: 3px;
-  border-radius: 3px;
   float: left;
 }
 /* line 1688, ../../sass/base/woocommerce/woocommerce.scss */
