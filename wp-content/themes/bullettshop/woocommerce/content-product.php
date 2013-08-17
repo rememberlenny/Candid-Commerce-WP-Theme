@@ -68,5 +68,3 @@ $classes = array();
 	<?php do_action( 'woocommerce_after_shop_loop_item' ); ?>
 	<hr>
 </li>
-
-<?php get_footer('shop'); ?>
