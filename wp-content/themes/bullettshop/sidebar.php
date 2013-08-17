@@ -5,7 +5,7 @@
  * @package bullettshop
  */
 ?>
-	<div id="secondary" class="widget-area column" role="complementary">
+	<div id="secondary" class="widget-area column large-3 column pull-9" role="complementary">
 		<?php do_action( 'before_sidebar' ); ?>
 		<?php if ( ! dynamic_sidebar( 'sidebar-1' ) ) : ?>
 

@@ -7,4 +7,4 @@
  * @version     2.0.0
  */
 ?>
-<ul class="products large-block-grid-3 small-block-grid-2">
+<ul class="products large-block-grid-3 small-block-grid-2 large-9 column push-3">
