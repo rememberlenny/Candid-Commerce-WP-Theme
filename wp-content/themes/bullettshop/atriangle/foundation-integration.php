@@ -110,5 +110,5 @@ endif;
 
 // add_action('wp_footer', 'top_scroll', 55);
 
-endif;
+// endif;
 ?>
