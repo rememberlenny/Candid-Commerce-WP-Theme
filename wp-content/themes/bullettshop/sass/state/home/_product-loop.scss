@@ -2,10 +2,13 @@
   display: none;
 }
 .home{
+
   #secondary{
     display: none;
   }
   #products{
+    width: 100% !important
+    left: 0px !important;
     background: white;
     border-top: 1px solid #333;
     padding-top: 24px;
