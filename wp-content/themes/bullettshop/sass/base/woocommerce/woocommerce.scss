@@ -1644,6 +1644,7 @@ p.demo_store {
 					// @include inset_box_shadow(0, 1px, 1px, rgba(255,255,255,0.5));
 					color: black;
 					// @include border_radius(3px);
+					background-position: 3px -12px;
 				}
 			}
 			small.count {
