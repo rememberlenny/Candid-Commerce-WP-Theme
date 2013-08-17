@@ -9370,9 +9370,9 @@ p.demo_store {
 /* line 1640, sass/base/woocommerce/woocommerce.scss */
 .woocommerce .widget_layered_nav ul li.chosen a, .woocommerce-page .widget_layered_nav ul li.chosen a {
   padding: 0 6px 0 18px;
-  border: 1px solid black;
-  background: #ad74a2 url(../images/cross_white.png) no-repeat 6px center;
-  color: white;
+  border: 2px solid black;
+  background: white url(../images/cross_white.png) no-repeat 6px center;
+  color: black;
 }
 /* line 1649, sass/base/woocommerce/woocommerce.scss */
 .woocommerce .widget_layered_nav ul small.count, .woocommerce-page .widget_layered_nav ul small.count {
