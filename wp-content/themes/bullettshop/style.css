@@ -9993,6 +9993,11 @@ ul.products .product a.button {
   display: block !important;
 }
 
+/* line 2, sass/element/woocommerce/_sidebar.scss */
+#secondary li {
+  text-transform: capitalize;
+}
+
 /* line 2, sass/state/content-body/_pre.scss */
 .home #content {
   padding-top: 26px;
