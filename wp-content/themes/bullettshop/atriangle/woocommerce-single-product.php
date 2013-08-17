@@ -80,21 +80,21 @@ function atc_product_accordion(){
 ?>
   <div class="section-container accordion" data-section="accordion">
     <?php
-    if( atc_get_content()):
+    if( atc_get_content() ){
       atc_get_content();
-    endif;
+    }
     ?>
 
     <?php
-    if( get_field("size_and_fit")):
+    if( get_field("size_and_fit")){
       atc_get_size_and_fit();
-    endif;
+    }
     ?>
 
     <?php 
-    if( get_field("product_details")):
+    if( get_field("product_details")){
       atc_get_product_details();
-    endif;
+    }
     ?>
   </div>
 <?php
