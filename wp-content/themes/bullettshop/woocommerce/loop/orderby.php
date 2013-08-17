@@ -18,12 +18,12 @@ if ( 1 == $wp_query->found_posts || ! woocommerce_products_will_display() )
 	<select name="orderby" class="orderby">
 		<?php
 			$catalog_orderby = apply_filters( 'woocommerce_catalog_orderby', array(
-				'menu_order' => __( 'Default sorting', 'woocommerce' ),
-				'popularity' => __( 'Sort by popularity', 'woocommerce' ),
-				'rating'     => __( 'Sort by average rating', 'woocommerce' ),
-				'date'       => __( 'Sort by newness', 'woocommerce' ),
-				'price'      => __( 'Sort by price: low to high', 'woocommerce' ),
-				'price-desc' => __( 'Sort by price: high to low', 'woocommerce' )
+				'menu_order' => __( 'Sort by', 'woocommerce' ),
+				'popularity' => __( 'Popularity', 'woocommerce' ),
+				// 'rating'     => __( 'Rating', 'woocommerce' ),
+				'date'       => __( 'Newness', 'woocommerce' ),
+				'price'      => __( 'Price: low to high', 'woocommerce' ),
+				'price-desc' => __( 'Price: high to low', 'woocommerce' )
 			) );
 
 			if ( get_option( 'woocommerce_enable_review_rating' ) == 'no' )
