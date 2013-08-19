@@ -1,6 +1,20 @@
 $default-spacing: 0.9375em;
 
+.single-product{
+  #secondary{
+    clear: both;
+  }
+}
+
 #content{
+
+  .related{
+    .products{
+      width: 100% !important;
+      left: 0px !important;
+    }
+  }
+ 
   .images{
     p{ display: none; }
   }

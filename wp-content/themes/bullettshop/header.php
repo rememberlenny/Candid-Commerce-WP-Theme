@@ -22,6 +22,13 @@
 
 <div id="page" class="hfeed site">
 	<?php do_action( 'before' ); ?>
+
+          <nav>
+            <section>
+              <?php atc_cart_menu(); ?>
+            </section>
+          </nav>
+  
 	<header id="masthead" class="row site-header" role="banner">
 		<div class="site-branding ">
 			<h1 class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home"><img src="<?php echo ot_get_option( 'header_logo' ); ?>" alt="<?php bloginfo( 'name' ); ?>"></a></h1>
@@ -31,11 +38,7 @@
 			
 			
 			<div class="screen-reader-text skip-link"><a href="#content" title="<?php esc_attr_e( 'Skip to content', 'bullettshop' ); ?>"><?php _e( 'Skip to content', 'bullettshop' ); ?></a></div>
-          <nav>
-            <section>
-              <?php atc_cart_menu(); ?>
-            </section>
-          </nav>
+
 	        <div class="top-bar-container contain-to-grid">
             <nav class="top-bar">
                 <ul class="title-area">
