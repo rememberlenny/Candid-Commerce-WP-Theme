@@ -34,7 +34,7 @@ $quaternary: 	desaturate( darken( $tertiary, 45%), 40% ); /* Price slider bg */
 	list-style:none outside;
 	@include clearfix();
 	width: auto;
-	-webkit-box-shadow:
+	/*-webkit-box-shadow:
 		inset 0 -2px 6px rgba(0,0,0,0.05),
 		inset 0 -2px 30px rgba(0,0,0,0.015),
 		inset 0 1px 0 #fff,
@@ -43,7 +43,7 @@ $quaternary: 	desaturate( darken( $tertiary, 45%), 40% ); /* Price slider bg */
 		inset 0 -2px 6px rgba(0,0,0,0.05),
 		inset 0 -2px 30px rgba(0,0,0,0.015),
 		inset 0 1px 0 #fff,
-		0 1px 2px rgba(0,0,0,0.3);
+		0 1px 2px rgba(0,0,0,0.3);*/
 
 	&:before {
 		content: "";
@@ -58,10 +58,10 @@ $quaternary: 	desaturate( darken( $tertiary, 45%), 40% ); /* Price slider bg */
 		line-height: 1.5;
 		text-align: center;
 		color: #fff;
-		text-shadow:0 1px 0 rgba(0,0,0,0.2);
+		// text-shadow:0 1px 0 rgba(0,0,0,0.2);
 		padding-top:1em;
-		@include border_radius_bottom(4px);
-		@include inset_box_shadow(0,-1px,0,0,rgba(0,0,0,0.1));
+		//@include border_radius_bottom(4px);
+		// @include inset_box_shadow(0,-1px,0,0,rgba(0,0,0,0.1));
 	}
 
 	.button {
@@ -110,11 +110,11 @@ p.demo_store {
 	font-size: 1em;
 	padding: .5em 0;
 	text-align: center;
-	@include vertical_gradient( $primary, darken($primary, 10) );
+	// @include vertical_gradient( $primary, darken($primary, 10) );
 	border: 1px solid darken($primary, 10);
 	color: $primarytext;
 	z-index: 99998;
-	@include inset_box_shadow( 0, 0, 0, 3px, rgba(255,255,255,0.2) );
+	// @include inset_box_shadow( 0, 0, 0, 3px, rgba(255,255,255,0.2) );
 }
 
 .admin-bar { // Styles applied when the admin bar is present
@@ -264,12 +264,12 @@ p.demo_store {
 
 			    li {
 			    	border: 1px solid darken( $secondary, 10 );
-				    @include vertical_gradient( $secondary, darken( $secondary, 10 ) );
+				    // @include vertical_gradient( $secondary, darken( $secondary, 10 ) );
 				    display: inline-block;
 				    position: relative;
 				    z-index: 0;
-				    @include border_radius_top(4px);
-				    box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2), inset 0 1px 0 rgba(255,255,255,0.6);
+				    /*@include border_radius_top(4px);
+				    box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2), inset 0 1px 0 rgba(255,255,255,0.6);*/
 				    margin: 0 -5px;
 				    padding: 0 1em;
 
@@ -420,11 +420,11 @@ p.demo_store {
 		top: 6px;
 		left: 6px;
 		margin: 0;
-		@include border_radius(20px);
+/*		@include border_radius(20px);
 		@include vertical_gradient( lighten( $highlight, 10), $highlight );
-		@include text_shadow( 0, -1px, 0, $highlight );
+		@include text_shadow( 0, -1px, 0, $highlight );*/
 		color: $highlightext;
-		-webkit-box-shadow:
+/*		-webkit-box-shadow:
 			inset 0 1px 0 rgba(255,255,255,0.3),
 			inset 0 -1px 0 rgba(0,0,0,0.2),
 			0 1px 2px rgba(0,0,0,0.2);
@@ -435,7 +435,7 @@ p.demo_store {
 		box-shadow:
 			inset 0 1px 0 rgba(255,255,255,0.3),
 			inset 0 -1px 0 rgba(0,0,0,0.2),
-			0 1px 2px rgba(0,0,0,0.2);
+			0 1px 2px rgba(0,0,0,0.2);*/
 	}
 
 	/* Product loops */
@@ -609,7 +609,7 @@ p.demo_store {
 	    font-weight:bold;
 	    // @include border_radius(2px);
 	    left: auto;
-	    text-shadow:0 1px 0 $secondary + #111;
+	    // text-shadow:0 1px 0 $secondary + #111;
 	    color: $secondarytext;
 	    // @include darkorlighttextshadow( $secondarytext );
 	    border: 1px solid darken( $secondary, 20 );
@@ -617,7 +617,7 @@ p.demo_store {
 		white-space: nowrap;
 		display: inline-block;
 
-	    -webkit-box-shadow:
+/*	    -webkit-box-shadow:
 	        inset 0 -1px 0 rgba(0,0,0,0.075),
 	        inset 0 1px 0 rgba(255,255,255,0.3),
 	        0 1px 2px rgba(0,0,0,0.1);
@@ -628,7 +628,7 @@ p.demo_store {
 	    box-shadow:
 	        inset 0 -1px 0 rgba(0,0,0,0.075),
 	        inset 0 1px 0 rgba(255,255,255,0.3),
-	        0 1px 2px rgba(0,0,0,0.1);
+	        0 1px 2px rgba(0,0,0,0.1);*/
 
 		&.loading {
 			color: lighten( $secondarytext, 10 );
@@ -1113,8 +1113,8 @@ p.demo_store {
 					-webkit-box-sizing:border-box;
 					-moz-box-sizing:border-box;
 					box-sizing:border-box;
-
-					@include inset_box_shadow(0, 1px, 4px, 0, rgba(0,0,0,0.1));
+/*
+					@include inset_box_shadow(0, 1px, 4px, 0, rgba(0,0,0,0.1));*/
 
 					border: 1px solid darken( $secondary, 10 );
 					padding: 6px 6px 5px;
@@ -1710,13 +1710,13 @@ p.demo_store {
 			z-index: 2;
 			width: 0.9em;
 			height: 0.9em;
-			@include border_radius(1em);
+/*			@include border_radius(1em);*/
 			border: 1px solid darken( $tertiary, 50 );
 			cursor: pointer;
-			@include vertical_gradient( $tertiary, darken( $tertiary, 10 ));
+/*			@include vertical_gradient( $tertiary, darken( $tertiary, 10 ));*/
 			outline:none;
 			top: -.3em;
-			-webkit-box-shadow:
+/*			-webkit-box-shadow:
 				0 1px 2px rgba(0,0,0,0.3),
 				inset 0 0 0 1px rgba(255,255,255,0.65);
 			-moz-box-shadow:
@@ -1725,7 +1725,7 @@ p.demo_store {
 			box-shadow:
 				0 1px 2px rgba(0,0,0,0.3),
 				inset 0 0 0 1px rgba(255,255,255,0.65);
-
+*/
 			&:last-child {
 				margin-left: -1em;
 			}
@@ -1737,8 +1737,8 @@ p.demo_store {
 			display:block;
 			border: 0;
 			background: $tertiary url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAADCAYAAABS3WWCAAAAFUlEQVQIHWP4//9/PRMDA8NzEPEMADLLBU76a5idAAAAAElFTkSuQmCC) top repeat-x; /* transparent png */
-			@include inset_box_shadow(0,0,0,1px,rgba(0,0,0,0.5));
-			@include border_radius(1em);
+/*			@include inset_box_shadow(0,0,0,1px,rgba(0,0,0,0.5));
+			@include border_radius(1em);*/
 		}
 	   .price_slider_wrapper .ui-widget-content {
 			@include border_radius(1em);

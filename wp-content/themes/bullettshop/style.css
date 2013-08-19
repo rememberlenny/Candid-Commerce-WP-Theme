@@ -7510,8 +7510,16 @@ object {
   text-shadow: 0 1px 0 white;
   list-style: none outside;
   width: auto;
-  -webkit-box-shadow: inset 0 -2px 6px rgba(0, 0, 0, 0.05), inset 0 -2px 30px rgba(0, 0, 0, 0.015), inset 0 1px 0 white, 0 1px 2px rgba(0, 0, 0, 0.3);
-  box-shadow: inset 0 -2px 6px rgba(0, 0, 0, 0.05), inset 0 -2px 30px rgba(0, 0, 0, 0.015), inset 0 1px 0 white, 0 1px 2px rgba(0, 0, 0, 0.3);
+  /*-webkit-box-shadow:
+  	inset 0 -2px 6px rgba(0,0,0,0.05),
+  	inset 0 -2px 30px rgba(0,0,0,0.015),
+  	inset 0 1px 0 #fff,
+  	0 1px 2px rgba(0,0,0,0.3);
+  box-shadow:
+  	inset 0 -2px 6px rgba(0,0,0,0.05),
+  	inset 0 -2px 30px rgba(0,0,0,0.015),
+  	inset 0 1px 0 #fff,
+  	0 1px 2px rgba(0,0,0,0.3);*/
 }
 /* line 4, sass/base/woocommerce/_mixins.scss */
 .woocommerce-message:after, .woocommerce-error:after, .woocommerce-info:after {
@@ -7533,17 +7541,7 @@ object {
   line-height: 1.5;
   text-align: center;
   color: #fff;
-  text-shadow: 0 1px 0 rgba(0, 0, 0, 0.2);
   padding-top: 1em;
-  -webkit-border-bottom-left-radius: 4px;
-  -webkit-border-bottom-right-radius: 4px;
-  -moz-border-radius-bottomleft: 4px;
-  -moz-border-radius-bottomright: 4px;
-  border-bottom-left-radius: 4px;
-  border-bottom-right-radius: 4px;
-  box-shadow: inset 0 -1px 0 0 rgba(0, 0, 0, 0.1);
-  -webkit-box-shadow: inset 0 -1px 0 0 rgba(0, 0, 0, 0.1);
-  -moz-box-shadow: inset 0 -1px 0 0 rgba(0, 0, 0, 0.1);
 }
 /* line 67, sass/base/woocommerce/woocommerce.scss */
 .woocommerce-message .button, .woocommerce-error .button, .woocommerce-info .button {
@@ -7600,17 +7598,9 @@ p.demo_store {
   font-size: 1em;
   padding: .5em 0;
   text-align: center;
-  background: #ad74a2;
-  background: -webkit-gradient(linear, left top, left bottom, from(#ad74a2), to(#96588a));
-  background: -webkit-linear-gradient(#ad74a2, #96588a);
-  background: -moz-linear-gradient(center top, #ad74a2 0%, #96588a 100%);
-  background: -moz-gradient(center top, #ad74a2 0%, #96588a 100%);
   border: 1px solid #96588a;
   color: white;
   z-index: 99998;
-  box-shadow: inset 0 0 0 3px rgba(255, 255, 255, 0.2);
-  -webkit-box-shadow: inset 0 0 0 3px rgba(255, 255, 255, 0.2);
-  -moz-box-shadow: inset 0 0 0 3px rgba(255, 255, 255, 0.2);
 }
 
 /* line 121, sass/base/woocommerce/woocommerce.scss */
@@ -7821,21 +7811,11 @@ p.demo_store {
 /* line 265, sass/base/woocommerce/woocommerce.scss */
 .woocommerce div.product .woocommerce-tabs ul.tabs li, .woocommerce #content div.product .woocommerce-tabs ul.tabs li, .woocommerce-page div.product .woocommerce-tabs ul.tabs li, .woocommerce-page #content div.product .woocommerce-tabs ul.tabs li {
   border: 1px solid #e0dadf;
-  background: #f7f6f7;
-  background: -webkit-gradient(linear, left top, left bottom, from(#f7f6f7), to(#e0dadf));
-  background: -webkit-linear-gradient(#f7f6f7, #e0dadf);
-  background: -moz-linear-gradient(center top, #f7f6f7 0%, #e0dadf 100%);
-  background: -moz-gradient(center top, #f7f6f7 0%, #e0dadf 100%);
   display: inline-block;
   position: relative;
   z-index: 0;
-  -webkit-border-top-left-radius: 4px;
-  -webkit-border-top-right-radius: 4px;
-  -moz-border-radius-topleft: 4px;
-  -moz-border-radius-topright: 4px;
-  border-top-left-radius: 4px;
-  border-top-right-radius: 4px;
-  box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2), inset 0 1px 0 rgba(255, 255, 255, 0.6);
+  /*@include border_radius_top(4px);
+  box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2), inset 0 1px 0 rgba(255,255,255,0.6);*/
   margin: 0 -5px;
   padding: 0 1em;
 }
@@ -8005,19 +7985,22 @@ p.demo_store {
   top: 6px;
   left: 6px;
   margin: 0;
-  -webkit-border-radius: 20px;
-  -moz-border-radius: 20px;
-  border-radius: 20px;
-  background: #a2c094;
-  background: -webkit-gradient(linear, left top, left bottom, from(#a2c094), to(#86ad74));
-  background: -webkit-linear-gradient(#a2c094, #86ad74);
-  background: -moz-linear-gradient(center top, #a2c094 0%, #86ad74 100%);
-  background: -moz-gradient(center top, #a2c094 0%, #86ad74 100%);
-  text-shadow: 0 -1px 0 #86ad74;
+  /*		@include border_radius(20px);
+  		@include vertical_gradient( lighten( $highlight, 10), $highlight );
+  		@include text_shadow( 0, -1px, 0, $highlight );*/
   color: white;
-  -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.3), inset 0 -1px 0 rgba(0, 0, 0, 0.2), 0 1px 2px rgba(0, 0, 0, 0.2);
-  -moz-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.3), inset 0 -1px 0 rgba(0, 0, 0, 0.2), 0 1px 2px rgba(0, 0, 0, 0.2);
-  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.3), inset 0 -1px 0 rgba(0, 0, 0, 0.2), 0 1px 2px rgba(0, 0, 0, 0.2);
+  /*		-webkit-box-shadow:
+  			inset 0 1px 0 rgba(255,255,255,0.3),
+  			inset 0 -1px 0 rgba(0,0,0,0.2),
+  			0 1px 2px rgba(0,0,0,0.2);
+  		-moz-box-shadow:
+  			inset 0 1px 0 rgba(255,255,255,0.3),
+  			inset 0 -1px 0 rgba(0,0,0,0.2),
+  			0 1px 2px rgba(0,0,0,0.2);
+  		box-shadow:
+  			inset 0 1px 0 rgba(255,255,255,0.3),
+  			inset 0 -1px 0 rgba(0,0,0,0.2),
+  			0 1px 2px rgba(0,0,0,0.2);*/
 }
 /* line 443, sass/base/woocommerce/woocommerce.scss */
 .woocommerce .products ul, .woocommerce ul.products, .woocommerce-page .products ul, .woocommerce-page ul.products {
@@ -8212,14 +8195,22 @@ p.demo_store {
   text-decoration: none;
   font-weight: bold;
   left: auto;
-  text-shadow: 0 1px 0 white;
   color: #5d5d5d;
   border: 1px solid #c8bfc6;
   white-space: nowrap;
   display: inline-block;
-  -webkit-box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.075), inset 0 1px 0 rgba(255, 255, 255, 0.3), 0 1px 2px rgba(0, 0, 0, 0.1);
-  -moz-box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.075), inset 0 1px 0 rgba(255, 255, 255, 0.3), 0 1px 2px rgba(0, 0, 0, 0.1);
-  box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.075), inset 0 1px 0 rgba(255, 255, 255, 0.3), 0 1px 2px rgba(0, 0, 0, 0.1);
+  /*	    -webkit-box-shadow:
+  	        inset 0 -1px 0 rgba(0,0,0,0.075),
+  	        inset 0 1px 0 rgba(255,255,255,0.3),
+  	        0 1px 2px rgba(0,0,0,0.1);
+  	    -moz-box-shadow:
+  	        inset 0 -1px 0 rgba(0,0,0,0.075),
+  	        inset 0 1px 0 rgba(255,255,255,0.3),
+  	        0 1px 2px rgba(0,0,0,0.1);
+  	    box-shadow:
+  	        inset 0 -1px 0 rgba(0,0,0,0.075),
+  	        inset 0 1px 0 rgba(255,255,255,0.3),
+  	        0 1px 2px rgba(0,0,0,0.1);*/
 }
 /* line 633, sass/base/woocommerce/woocommerce.scss */
 .woocommerce a.button.loading, .woocommerce button.button.loading, .woocommerce input.button.loading, .woocommerce #respond input#submit.loading, .woocommerce #content input.button.loading, .woocommerce-page a.button.loading, .woocommerce-page button.button.loading, .woocommerce-page input.button.loading, .woocommerce-page #respond input#submit.loading, .woocommerce-page #content input.button.loading {
@@ -8778,9 +8769,8 @@ p.demo_store {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
-  box-shadow: inset 0 1px 4px 0 rgba(0, 0, 0, 0.1);
-  -webkit-box-shadow: inset 0 1px 4px 0 rgba(0, 0, 0, 0.1);
-  -moz-box-shadow: inset 0 1px 4px 0 rgba(0, 0, 0, 0.1);
+  /*
+  					@include inset_box_shadow(0, 1px, 4px, 0, rgba(0,0,0,0.1));*/
   border: 1px solid #e0dadf;
   padding: 6px 6px 5px;
   margin: 0 4px 0 0;
@@ -9436,21 +9426,22 @@ p.demo_store {
   z-index: 2;
   width: 0.9em;
   height: 0.9em;
-  -webkit-border-radius: 1em;
-  -moz-border-radius: 1em;
-  border-radius: 1em;
+  /*			@include border_radius(1em);*/
   border: 1px solid #150d14;
   cursor: pointer;
-  background: #ad74a2;
-  background: -webkit-gradient(linear, left top, left bottom, from(#ad74a2), to(#96588a));
-  background: -webkit-linear-gradient(#ad74a2, #96588a);
-  background: -moz-linear-gradient(center top, #ad74a2 0%, #96588a 100%);
-  background: -moz-gradient(center top, #ad74a2 0%, #96588a 100%);
+  /*			@include vertical_gradient( $tertiary, darken( $tertiary, 10 ));*/
   outline: none;
   top: -.3em;
-  -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.3), inset 0 0 0 1px rgba(255, 255, 255, 0.65);
-  -moz-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.3), inset 0 0 0 1px rgba(255, 255, 255, 0.65);
-  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.3), inset 0 0 0 1px rgba(255, 255, 255, 0.65);
+  /*			-webkit-box-shadow:
+  				0 1px 2px rgba(0,0,0,0.3),
+  				inset 0 0 0 1px rgba(255,255,255,0.65);
+  			-moz-box-shadow:
+  				0 1px 2px rgba(0,0,0,0.3),
+  				inset 0 0 0 1px rgba(255,255,255,0.65);
+  			box-shadow:
+  				0 1px 2px rgba(0,0,0,0.3),
+  				inset 0 0 0 1px rgba(255,255,255,0.65);
+  */
 }
 /* line 1729, sass/base/woocommerce/woocommerce.scss */
 .woocommerce .widget_price_filter .ui-slider .ui-slider-handle:last-child, .woocommerce-page .widget_price_filter .ui-slider .ui-slider-handle:last-child {
@@ -9465,12 +9456,8 @@ p.demo_store {
   border: 0;
   background: #ad74a2 url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAADCAYAAABS3WWCAAAAFUlEQVQIHWP4//9/PRMDA8NzEPEMADLLBU76a5idAAAAAElFTkSuQmCC) top repeat-x;
   /* transparent png */
-  box-shadow: inset 0 0 0 1px rgba(0, 0, 0, 0.5);
-  -webkit-box-shadow: inset 0 0 0 1px rgba(0, 0, 0, 0.5);
-  -moz-box-shadow: inset 0 0 0 1px rgba(0, 0, 0, 0.5);
-  -webkit-border-radius: 1em;
-  -moz-border-radius: 1em;
-  border-radius: 1em;
+  /*			@include inset_box_shadow(0,0,0,1px,rgba(0,0,0,0.5));
+  			@include border_radius(1em);*/
 }
 /* line 1743, sass/base/woocommerce/woocommerce.scss */
 .woocommerce .widget_price_filter .price_slider_wrapper .ui-widget-content, .woocommerce-page .widget_price_filter .price_slider_wrapper .ui-widget-content {
