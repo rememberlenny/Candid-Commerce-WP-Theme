@@ -11,8 +11,13 @@ $default-spacing: 0.9375em;
 }
 
 .reset_variations{
-  opacity: .8 !important;
+  opacity: .6;
+  &:hover{
+    opacity: 1;
+  }
 }
+
+
 
 #content{
 

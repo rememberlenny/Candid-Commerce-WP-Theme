@@ -9968,36 +9968,40 @@ ul.products .product a.button {
 
 /* line 13, sass/element/woocommerce/_single-product.scss */
 .reset_variations {
-  opacity: .8 !important;
+  opacity: .6;
+}
+/* line 15, sass/element/woocommerce/_single-product.scss */
+.reset_variations:hover {
+  opacity: 1;
 }
 
-/* line 20, sass/element/woocommerce/_single-product.scss */
+/* line 25, sass/element/woocommerce/_single-product.scss */
 #content .related .products {
   width: 100% !important;
   left: 0px !important;
 }
-/* line 27, sass/element/woocommerce/_single-product.scss */
+/* line 32, sass/element/woocommerce/_single-product.scss */
 #content .images p {
   display: none;
 }
-/* line 29, sass/element/woocommerce/_single-product.scss */
+/* line 34, sass/element/woocommerce/_single-product.scss */
 #content .related {
   float: left;
 }
-/* line 32, sass/element/woocommerce/_single-product.scss */
+/* line 37, sass/element/woocommerce/_single-product.scss */
 #content .thumbnails {
   width: 16%;
   float: right;
 }
-/* line 36, sass/element/woocommerce/_single-product.scss */
+/* line 41, sass/element/woocommerce/_single-product.scss */
 #content .page-title {
   text-align: center;
 }
-/* line 39, sass/element/woocommerce/_single-product.scss */
+/* line 44, sass/element/woocommerce/_single-product.scss */
 #content div.product {
   margin-top: 1.3em;
 }
-/* line 40, sass/element/woocommerce/_single-product.scss */
+/* line 45, sass/element/woocommerce/_single-product.scss */
 #content div.product h2.subheader {
   font-weight: 300;
   margin-top: 0em;
@@ -10005,74 +10009,74 @@ ul.products .product a.button {
   font-size: 1.4em;
   color: black;
 }
-/* line 47, sass/element/woocommerce/_single-product.scss */
+/* line 52, sass/element/woocommerce/_single-product.scss */
 #content div.product h1 {
   font-size: 1em;
 }
-/* line 50, sass/element/woocommerce/_single-product.scss */
+/* line 55, sass/element/woocommerce/_single-product.scss */
 #content div.product button.button {
   padding: 17px 10px;
   text-transform: uppercase;
   font-size: 1.7em;
   font-weight: 200;
 }
-/* line 55, sass/element/woocommerce/_single-product.scss */
+/* line 60, sass/element/woocommerce/_single-product.scss */
 #content div.product button.button:hover {
   background: rgba(5, 5, 5, 0.9);
   box-shadow: none;
   opacity: .9;
 }
-/* line 63, sass/element/woocommerce/_single-product.scss */
+/* line 68, sass/element/woocommerce/_single-product.scss */
 #content div.product .entry-summary {
   margin-top: 0em;
 }
-/* line 66, sass/element/woocommerce/_single-product.scss */
+/* line 71, sass/element/woocommerce/_single-product.scss */
 #content div.product div.thumbnails {
   padding-top: 0em !important;
 }
-/* line 68, sass/element/woocommerce/_single-product.scss */
+/* line 73, sass/element/woocommerce/_single-product.scss */
 #content div.product div.thumbnails a {
   width: 100% !important;
   float: right;
   margin-top: 0.9375em;
 }
-/* line 72, sass/element/woocommerce/_single-product.scss */
+/* line 77, sass/element/woocommerce/_single-product.scss */
 #content div.product div.thumbnails a:first-child {
   margin-top: 0em;
 }
 
-/* line 80, sass/element/woocommerce/_single-product.scss */
+/* line 85, sass/element/woocommerce/_single-product.scss */
 #cloud-zoom-big {
   visibility: hidden !important;
 }
 
 @media only screen and (min-width: 58.75em) {
-  /* line 86, sass/element/woocommerce/_single-product.scss */
+  /* line 91, sass/element/woocommerce/_single-product.scss */
   #cloud-zoom-big {
     visibility: visible !important;
   }
 }
 @media only screen and (min-width: 768px) {
-  /* line 93, sass/element/woocommerce/_single-product.scss */
+  /* line 98, sass/element/woocommerce/_single-product.scss */
   ul.products li.first {
     clear: none !important;
   }
-  /* line 96, sass/element/woocommerce/_single-product.scss */
+  /* line 101, sass/element/woocommerce/_single-product.scss */
   ul.products li.last {
     clear: none !important;
   }
 }
 @media only screen {
-  /* line 104, sass/element/woocommerce/_single-product.scss */
+  /* line 109, sass/element/woocommerce/_single-product.scss */
   ul.products li.first {
     clear: left;
   }
-  /* line 107, sass/element/woocommerce/_single-product.scss */
+  /* line 112, sass/element/woocommerce/_single-product.scss */
   ul.products li.last {
     clear: right;
   }
 }
-/* line 113, sass/element/woocommerce/_single-product.scss */
+/* line 118, sass/element/woocommerce/_single-product.scss */
 .woocommerce-main-image {
   float: left;
 }
