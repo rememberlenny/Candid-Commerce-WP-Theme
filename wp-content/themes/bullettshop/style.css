@@ -9753,32 +9753,31 @@ div.accordion section.active div.content {
   border-top: none !important;
 }
 
-/* line 2, sass/element/slider/_navigation.scss */
-.slide-case img {
-  margin: 0 auto;
+/*.slide-case{
+  img{
+    margin: 0 auto;
+  }
 }
 
-/* line 8, sass/element/slider/_navigation.scss */
-.orbit-container .orbit-prev,
-.orbit-container .orbit-next {
+.orbit-container .orbit-prev, 
+.orbit-container .orbit-next{
   background: none;
 }
 
-/* line 13, sass/element/slider/_navigation.scss */
-.orbit-container .orbit-prev span {
-  border-right-color: #333333;
+.orbit-container .orbit-prev{
+  span{
+    border-right-color: rgb(51, 51, 51);
+  }
+}
+.orbit-container .orbit-next{  
+  span{
+    border-left-color: rgb(51, 51, 51);         
+  }
 }
 
-/* line 18, sass/element/slider/_navigation.scss */
-.orbit-container .orbit-next span {
-  border-left-color: #333333;
-}
-
-/* line 23, sass/element/slider/_navigation.scss */
-.orbit-container {
+.orbit-container{
   background: white;
-}
-
+}*/
 /*.slide-case{
   max-width: 60em;
 }
