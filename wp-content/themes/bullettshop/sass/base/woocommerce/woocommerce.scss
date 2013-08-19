@@ -348,13 +348,13 @@ p.demo_store {
 
 		/* Cart button */
 		p.cart {
-			margin-bottom: 2em;
+			margin-bottom: 2=em;
 			@include clearfix();
 		}
 
 		/* add to cart forms */
 		form.cart {
-			margin-bottom: 2em;
+			margin-bottom: 1em;
 			@include clearfix();
 			div.quantity {
 				float:left;
@@ -484,7 +484,7 @@ p.demo_store {
 			}
 			&:hover{
 				.text-box{
-					border: 2px solid black;
+					border: 1px solid black;
 					padding-top: 0px;
 					padding-bottom: 0px;
 					padding-left: 4px;
@@ -750,7 +750,7 @@ p.demo_store {
 		    font-size: 12px;
 	    box-shadow: none !important;
 			background: white;
-			border: 2px solid rgb(0, 0, 0);
+			border: 1px solid rgb(0, 0, 0);
 			&:hover{
 				background: darken(white, 5%) !important;
 			}
@@ -1650,7 +1650,7 @@ p.demo_store {
 			li.chosen {
 				a {
 					padding: 0 6px 0 18px;
-					border: 2px solid black;
+					border: 1px solid black;
 					background: white url('/wp-content/themes/bullettshop/images/cross-flip.png') no-repeat left top;
 					// @include inset_box_shadow(0, 1px, 1px, rgba(255,255,255,0.5));
 					color: black;
