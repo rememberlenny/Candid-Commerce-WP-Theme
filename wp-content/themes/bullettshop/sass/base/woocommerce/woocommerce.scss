@@ -701,7 +701,7 @@ p.demo_store {
 		margin: 0 auto;
 		overflow:hidden;
 		zoom: 1;
-
+		width: 100%;
 		/* Disable input[type=number] buttons until the world is ready */
 		input::-webkit-outer-spin-button, input::-webkit-inner-spin-button {
 			display:none;
@@ -750,6 +750,7 @@ p.demo_store {
 	    box-shadow: none !important;
 			background: darken(white, 5%) !important;
 			border: 2px solid rgb(0, 0, 0);
+
 		    /*@include border_radius(2px);*/
 
 		    color: $secondarytext;
@@ -777,9 +778,11 @@ p.demo_store {
 
 		.plus {
 			// @include border_radius_bottom(0);
+			border-left: 1px !important;
 		}
 
 		.minus {
+			border-right: 1px !important;
 			// @include border_radius_top(0);
 		}
 	}
