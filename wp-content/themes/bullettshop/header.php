@@ -23,7 +23,7 @@
 <div id="page" class="hfeed site">
 	<?php do_action( 'before' ); ?>
 
-  
+    
 
 	<header id="masthead" class="row site-header" role="banner">
 		<div class="site-branding ">
