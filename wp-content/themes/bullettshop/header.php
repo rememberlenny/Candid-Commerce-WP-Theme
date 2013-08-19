@@ -31,7 +31,11 @@
 			
 			
 			<div class="screen-reader-text skip-link"><a href="#content" title="<?php esc_attr_e( 'Skip to content', 'bullettshop' ); ?>"><?php _e( 'Skip to content', 'bullettshop' ); ?></a></div>
-
+          <nav>
+            <section>
+              <?php atc_cart_menu(); ?>
+            </section>
+          </nav>
 	        <div class="top-bar-container contain-to-grid">
             <nav class="top-bar">
                 <ul class="title-area">

@@ -1,5 +1,16 @@
 <?php
 
+// View all link
+add_action('init', 'woo_showall');
+
+function woo_showall(){
+    if( isset( $_GET['showall'] ) ){ 
+        add_filter( 'loop_shop_per_page', create_function( '$cols', 'return -1;' ) ); 
+    } else {
+        add_filter( 'loop_shop_per_page', create_function( '$cols', 'return 12;' ) );
+    }
+}
+
 // Remove WooCommerce Hooks
 remove_action( 'woocommerce_before_main_content', 'woocommerce_output_content_wrapper', 10);
 remove_action( 'woocommerce_after_main_content', 'woocommerce_output_content_wrapper_end', 10);
@@ -54,6 +65,11 @@ add_action( 'init', 'atc_pagination' );
 // Move Pagnation to top
 function atc_pagination(){
   add_action( 'woocommerce_before_shop_loop', 'woocommerce_pagination', 35, 0 );
+  add_action( 'woocommerce_before_shop_loop', 'atc_showall_button', 34, 0 );
+}
+
+function atc_showall_button(){
+  echo '<a href="'. get_permalink( $post->ID ) . '?showall=1">Show all</a>';
 }
 
 add_action( 'woocommerce_before_shop_loop_item_title', 'woocommerce_rollover_image', 12 );

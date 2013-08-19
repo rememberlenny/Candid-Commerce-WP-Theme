@@ -7,9 +7,26 @@ add_theme_support('menus');
  */
 register_nav_menus(array(
     'top-bar-l' => 'Left Top Bar', // registers the menu in the WordPress admin menu editor
-    'top-bar-r' => 'Right Top Bar'
+    'top-bar-r' => 'Right Top Bar',
+    'cart-menu' => 'Cart Menu',
 ));
 
+
+function atc_cart_menu() {
+    wp_nav_menu(array( 
+        'container' => false,                           // remove nav container
+        'container_class' => 'menu',              // class of container
+        'menu' => '',                               // menu name
+        'menu_class' => 'cart-menu left',          // adding custom nav class
+        'theme_location' => 'cart-menu',                // where it's located in the theme
+        'before' => '',                                 // before each link <a> 
+        'after' => '',                                  // after each link </a>
+        'link_before' => '',                            // before each link text
+        'link_after' => '',                             // after each link text
+        'depth' => 5,                                   // limit the depth of the nav
+        'fallback_cb' => false,                         // fallback function (see below)
+  ));
+}
 
 /**
  * Left top bar

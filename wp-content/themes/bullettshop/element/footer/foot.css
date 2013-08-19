@@ -1,0 +1,11 @@
+@charset "UTF-8";
+/* line 2, ../../sass/element/footer/foot.scss */
+.foot .logo {
+  background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiP…cuMzQsNi44MjhMMjguMzI5LDY0LjkxTDI4LjMyOSw2NC45MXoiLz4NCjwvZz4NCjwvc3ZnPg0K) 0 0 no-repeat;
+  height: 86px;
+  width: 332px;
+  margin: 0 auto;
+  display: block;
+  text-indent: -9999px;
+  background-size: contain;
+}
