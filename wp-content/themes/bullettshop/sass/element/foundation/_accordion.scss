@@ -1,29 +1,13 @@
-@media only screen and (min-width: 58.75em){
-  div.accordion{
-    h2.title{
-      a{
-        background: url('images/arrow-flip.png') no-repeat !important;
-        background-position: right -23px !important;
-      }
-    }
-    section.active{
-      h2.title{
-        a{
-          background: url('images/arrow-flip.png') no-repeat !important;
-          background-position: right 23px !important;
-        }
-      }
-    }
-  }
-}
-
 div.accordion{
   h2.title{
     text-transform: uppercase;
     a{
-      background: url('images/arrow-flip.png') no-repeat !important;
-      background-position: left -23px !important;
+      background: none !important;
+      background-position: right -23px !important;
     }
+  }
+  section{
+    background: darken(#fff, 5%);
   }
   h2.title,
   .content{
@@ -32,15 +16,37 @@ div.accordion{
     border-right: none !important;
   }
   section.active{
+    background: white;
     h2.title{
       a{
-        background: url('images/arrow-flip.png') no-repeat !important;
-        background-position: left 23px !important;
+        background: none !important;
       }
       border-bottom: none !important;
     }
     div.content{
       border-top: none !important;
+    }
+  }
+}
+
+@media only screen and (min-width: 58.75em){
+  div.accordion{
+    h2.title{
+      a{
+        background: url('images/arrow-flip.png') no-repeat !important;
+        background-position: right 23px !important;
+      }
+    }
+    section{
+      background: white!important;
+    }
+    section.active{
+      h2.title{
+        a{
+          background: url('images/arrow-flip.png') no-repeat !important;
+          background-position: right 23px !important;
+        }
+      }
     }
   }
 }

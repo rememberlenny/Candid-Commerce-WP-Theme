@@ -9791,48 +9791,59 @@ nav.woocommerce-breadcrumb a {
     width: 100% !important;
   }
 }
-@media only screen and (min-width: 58.75em) {
-  /* line 4, sass/element/foundation/_accordion.scss */
-  div.accordion h2.title a {
-    background: url("images/arrow-flip.png") no-repeat !important;
-    background-position: right -23px !important;
-  }
-  /* line 11, sass/element/foundation/_accordion.scss */
-  div.accordion section.active h2.title a {
-    background: url("images/arrow-flip.png") no-repeat !important;
-    background-position: right 23px !important;
-  }
-}
-/* line 21, sass/element/foundation/_accordion.scss */
+/* line 2, sass/element/foundation/_accordion.scss */
 div.accordion h2.title {
   text-transform: uppercase;
 }
-/* line 23, sass/element/foundation/_accordion.scss */
+/* line 4, sass/element/foundation/_accordion.scss */
 div.accordion h2.title a {
-  background: url("images/arrow-flip.png") no-repeat !important;
-  background-position: left -23px !important;
+  background: none !important;
+  background-position: right -23px !important;
 }
-/* line 29, sass/element/foundation/_accordion.scss */
+/* line 9, sass/element/foundation/_accordion.scss */
+div.accordion section {
+  background: #f2f2f2;
+}
+/* line 13, sass/element/foundation/_accordion.scss */
 div.accordion h2.title,
 div.accordion .content {
   background: none !important;
   border-left: none !important;
   border-right: none !important;
 }
-/* line 35, sass/element/foundation/_accordion.scss */
+/* line 18, sass/element/foundation/_accordion.scss */
+div.accordion section.active {
+  background: white;
+}
+/* line 20, sass/element/foundation/_accordion.scss */
 div.accordion section.active h2.title {
   border-bottom: none !important;
 }
-/* line 36, sass/element/foundation/_accordion.scss */
+/* line 21, sass/element/foundation/_accordion.scss */
 div.accordion section.active h2.title a {
-  background: url("images/arrow-flip.png") no-repeat !important;
-  background-position: left 23px !important;
+  background: none !important;
 }
-/* line 42, sass/element/foundation/_accordion.scss */
+/* line 26, sass/element/foundation/_accordion.scss */
 div.accordion section.active div.content {
   border-top: none !important;
 }
 
+@media only screen and (min-width: 58.75em) {
+  /* line 35, sass/element/foundation/_accordion.scss */
+  div.accordion h2.title a {
+    background: url("images/arrow-flip.png") no-repeat !important;
+    background-position: right 23px !important;
+  }
+  /* line 40, sass/element/foundation/_accordion.scss */
+  div.accordion section {
+    background: white !important;
+  }
+  /* line 45, sass/element/foundation/_accordion.scss */
+  div.accordion section.active h2.title a {
+    background: url("images/arrow-flip.png") no-repeat !important;
+    background-position: right 23px !important;
+  }
+}
 /*.slide-case{
   img{
     margin: 0 auto;
