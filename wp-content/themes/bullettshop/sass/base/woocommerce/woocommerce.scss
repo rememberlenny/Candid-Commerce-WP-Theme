@@ -60,7 +60,7 @@ $quaternary: 	desaturate( darken( $tertiary, 45%), 40% ); /* Price slider bg */
 		color: #fff;
 		// text-shadow:0 1px 0 rgba(0,0,0,0.2);
 		padding-top:1em;
-		//@include border_radius_bottom(4px);
+		// @include border_radius_bottom(4px);
 		// @include inset_box_shadow(0,-1px,0,0,rgba(0,0,0,0.1));
 	}
 

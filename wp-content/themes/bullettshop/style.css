@@ -9588,10 +9588,17 @@ p.demo_store {
 
   /* line 11, sass/element/header/_nav.scss */
   .cart-menu-holder {
-    margin-top: -40px;
+    margin-bottom: 0em;
+    padding-bottom: 0em;
+    margin-top: -49px;
     float: right;
   }
-  /* line 14, sass/element/header/_nav.scss */
+  /* line 12, sass/element/header/_nav.scss */
+  .cart-menu-holder i {
+    font-size: 3em;
+    color: #e500e6;
+  }
+  /* line 20, sass/element/header/_nav.scss */
   .cart-menu-holder .sub-menu {
     display: block !important;
     margin-left: -140px !important;
@@ -9601,99 +9608,103 @@ p.demo_store {
     visibility: hidden;
     border: 2px solid black;
   }
-  /* line 22, sass/element/header/_nav.scss */
+  /* line 28, sass/element/header/_nav.scss */
   .cart-menu-holder .sub-menu li {
     padding: 4px 10px !important;
   }
-  /* line 24, sass/element/header/_nav.scss */
+  /* line 30, sass/element/header/_nav.scss */
   .cart-menu-holder .sub-menu li:hover {
     background: #f2f2f2;
   }
-  /* line 31, sass/element/header/_nav.scss */
+  /* line 35, sass/element/header/_nav.scss */
+  .cart-menu-holder #wpmenucartli {
+    line-height: 0em;
+  }
+  /* line 38, sass/element/header/_nav.scss */
   .cart-menu-holder #wpmenucartli:hover .sub-menu {
     visibility: visible !important;
   }
 }
-/* line 40, sass/element/header/_nav.scss */
+/* line 47, sass/element/header/_nav.scss */
 #site-navigation,
 .top-bar {
   background: transparent !important;
 }
 
 @media only screen {
-  /* line 46, sass/element/header/_nav.scss */
+  /* line 53, sass/element/header/_nav.scss */
   .title-area .social-icon {
     visibility: hidden;
   }
 
-  /* line 50, sass/element/header/_nav.scss */
+  /* line 57, sass/element/header/_nav.scss */
   .top-bar-menu.right {
     visibility: hidden;
   }
 }
 @media only screen and (min-width: 58.75em) {
-  /* line 56, sass/element/header/_nav.scss */
+  /* line 63, sass/element/header/_nav.scss */
   .title-area .social-icon {
     visibility: visible;
   }
 
-  /* line 60, sass/element/header/_nav.scss */
+  /* line 67, sass/element/header/_nav.scss */
   .top-bar-menu.right {
     visibility: visible;
   }
 }
-/* line 65, sass/element/header/_nav.scss */
+/* line 72, sass/element/header/_nav.scss */
 .top-bar .toggle-topbar.menu-icon {
   margin-top: 0px !important;
 }
 
-/* line 69, sass/element/header/_nav.scss */
+/* line 76, sass/element/header/_nav.scss */
 nav.woocommerce-breadcrumb {
   font-family: RaisonneDemibold, "RaisonneDemibold", Helvetica, Arial, san-serif;
   line-height: 1.5em;
   color: black !important;
 }
-/* line 73, sass/element/header/_nav.scss */
+/* line 80, sass/element/header/_nav.scss */
 nav.woocommerce-breadcrumb a {
   color: black !important;
 }
 
-/* line 78, sass/element/header/_nav.scss */
+/* line 85, sass/element/header/_nav.scss */
 #masthead #site-navigation {
   font-family: RaisonneDemibold, "RaisonneDemibold", Helvetica, Arial, san-serif;
   border-color: #333;
   margin-bottom: 26px;
 }
-/* line 82, sass/element/header/_nav.scss */
+/* line 89, sass/element/header/_nav.scss */
 #masthead #site-navigation a {
   color: black;
 }
-/* line 86, sass/element/header/_nav.scss */
+/* line 93, sass/element/header/_nav.scss */
 #masthead .social-icon-case {
   float: left;
 }
-/* line 88, sass/element/header/_nav.scss */
+/* line 95, sass/element/header/_nav.scss */
 #masthead .social-icon-case .inline-list {
   display: inline-block;
 }
-/* line 91, sass/element/header/_nav.scss */
+/* line 98, sass/element/header/_nav.scss */
 #masthead .social-icon-case .inline-list li {
   margin-left: 0px;
 }
-/* line 97, sass/element/header/_nav.scss */
+/* line 104, sass/element/header/_nav.scss */
 #masthead .site-branding {
   margin-bottom: 20px;
 }
-/* line 105, sass/element/header/_nav.scss */
+/* line 112, sass/element/header/_nav.scss */
 #masthead form.search-form {
   display: inline-block !important;
   float: right;
 }
-/* line 112, sass/element/header/_nav.scss */
+/* line 119, sass/element/header/_nav.scss */
 #masthead form:hover .search-submit, #masthead form:focus .search-submit, #masthead form:active .search-submit {
   opacity: 1;
 }
-/* line 116, sass/element/header/_nav.scss */
+/* line 123, sass/element/header/_nav.scss */
 #masthead form .search-submit {
   opacity: 0;
 }

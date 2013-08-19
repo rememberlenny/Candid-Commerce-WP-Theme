@@ -9,7 +9,13 @@
     clear: both;
   }
   .cart-menu-holder{
-    margin-top: -40px; 
+    i{
+      font-size: 3em;
+      color: rgb(229, 0, 230);
+    }
+    margin-bottom: 0em;
+    padding-bottom: 0em;
+    margin-top: -49px;
     float: right;
     .sub-menu{
       display: block !important;
@@ -27,6 +33,7 @@
       }
     }
     #wpmenucartli{
+      line-height: 0em;
       &:hover{
         .sub-menu{
           visibility: visible !important;
