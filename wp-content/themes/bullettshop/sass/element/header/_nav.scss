@@ -1,3 +1,26 @@
+@media only screen and (min-width: 58.75em){
+  #site-navigation{
+    clear: both;
+  }
+  .cart-menu-holder{
+    float: right;
+    .sub-menu{
+      margin-left: 0em !important; 
+      position: absolute;
+      z-index: 10;
+      background: rgb(255, 255, 255);
+      visibility: hidden;
+    }
+    #wpmenucartli{
+      &:hover{
+        .sub-menu{
+          visibility: visible !important;
+        }
+      }
+    }
+  }
+}
+
 #site-navigation,
 .top-bar{
   background: transparent !important;
