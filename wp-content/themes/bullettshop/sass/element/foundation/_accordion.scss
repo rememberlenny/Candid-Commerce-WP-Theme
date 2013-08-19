@@ -34,7 +34,7 @@ div.accordion{
     h2.title{
       a{
         background: url('images/arrow-flip.png') no-repeat !important;
-        background-position: right -23px;
+        background-position: right -23px !important;
       }
     }
     section{
@@ -44,7 +44,7 @@ div.accordion{
       h2.title{
         a{
           background: url('images/arrow-flip.png') no-repeat !important;
-          background-position: right 23px;
+          background-position: right 23px !important;
         }
       }
     }
