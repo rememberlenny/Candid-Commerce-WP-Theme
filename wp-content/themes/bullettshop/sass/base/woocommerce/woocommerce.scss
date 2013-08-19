@@ -749,9 +749,11 @@ p.demo_store {
 		    line-height: 13px;
 		    font-size: 12px;
 	    box-shadow: none !important;
-			background: darken(white, 5%) !important;
+			background: white;
 			border: 2px solid rgb(0, 0, 0);
-
+			&:hover{
+				background: darken(white, 5%) !important;
+			}
 		    /*@include border_radius(2px);*/
 
 		    color: $secondarytext;
