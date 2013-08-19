@@ -708,7 +708,8 @@ p.demo_store {
 		}
 
 		input.qty {
-			width: 40px;
+					
+			width: 70%;
 			height: 48px;
 			float:left;
 			padding: 0;
@@ -737,7 +738,7 @@ p.demo_store {
 			float: left;
 			text-align: center;
 			vertical-align: text-top;
-			width: 25px;
+			width: 15%;
 			height: 48px;
 			text-decoration:none;
 			overflow: visible;
@@ -747,7 +748,7 @@ p.demo_store {
 		    line-height: 13px;
 		    font-size: 12px;
 	    box-shadow: none !important;
-			background: none !important;
+			background: darken(white, 5%) !important;
 			border: 2px solid rgb(0, 0, 0);
 		    /*@include border_radius(2px);*/
 
