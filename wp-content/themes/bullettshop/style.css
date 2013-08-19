@@ -9793,7 +9793,7 @@ div.accordion h2.title {
 /* line 4, sass/element/foundation/_accordion.scss */
 div.accordion h2.title a {
   background: url("images/arrow-flip.png") no-repeat !important;
-  background-position: right -32px !important;
+  background-position: right -23px !important;
 }
 /* line 10, sass/element/foundation/_accordion.scss */
 div.accordion h2.title,
@@ -9809,7 +9809,7 @@ div.accordion section.active h2.title {
 /* line 17, sass/element/foundation/_accordion.scss */
 div.accordion section.active h2.title a {
   background: url("images/arrow-flip.png") no-repeat !important;
-  background-position: right 22px !important;
+  background-position: right 23px !important;
 }
 /* line 23, sass/element/foundation/_accordion.scss */
 div.accordion section.active div.content {
