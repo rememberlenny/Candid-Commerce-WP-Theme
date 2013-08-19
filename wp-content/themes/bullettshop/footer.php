@@ -19,7 +19,11 @@
 			<span class="sep"> | </span>
 			<?php printf( __( 'Theme: %1$s by %2$s.', 'bullettshop' ), 'bullettshop', '<a href="http://underscores.me/" rel="designer">Underscores.me</a>' ); ?>
 		</div><!-- .site-info -->
-
+		<div class="foot">
+			<div class="logo">
+				
+			</div>
+		</div>
 	
 	</footer><!-- #colophon -->
 </div><!-- #page -->
