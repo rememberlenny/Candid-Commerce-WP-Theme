@@ -22,7 +22,7 @@ $available_methods = $woocommerce->shipping->get_available_shipping_methods();
 		<h2><?php _e( 'Cart Totals', 'woocommerce' ); ?></h2>
 
 		<table cellspacing="0">
-			<tbody>
+			<tbody style="float: right;">
 
 				<tr class="cart-subtotal">
 					<th><strong><?php _e( 'Cart Subtotal', 'woocommerce' ); ?></strong></th>

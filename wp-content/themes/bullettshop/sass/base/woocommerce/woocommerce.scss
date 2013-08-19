@@ -421,7 +421,7 @@ p.demo_store {
 		top: 6px;
 		left: 6px;
 		margin: 0;
-/*		@include border_radius(20px);
+/*	@include border_radius(20px);
 		@include vertical_gradient( lighten( $highlight, 10), $highlight );
 		@include text_shadow( 0, -1px, 0, $highlight );*/
 		color: $highlightext;
@@ -611,7 +611,7 @@ p.demo_store {
 	    // @include border_radius(2px);
 	    left: auto;
 	    // text-shadow:0 1px 0 $secondary + #111;
-	    color: $secondarytext;
+	    color: white;
 	    // @include darkorlighttextshadow( $secondarytext );
 	    border: 1px solid darken( $secondary, 20 );
 		// @include vertical_gradient( $secondary, darken( $secondary, 10 ) );
@@ -660,7 +660,7 @@ p.demo_store {
 		}
 
 		&:hover {
-			@include vertical_gradient( $secondary, darken( $secondary, 15 ) );
+			/*@include vertical_gradient( $secondary, darken( $secondary, 15 ) );*/
 			text-decoration:none;
 		}
 
@@ -671,12 +671,12 @@ p.demo_store {
 		&.alt {
 			/*@include vertical_gradient( $primary, darken( $primary, 10 ) );*/
 			border-color: darken($primary, 20);
-			color: $primarytext;
+			color: white;
 			/*@include darkorlighttextshadow( $primarytext, 0.6 );*/
 
 			&:hover {
 				/*@include vertical_gradient( $primary, darken( $primary, 15 ) );*/
-				color:$primarytext + #111;
+				color: darken(white, 5%);
 				/*@include darkorlighttextshadow( $primarytext + #111, 0.6 );*/
 			}
 		}
@@ -713,7 +713,10 @@ p.demo_store {
 			float:left;
 			padding: 0;
 			text-align: center;
-			border: 1px solid darken( $secondary, 20 );
+			box-shadow: none !important;
+			background: none !important;
+			border-top: 2px solid rgb(0, 0, 0);
+			border-bottom: 2px solid rgb(0, 0, 0);
 			border-right: 0;
 			/*@include border_radius_right(0);
 			@include inset_box_shadow( 0, 0, 2px, 0, $secondary );
@@ -743,6 +746,9 @@ p.demo_store {
 		    cursor: pointer;
 		    line-height: 13px;
 		    font-size: 12px;
+	    box-shadow: none !important;
+			background: none !important;
+			border: 2px solid rgb(0, 0, 0);
 		    /*@include border_radius(2px);*/
 
 		    color: $secondarytext;

@@ -1,9 +1,17 @@
+
+
+
 $default-spacing: 0.9375em;
 
 .single-product{
   #secondary{
     clear: both;
+    display: none !important
   }
+}
+
+.reset_variations{
+  opacity: .8 !important;
 }
 
 #content{
@@ -66,6 +74,17 @@ $default-spacing: 0.9375em;
         }
       }
     }
+  }
+}
+
+#cloud-zoom-big{
+  visibility: hidden !important;
+}
+
+
+@media only screen and (min-width: 58.75em) {
+  #cloud-zoom-big{
+    visibility: visible !important;
   }
 }
 
