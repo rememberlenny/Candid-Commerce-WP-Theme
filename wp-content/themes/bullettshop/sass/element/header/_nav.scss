@@ -1,4 +1,5 @@
 .cart-menu-holder{
+  display: none;
   .sub-menu{
     display: none;
   }
@@ -9,6 +10,7 @@
     clear: both;
   }
   .cart-menu-holder{
+    display: block;
     i{
       font-size: 3em;
       color: rgb(229, 0, 230);

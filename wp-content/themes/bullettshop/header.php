@@ -36,12 +36,9 @@
       </section>
     </nav>
 		<div id="site-navigation" class="main-navigation" role="navigation">
-			
-			
 			<div class="screen-reader-text skip-link"><a href="#content" title="<?php esc_attr_e( 'Skip to content', 'bullettshop' ); ?>"><?php _e( 'Skip to content', 'bullettshop' ); ?></a></div>
-
 	        <div class="top-bar-container contain-to-grid">
-            <nav class="top-bar">
+            <nav class="top-bar column">
                 <ul class="title-area">
                 	<li>
 										<a href="#" class="social-icon"><img src="<?php bloginfo('template_directory'); ?>/images/common-assets/icon-facebook.png"></a>
