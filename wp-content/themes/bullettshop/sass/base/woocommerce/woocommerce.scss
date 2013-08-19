@@ -695,7 +695,7 @@ p.demo_store {
 	-------------------------------------------------------------- */
 
 	.quantity, #content .quantity {
-		width: 60px;
+		width: 90px;
 		position: relative;
 		margin: 0 auto;
 		overflow:hidden;
@@ -708,7 +708,7 @@ p.demo_store {
 
 		input.qty {
 			width: 40px;
-			height: 28px;
+			height: 48px;
 			float:left;
 			padding: 0;
 			text-align: center;
@@ -729,11 +729,12 @@ p.demo_store {
 			display:block;
 			padding: 0;
 			margin: 0;
-			position:absolute;
+			position:relative;
+			float: left;
 			text-align: center;
 			vertical-align: text-top;
-			width: 20px;
-			height: 15px;
+			width: 25px;
+			height: 48px;
 			text-decoration:none;
 			overflow: visible;
 		    text-decoration:none;
