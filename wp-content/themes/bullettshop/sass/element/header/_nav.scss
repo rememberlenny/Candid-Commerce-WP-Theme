@@ -1,3 +1,9 @@
+.cart-menu-holder{
+  .sub-menu{
+    display: none;
+  }
+}
+
 @media only screen and (min-width: 58.75em){
   #site-navigation{
     clear: both;
@@ -5,6 +11,7 @@
   .cart-menu-holder{
     float: right;
     .sub-menu{
+      display: block !important;
       margin-left: -140px !important; 
       position: absolute;
       z-index: 10;
