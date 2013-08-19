@@ -726,6 +726,10 @@ p.demo_store {
 		}
 
 		.plus, .minus {
+			top: auto; !important
+			right: auto !important;
+			bottom: auto !important;
+			left: auto !important;
 			display:block;
 			padding: 0;
 			margin: 0;
@@ -767,16 +771,11 @@ p.demo_store {
 		}
 
 		.plus {
-			top: 0;
-			right: 0;
-			border-bottom: 0;
-			@include border_radius_bottom(0);
+			// @include border_radius_bottom(0);
 		}
 
 		.minus {
-			bottom: 0;
-			right: 0;
-			@include border_radius_top(0);
+			// @include border_radius_top(0);
 		}
 	}
 
