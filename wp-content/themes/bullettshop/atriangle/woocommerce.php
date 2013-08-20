@@ -65,8 +65,14 @@ add_action( 'init', 'atc_pagination' );
 // Move Pagnation to top
 function atc_pagination(){
   add_action( 'woocommerce_before_shop_loop', 'woocommerce_pagination', 35, 0 );
+  remove_action( 'woocommerce_after_shop_loop', 'woocommerce_pagination', 10, 0 );
   // add_action( 'woocommerce_before_shop_loop', 'atc_showall_button', 34, 0 );
+  add_action( 'woocommerce_sidebar', 'woocommerce_pagination', 15, 0 );
 }
+
+
+
+
 
 function atc_showall_button(){
   echo '<a href="' . get_permalink( $post->ID ) . '?showall=1">Show all</a>';
