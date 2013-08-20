@@ -308,7 +308,7 @@ select,
 textarea {
   font-family: inherit;
   /* 1 */
-  font-size: 100%;
+  font-size: 100% !important;
   /* 2 */
   margin: 0;
   /* 3 */
@@ -10125,14 +10125,13 @@ select {
   padding: 0px 5px;
   background: url("/wp-content/themes/bullettshop/images/arrow-flip-sm.png") no-repeat !important;
   background-position: 98% 8px !important;
-  font-size: 1.2em;
 }
 
-/* line 24, sass/element/woocommerce/_sidebar.scss */
+/* line 23, sass/element/woocommerce/_sidebar.scss */
 #secondary li {
   text-transform: capitalize;
 }
-/* line 27, sass/element/woocommerce/_sidebar.scss */
+/* line 26, sass/element/woocommerce/_sidebar.scss */
 #secondary .product-categories {
   list-style: none !important;
 }
