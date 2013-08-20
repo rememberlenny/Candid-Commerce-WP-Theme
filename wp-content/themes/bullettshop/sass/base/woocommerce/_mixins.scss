@@ -61,7 +61,6 @@ $woocommerce: #ad74a2;
 	-moz-box-shadow:inset $shadow_x $shadow_y $shadow_rad $shadow_in $shadow_color;
 }
 @mixin text_shadow($shadow_x:3px, $shadow_y:3px, $shadow_rad:3px, $shadow_color:#fff) {
-	text-shadow:$shadow_x $shadow_y $shadow_rad $shadow_color;
 }
 @mixin vertical_gradient($from: #000, $to: #FFF) {
 	background: $from;
