@@ -9893,32 +9893,12 @@ div.accordion section.active div.content {
   clear: both;
 }
 
-/* line 1, sass/element/checkout/paypal.scss */
-.payment_method_paypal_pro {
-  clear: both;
-  width: 100%;
-}
 /* line 2, sass/element/checkout/paypal.scss */
-.payment_method_paypal_pro .form-row-first {
-  width: 100%;
+.payment_method_paypal_pro label {
   clear: both;
+  width: 100%;
 }
 
-@media only screen and (min-width: 58.75em) {
-  /* line 11, sass/element/checkout/paypal.scss */
-  .payment_method_paypal_pro .form-row-first {
-    width: 47%;
-    clear: none;
-  }
-  /* line 15, sass/element/checkout/paypal.scss */
-  .payment_method_paypal_pro .form-row-first {
-    float: left;
-  }
-  /* line 18, sass/element/checkout/paypal.scss */
-  .payment_method_paypal_pro .form-row-last {
-    float: right;
-  }
-}
 /* line 1, sass/element/woocommerce/_pagination.scss */
 .page-numbers {
   display: block;
