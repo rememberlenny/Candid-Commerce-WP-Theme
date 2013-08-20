@@ -710,14 +710,14 @@ p.demo_store {
 		input.qty {
 					
 			width: 70%;
-			height: 48px;
+			height: 22px;
 			float:left;
 			padding: 0;
 			text-align: center;
 			box-shadow: none !important;
 			background: none !important;
-			border-top: 1px solid rgb(0, 0, 0);
-			border-bottom: 1px solid rgb(0, 0, 0);
+			border-top: 2px solid rgb(0, 0, 0);
+			border-bottom: 2px solid rgb(0, 0, 0);
 			border-right: 0;
 			border-left: 0;
 			/*@include border_radius_right(0);
@@ -740,7 +740,7 @@ p.demo_store {
 			text-align: center;
 			vertical-align: text-top;
 			width: 15%;
-			height: 48px;
+			height: 22px;
 			text-decoration:none;
 			overflow: visible;
 		    text-decoration:none;
@@ -781,11 +781,11 @@ p.demo_store {
 
 		.plus {
 			// @include border_radius_bottom(0);
-			border-left: 1px !important;
+			border-left: 2px !important;
 		}
 
 		.minus {
-			border-right: 1px !important;
+			border-right: 2px !important;
 			// @include border_radius_top(0);
 		}
 	}
