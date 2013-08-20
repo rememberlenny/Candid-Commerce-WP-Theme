@@ -145,8 +145,6 @@ $woocommerce->show_messages();
 
 <?php do_action( 'woocommerce_after_cart_table' ); ?>
 
-</form>
-
 <div class="cart-collaterals">
 
 	<?php do_action('woocommerce_cart_collaterals'); ?>
@@ -156,5 +154,15 @@ $woocommerce->show_messages();
 	<?php woocommerce_shipping_calculator(); ?>
 
 </div>
+
+<input type="submit" class="checkout-button button alt" name="proceed" value="<?php _e( 'Proceed to Checkout &rarr;', 'woocommerce' ); ?>" />
+
+				<?php do_action('woocommerce_proceed_to_checkout'); ?>
+
+				<?php $woocommerce->nonce_field('cart') ?>
+
+</form>
+
+
 
 <?php do_action( 'woocommerce_after_cart' ); ?>
