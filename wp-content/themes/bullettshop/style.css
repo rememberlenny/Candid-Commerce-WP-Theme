@@ -9894,7 +9894,7 @@ div.accordion section.active div.content {
 }
 
 /* line 2, sass/element/checkout/paypal.scss */
-.payment_method_paypal_pro label {
+.payment_box label {
   clear: both;
   width: 100%;
 }
