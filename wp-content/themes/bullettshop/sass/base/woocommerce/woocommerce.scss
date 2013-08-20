@@ -1072,6 +1072,7 @@ p.demo_store {
 
 	td.product-quantity {
 		min-width: 80px;
+		text-align: center;
 	}
 
 	/* =Cart
@@ -1255,6 +1256,7 @@ p.demo_store {
 				}
 			}
 			table {
+				float: right !important;
 				border-collapse: separate;
 				@include border_radius(5px);
 				margin: 0 0 6px;
@@ -1418,6 +1420,9 @@ p.demo_store {
 	-------------------------------------------------------------- */
 
 	.checkout {
+		label{
+			display: inline-block !important;
+		}
 		.col-2 {
 			h3 {
 				float:left;
@@ -1444,6 +1449,7 @@ p.demo_store {
 			padding: 0;
 
 			label {
+
 				font-size: 0.6875em;
 			}
 		}
