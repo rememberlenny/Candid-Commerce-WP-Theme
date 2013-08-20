@@ -709,14 +709,12 @@ p.demo_store {
 
 		input.qty {
 					
-			width: 70%;
-			height: 48px;
 			float:left;
 			padding: 0;
 			text-align: center;
 			box-shadow: none !important;
-			background: none !important;
-			border: 2px solid rgb(0, 0, 0);
+			background: darken(white, 5%) !important;
+			border: none !important;
 			/*@include border_radius_right(0);
 			@include inset_box_shadow( 0, 0, 2px, 0, $secondary );
 			font-weight:bold;
