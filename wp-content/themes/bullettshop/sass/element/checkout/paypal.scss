@@ -1,6 +1,6 @@
 .payment_box{
   .stripe_new_card,
-  .payment_method_paypal_pro{ 
+  &.payment_method_paypal_pro{ 
     .form-row{
       label{
         clear: both;
