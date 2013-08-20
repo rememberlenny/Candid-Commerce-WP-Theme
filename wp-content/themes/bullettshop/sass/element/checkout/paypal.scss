@@ -1,6 +1,9 @@
 .payment_box{
-  label{
-    clear: both;
-    width: 100%;
+  .stripe_new_card,
+  .form-row{
+    label{
+      clear: both;
+      width: 100%;
+    }
   }
 }

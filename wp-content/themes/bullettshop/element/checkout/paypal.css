@@ -1,5 +1,6 @@
-/* line 2, ../../sass/element/checkout/paypal.scss */
-.payment_box label {
+/* line 4, ../../sass/element/checkout/paypal.scss */
+.payment_box .stripe_new_card label,
+.payment_box .form-row label {
   clear: both;
   width: 100%;
 }
