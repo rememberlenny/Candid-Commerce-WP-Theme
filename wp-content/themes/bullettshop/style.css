@@ -9538,6 +9538,11 @@ p.demo_store {
   padding: 0px;
 }
 
+/* line 17, sass/base/foundation/_override.scss */
+label {
+  display: inline-block !important;
+}
+
 /* line 1, sass/element/_header.scss */
 .site-branding {
   text-align: center;
