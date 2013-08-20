@@ -8049,8 +8049,8 @@ p.demo_store {
 .woocommerce ul.products li.product .text-box, .woocommerce-page ul.products li.product .text-box {
   padding-left: 6px;
   padding-right: 6px;
-  padding-top: 2px;
-  padding-bottom: 2px;
+  padding-top: 1px;
+  padding-bottom: 1px;
 }
 /* line 476, sass/base/woocommerce/woocommerce.scss */
 .woocommerce ul.products li.product .text-box h2.subheader, .woocommerce-page ul.products li.product .text-box h2.subheader {
