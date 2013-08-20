@@ -155,6 +155,8 @@ $woocommerce->show_messages();
 
 	<?php woocommerce_shipping_calculator(); ?>
 
+	
+
 </div>
 
 <?php do_action( 'woocommerce_after_cart' ); ?>

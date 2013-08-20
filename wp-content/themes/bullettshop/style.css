@@ -9892,6 +9892,11 @@ div.accordion section.active div.content {
   width: 180px;
   height: 478px;
 }*/
+/* line 1, sass/element/checkout/shipping.scss */
+.cart-collaterals {
+  clear: both;
+}
+
 /* line 1, sass/element/woocommerce/_pagination.scss */
 .page-numbers {
   display: block;
