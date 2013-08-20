@@ -155,7 +155,7 @@ $woocommerce->show_messages();
 
 </div>
 
-<input type="submit" class="checkout-button button alt" name="proceed" value="<?php _e( 'Proceed to Checkout &rarr;', 'woocommerce' ); ?>" />
+<input type="submit" class="checkout-button button alt" name="proceed" value="<?php _e( 'Proceed to Checkout &rarr;', 'woocommerce' ); ?>" style="float: right;"/>
 
 				<?php do_action('woocommerce_proceed_to_checkout'); ?>
 
