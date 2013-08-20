@@ -9601,7 +9601,7 @@ p.demo_store {
   /* line 22, sass/element/header/_nav.scss */
   .cart-menu-holder .sub-menu {
     display: block !important;
-    margin-left: -130px !important;
+    margin-left: -120px !important;
     position: absolute;
     z-index: 10;
     background: white;
