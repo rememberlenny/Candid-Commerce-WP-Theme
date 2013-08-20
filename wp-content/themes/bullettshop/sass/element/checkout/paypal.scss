@@ -7,16 +7,16 @@
   width: 100%;
 }
 @media only screen and (min-width: 58.75em){
-.payment_method_paypal_pro{
-  .form-row-first{
-    width: 47%;
-    clear: none;
+  .payment_method_paypal_pro{
+    .form-row-first{
+      width: 47%;
+      clear: none;
+    }
+    .form-row-first{
+        float: left;
+    }
+    .form-row-last{
+        float: right;
+    }
   }
-  .form-row-first{
-      float: left;
-  }
-  .form-row-last{
-      float: right;
-  }
-
 }
