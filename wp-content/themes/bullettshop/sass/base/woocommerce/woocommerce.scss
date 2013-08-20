@@ -710,16 +710,13 @@ p.demo_store {
 		input.qty {
 					
 			width: 70%;
-			height: 22px;
+			height: 48px;
 			float:left;
 			padding: 0;
 			text-align: center;
 			box-shadow: none !important;
 			background: none !important;
-			border-top: 2px solid rgb(0, 0, 0);
-			border-bottom: 2px solid rgb(0, 0, 0);
-			border-right: 0;
-			border-left: 0;
+			border: 2px solid rgb(0, 0, 0);
 			/*@include border_radius_right(0);
 			@include inset_box_shadow( 0, 0, 2px, 0, $secondary );
 			font-weight:bold;
@@ -732,7 +729,7 @@ p.demo_store {
 		}
 
 		.plus, .minus {
-			display:block;
+			display: none;
 			padding: 0;
 			margin: 0;
 			position:relative;
@@ -740,7 +737,7 @@ p.demo_store {
 			text-align: center;
 			vertical-align: text-top;
 			width: 15%;
-			height: 22px;
+			height: 48px;
 			text-decoration:none;
 			overflow: visible;
 		    text-decoration:none;
@@ -750,7 +747,6 @@ p.demo_store {
 		    font-size: 12px;
 	    box-shadow: none !important;
 			background: white;
-			border: 1px solid rgb(0, 0, 0);
 			&:hover{
 				background: darken(white, 5%) !important;
 			}
