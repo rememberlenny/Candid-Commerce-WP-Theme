@@ -76,7 +76,7 @@ add_action( 'woocommerce_before_shop_loop_item_title', 'woocommerce_rollover_ima
 
 function woocommerce_rollover_image(){
     if(get_field('product_rollover_image')){
-        $image = wp_get_attachment_image_src(get_field('product_rollover_image'), 'shop_thumbnail'); ?>
+        $image = wp_get_attachment_image_src(get_field('product_rollover_image'), 'full'); ?>
         <img src="<?php echo $image[0]; ?>" alt="<?php echo get_the_title(get_field('product_rollover_image')); ?>" class="rollover" style="display:none;" width="275" height="330" />
     }
 }
