@@ -1,9 +1,11 @@
 .payment_box{
   .stripe_new_card,
-  .form-row{
-    label{
-      clear: both;
-      width: 100%;
+  .payment_method_paypal_pro{ 
+    .form-row{
+      label{
+        clear: both;
+        width: 100%;
+      }
     }
   }
 }
