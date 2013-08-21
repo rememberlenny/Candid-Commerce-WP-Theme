@@ -8,7 +8,8 @@ function ipadPopUpScript(){
 
 function ipadPopUpModal(){
 ?>
-  jQuery('#colophon').after('<div id="ipadPopUp" class="reveal-modal"><div class="row"><div class="large-4 small-12 column"style="float: right"><?php echo get_the_post_thumbnail('419', 'medium');?><\/div><div class="large-8 column small-12"><p class="lead">The following link will open a'+
+  jQuery('li.post-419').find("a[href$='http://bullettstoreat.wpengine.com/p/ipad-magazine-subscription/']").attr("href", 'https://itunes.apple.com/us/app/bullett/id557294227?mt=8');
+  jQuery('#colophon').after('<div id="ipadPopUp" class="reveal-modal"><div class="row"><div class="large-4 small-12 column"style="float: left"><?php echo get_the_post_thumbnail('419', 'medium');?><\/div><div class="large-8 column small-12"><p class="lead">The following link will open a'+
   ' new window to the iTunes AppStore. </p><p>You can make individual purchases or subscribe to the Bullett maga'+
   'zine from the iTunes AppStore. If you have any items in your shopping cart, they '+
   'won\'t go anywhere (as long as you don\'t close the window).</p><a href="'+
