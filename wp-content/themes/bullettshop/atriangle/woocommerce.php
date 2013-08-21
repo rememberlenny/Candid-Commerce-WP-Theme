@@ -27,9 +27,9 @@ add_action( 'init', 'jk_remove_wc_breadcrumbs' );
 
 function jk_remove_wc_breadcrumbs() {
     remove_action( 'woocommerce_before_main_content', 'woocommerce_breadcrumb', 20, 0 );
-    add_action( 'woocommerce_before_shop_loop', 'woocommerce_div_before', 30, 0 );
-    add_action( 'woocommerce_before_shop_loop', 'woocommerce_breadcrumb', 31, 0 );
-    add_action( 'woocommerce_before_shop_loop', 'woocommerce_div_after', 32, 0 );
+    add_action( 'woocommerce_before_shop_loop', 'woocommerce_div_before', 2, 0 );
+    add_action( 'woocommerce_before_shop_loop', 'woocommerce_breadcrumb', 3, 0 );
+    add_action( 'woocommerce_before_shop_loop', 'woocommerce_div_after', 4, 0 );
 }
 
 function woocommerce_div_before() {
