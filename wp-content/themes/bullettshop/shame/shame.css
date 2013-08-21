@@ -1,0 +1,21 @@
+/* line 2, ../sass/shame/shame.scss */
+.woocommerce-ordering,
+.woocommerce-result-count {
+  position: absolute;
+  opacity: .8;
+}
+
+/* line 6, ../sass/shame/shame.scss */
+.woocommerce-ordering {
+  top: 0px;
+}
+
+/* line 10, ../sass/shame/shame.scss */
+.woocommerce-result-count {
+  right: 0;
+}
+
+/* line 13, ../sass/shame/shame.scss */
+.woocommerce-breadcrumb {
+  opacity: .8;
+}
