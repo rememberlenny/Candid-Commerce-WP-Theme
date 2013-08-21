@@ -9891,6 +9891,11 @@ div.accordion section.active div.content {
   width: 100%;
 }
 
+/* line 2, sass/element/checkout/cart.scss */
+.woocommerce-cart #secondary {
+  display: none;
+}
+
 /* line 1, sass/element/sidebar/widget.scss */
 .widget {
   font-size: .88em;
@@ -9990,11 +9995,11 @@ ul.products .product a.button {
 @media only screen and (min-width: 768px) and (max-width: 58.75em) {
   /* line 6, sass/element/woocommerce/_single-product.scss */
   .product .large-8 .images #wrap {
-    width: 80% !important;
+    width: 90% !important;
   }
   /* line 9, sass/element/woocommerce/_single-product.scss */
   .product .large-8 .images .thumbnails {
-    width: 20% !important;
+    width: 15% !important;
     max-width: 90px !important;
   }
 }
