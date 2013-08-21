@@ -64,8 +64,8 @@ function my_change_breadcrumb_delimiter( $defaults ) {
 add_action( 'init', 'atc_alter_product_top' );
 
 function atc_alter_product_top(){
-  remove_action('woocommerce_before_shop_loop', 'woocommerce_catalog_ordering', 20)
-  remove_action('woocommerce_before_main_content', 'woocommerce_catalog_ordering', 30)
+  remove_action('woocommerce_before_shop_loop', 'woocommerce_catalog_ordering', 20);
+  remove_action('woocommerce_before_main_content', 'woocommerce_catalog_ordering', 30);
 }
 
 
