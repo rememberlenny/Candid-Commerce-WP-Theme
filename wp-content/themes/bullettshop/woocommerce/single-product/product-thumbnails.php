@@ -16,7 +16,6 @@ $attachment_ids = $product->get_gallery_attachment_ids();
 if ( $attachment_ids ) {
 	?>
 	<div class="thumbnails large-2 row column">
-		<ul class="small-block-grid-5 large-block-grid-1">
 	<?php
 
 		$loop = 0;
@@ -47,7 +46,6 @@ if ( $attachment_ids ) {
 		}
 
 	?>
-		</ul>
 	</div>
 	<?php
 }
