@@ -2,9 +2,7 @@
 
 function ipadPopUpScript(){
 ?>
-  <script>
-    jQuery("a[href$='http://bullettstoreat.wpengine.com/p/ipad-magazine-subscription/']").attr('data-reveal-id', 'ipadPopUp');
-  </script>
+  jQuery("a[href$='http://bullettstoreat.wpengine.com/p/ipad-magazine-subscription/']").attr('data-reveal-id', 'ipadPopUp');
 <?php
 }
 
@@ -21,8 +19,12 @@ function ipadPopUpModal(){
 }
 
 function PopUpModal(){
-  ipadPopUpScript();
-  ipadPopUpModal();
+  ?>
+  <script>
+    ipadPopUpScript();
+    ipadPopUpModal();
+  </script>
+  <?php
 }
 
 add_action('wp_footer', 'PopUpModal', 33);
