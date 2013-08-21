@@ -2,8 +2,7 @@
 
 function ipadPopUpScript(){
 ?>
-  jQuery("a[href$='http://bullettstoreat.wpengine.com/p/ipad-magazine-subscr'+
-  'iption/']").attr('data-reveal-id', 'ipadPopUp');
+  jQuery("a[href$='http://bullettstoreat.wpengine.com/p/ipad-magazine-subscription/']").attr('data-reveal-id', 'ipadPopUp');
 <?php
 }
 
