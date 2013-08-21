@@ -33,10 +33,10 @@ function jk_remove_wc_breadcrumbs() {
 }
 
 function woocommerce_div_before() {
-  echo '<div class="column large-6 hide-medium-down">';
+  // echo '<div class="column large-6 hide-medium-down">';
 }
 function woocommerce_div_after() {
-  echo '</div>';
+  // echo '</div>';
 }
 // Changing order of single product pages
 add_action( 'init', 'atc_reorder_single_product' );
