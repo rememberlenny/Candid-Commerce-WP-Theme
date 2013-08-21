@@ -9987,15 +9987,15 @@ ul.products .product a.button {
   display: none;
 }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 768px) and (max-width: 58.75em) {
   /* line 6, sass/element/woocommerce/_single-product.scss */
   .product .large-8 .images #wrap {
-    width: 80%;
+    width: 80% !important;
   }
   /* line 9, sass/element/woocommerce/_single-product.scss */
   .product .large-8 .images .thumbnails {
-    width: 20%;
-    max-width: 90px;
+    width: 20% !important;
+    max-width: 90px !important;
   }
 }
 /* line 22, sass/element/woocommerce/_single-product.scss */

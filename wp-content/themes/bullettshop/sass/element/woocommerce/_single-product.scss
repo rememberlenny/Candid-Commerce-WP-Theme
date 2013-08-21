@@ -1,14 +1,14 @@
 
-@media only screen and (min-width: 768px){
+@media only screen and (min-width: 768px) and (max-width: 58.75em) {
   .product{
     .large-8{
       .images{
         #wrap{
-          width:80%;
+          width:80% !important;
         }
         .thumbnails{
-          width: 20%;
-          max-width: 90px;
+          width: 20% !important;
+          max-width: 90px !important;
         }
       }
     }
