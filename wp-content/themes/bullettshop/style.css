@@ -9972,6 +9972,17 @@ div.accordion section.active div.content {
   margin-bottom: 0em;
 }
 
+/* line 23, sass/element/woocommerce/_product-case.scss */
+.mousetrap {
+  display: none;
+}
+
+@media only screen and (min-width: 58.75em) {
+  /* line 27, sass/element/woocommerce/_product-case.scss */
+  .mousetrap {
+    display: none;
+  }
+}
 /* line 3, sass/element/woocommerce/_buttons.scss */
 ul.products .product a.button {
   display: none;
