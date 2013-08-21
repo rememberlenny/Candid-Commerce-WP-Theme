@@ -9980,7 +9980,7 @@ div.accordion section.active div.content {
 @media only screen and (min-width: 58.75em) {
   /* line 27, sass/element/woocommerce/_product-case.scss */
   .mousetrap {
-    display: none;
+    display: block;
   }
 }
 /* line 3, sass/element/woocommerce/_buttons.scss */
