@@ -2,7 +2,7 @@
 .foot {
   border-top: 2px solid black;
   border-bottom: 2px solid black;
-  margin-bottom: 2em;
+  margin-bottom: 1em;
 }
 /* line 5, ../../sass/element/footer/foot.scss */
 .foot .logo {
@@ -15,4 +15,11 @@
   background-size: contain;
   margin-top: .75em;
   margin-bottom: .75em;
+}
+
+/* line 19, ../../sass/element/footer/foot.scss */
+.privacy-links {
+  opacity: .6;
+  display: inline-block;
+  width: auto;
 }

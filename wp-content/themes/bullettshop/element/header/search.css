@@ -1,0 +1,11 @@
+/* line 1, ../../sass/element/header/search.scss */
+input[type="search"] {
+  background-color: #e6e6e6;
+  border: none !important;
+  -webkit-box-shadow: none !important;
+  box-shadow: none !important;
+}
+/* line 6, ../../sass/element/header/search.scss */
+input[type="search"]:focus {
+  background-color: #f2f2f2;
+}

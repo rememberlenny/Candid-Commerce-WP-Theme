@@ -148,10 +148,14 @@ require get_template_directory() . '/atriangle/foundation-integration.php';
  */
 require get_template_directory() . '/atriangle/walker.php';
 
-
 /**
  * Load Modal Elements.
  */
 require get_template_directory() . '/atriangle/atc-modals.php';
+
+/**
+ * Load Modal Elements.
+ */
+require get_template_directory() . '/atriangle/acf-options.php';
 
 

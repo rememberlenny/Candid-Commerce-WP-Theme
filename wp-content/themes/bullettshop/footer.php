@@ -15,12 +15,26 @@
 	<footer id="colophon" class="site-footer row" role="contentinfo">
 		<div class="foot">
 			<div class="logo"></div>
-		</div>
-	
+    </div>
+    <div class="row text-center">
+      <ul class="inline-list text-center privacy-links" style="">
+        <li>
+          <a href="<?php echo get_page_link('privacy'); ?>">Privacy</a>
+        </li>
+        <li>|</li>
+        <li>
+          <a href="<?php echo get_page_link('store-policy'); ?>">Store Policy</a>
+        </li>
+      </ul>
+    </div>
+    
+
 	</footer><!-- #colophon -->
 </div><!-- #page -->
 
 <?php wp_footer(); ?>
+
+
 
 
 </body>
