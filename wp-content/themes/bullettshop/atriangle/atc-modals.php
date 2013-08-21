@@ -14,7 +14,7 @@ function ipadPopUpModal(){
   'zine from the iTunes AppStore. If you have any items in your shopping cart, they '+
   'won\'t go anywhere (as long as you don\'t close the window).</p><a href="'+
   'https://itunes.apple.com/us/app/bullett/id557294227?mt=8" class="button l'+
-  'arge" target="_blank" style="width:100%!important;">Get it!<\/a><\/div><a class="clo'+
+  'arge" target="_blank" style="width: 100%!important; padding-top: 0.75em; padding-bottom: 0.75em; font-size: 2em;">Get it!<\/a><\/div><a class="clo'+
   'se-reveal-modal">&#215;<\/a><\/div><\/div>');
 <?php
 }
