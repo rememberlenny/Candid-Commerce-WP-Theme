@@ -10271,13 +10271,13 @@ select {
   }
 }
 /* line 2, sass/state/single-product/thumbnail.scss */
-#content div.thumbnail {
+#content div.thumbnails {
   width: 100%;
 }
 
 @media only screen and (min-width: 58.75em) {
   /* line 9, sass/state/single-product/thumbnail.scss */
-  #content div.thumbnail {
+  #content div.thumbnails {
     width: 16%;
   }
 }
