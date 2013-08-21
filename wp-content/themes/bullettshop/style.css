@@ -1,15 +1,15 @@
 /*
-Syntax error: File to import not found or unreadable: element/sidebar/paypal.
+Syntax error: File to import not found or unreadable: state/gravity-forms/forms.
               Load paths:
                 /Users/lkbogdonoff/LKBG/Bullett/store-at/wp-content/themes/bullettshop/sass
                 /Users/lkbogdonoff/.rvm/gems/ruby-2.0.0-p247/gems/compass-0.12.2/frameworks/blueprint/stylesheets
                 /Users/lkbogdonoff/.rvm/gems/ruby-2.0.0-p247/gems/compass-0.12.2/frameworks/compass/stylesheets
                 /Users/lkbogdonoff/.rvm/gems/ruby-2.0.0-p247/gems/zurb-foundation-4.3.1/scss
                 Compass::SpriteImporter
-        on line 20 of /Users/lkbogdonoff/LKBG/Bullett/store-at/wp-content/themes/bullettshop/sass/style.scss
+        on line 34 of /Users/lkbogdonoff/LKBG/Bullett/store-at/wp-content/themes/bullettshop/sass/style.scss
 
 Backtrace:
-/Users/lkbogdonoff/LKBG/Bullett/store-at/wp-content/themes/bullettshop/sass/style.scss:20
+/Users/lkbogdonoff/LKBG/Bullett/store-at/wp-content/themes/bullettshop/sass/style.scss:34
 /Users/lkbogdonoff/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.2.10/lib/sass/tree/import_node.rb:67:in `rescue in import'
 /Users/lkbogdonoff/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.2.10/lib/sass/tree/import_node.rb:45:in `import'
 /Users/lkbogdonoff/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.2.10/lib/sass/tree/import_node.rb:28:in `imported_file'
@@ -76,4 +76,4 @@ Backtrace:
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Syntax error: File to import not found or unreadable: element/sidebar/paypal.\A               Load paths:\A                 /Users/lkbogdonoff/LKBG/Bullett/store-at/wp-content/themes/bullettshop/sass\A                 /Users/lkbogdonoff/.rvm/gems/ruby-2.0.0-p247/gems/compass-0.12.2/frameworks/blueprint/stylesheets\A                 /Users/lkbogdonoff/.rvm/gems/ruby-2.0.0-p247/gems/compass-0.12.2/frameworks/compass/stylesheets\A                 /Users/lkbogdonoff/.rvm/gems/ruby-2.0.0-p247/gems/zurb-foundation-4.3.1/scss\A                 Compass::SpriteImporter\A         on line 20 of /Users/lkbogdonoff/LKBG/Bullett/store-at/wp-content/themes/bullettshop/sass/style.scss"; }
+  content: "Syntax error: File to import not found or unreadable: state/gravity-forms/forms.\A               Load paths:\A                 /Users/lkbogdonoff/LKBG/Bullett/store-at/wp-content/themes/bullettshop/sass\A                 /Users/lkbogdonoff/.rvm/gems/ruby-2.0.0-p247/gems/compass-0.12.2/frameworks/blueprint/stylesheets\A                 /Users/lkbogdonoff/.rvm/gems/ruby-2.0.0-p247/gems/compass-0.12.2/frameworks/compass/stylesheets\A                 /Users/lkbogdonoff/.rvm/gems/ruby-2.0.0-p247/gems/zurb-foundation-4.3.1/scss\A                 Compass::SpriteImporter\A         on line 34 of /Users/lkbogdonoff/LKBG/Bullett/store-at/wp-content/themes/bullettshop/sass/style.scss"; }
