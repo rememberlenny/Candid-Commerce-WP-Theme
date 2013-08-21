@@ -596,7 +596,7 @@ if ( is_woocommerce_active() ) :
 				 */
 				$rel = $this->woocommerce_image_zoom_set_rel();
 
-				echo '<div class="thumbnails">';
+				echo '<div class="thumbnails"><ul class="large-block-grid-1 small-block-grid-5';
 
 				$thumb_id 				= get_post_thumbnail_id();
 				$small_thumbnail_size  	= apply_filters('single_product_small_thumbnail_size', 'shop_thumbnail');
@@ -697,12 +697,12 @@ if ( is_woocommerce_active() ) :
 						echo '<a href="' . $url[0] . '" title="' . $post_title . '" cloud="useZoom:\'zoom1\',smallImage:\'' . $cloudmediumImage[0] . '\'" class="cloud-zoom-gallery zoom';
 						if ( $loop == 1 || ( $loop - 1 ) % $columns == 0 ) echo ' first';
 						if ( $loop % $columns == 0 ) echo ' last';
-						echo '" rel="'.$rel.'">' . $image . '</a>' ."\r\n" ."\r\n";
+						echo '" rel="'.$rel.'"><li>' . $image . '</li></a>' ."\r\n" ."\r\n";
 						
 					endforeach;
 				endif;
 
-				echo '</div>';
+				echo '</ul></div>';
 			}
 
 			/**
