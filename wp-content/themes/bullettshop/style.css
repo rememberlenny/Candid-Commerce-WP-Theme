@@ -9917,6 +9917,10 @@ div.accordion section.active div.content {
 .widget ul {
   font-size: .9em !important;
 }
+/* line 13, sass/element/sidebar/widget.scss */
+.widget .count {
+  display: none;
+}
 
 /* line 1, sass/element/woocommerce/_pagination.scss */
 .page-numbers {
