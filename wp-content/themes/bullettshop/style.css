@@ -9891,8 +9891,9 @@ div.accordion section.active div.content {
   width: 100%;
 }
 
-/* line 2, sass/element/checkout/cart.scss */
-.woocommerce-cart #secondary {
+/* line 4, sass/element/checkout/cart.scss */
+.woocommerce-cart #secondary,
+.woocommerce-checkout #secondary {
   display: none;
 }
 
