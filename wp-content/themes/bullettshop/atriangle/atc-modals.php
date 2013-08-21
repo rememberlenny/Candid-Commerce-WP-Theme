@@ -21,8 +21,8 @@ function ipadPopUpModal(){
 function PopUpModal(){
   ?>
   <script>
-    ipadPopUpScript();
-    ipadPopUpModal();
+    <?php ipadPopUpScript(); ?>
+    <?php ipadPopUpModal(); ?>
   </script>
   <?php
 }
