@@ -76,27 +76,12 @@ $quaternary: 	desaturate( darken( $tertiary, 45%), 40% ); /* Price slider bg */
 
 .woocommerce-message {
 	border-top:3px solid #8fae1b;
-	&:before {
-		background-color:#8fae1b;
-		content: "\2713";
-	}
 }
 .woocommerce-info {
 	border-top:3px solid #1e85be;
-	&:before {
-		background-color:#1e85be;
-		content: "i";
-		font-family: Times, Georgia, serif;
-		font-style: italic;
-	}
 }
 .woocommerce-error {
 	border-top:3px solid #b81c23;
-	&:before {
-		background-color:#b81c23;
-		content: "\00d7";
-		font-weight: 700;
-	}
 }
 
 p.demo_store {
