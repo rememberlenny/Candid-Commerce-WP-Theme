@@ -9722,6 +9722,11 @@ nav.woocommerce-breadcrumb a {
     padding-right: 15px !important;
   }
 }
+/* line 11, sass/element/header/_top-bar-dropdown.scss */
+.wpmenucart li {
+  list-style: none;
+}
+
 /* line 3, sass/element/header/_dropdown.scss */
 .main-navigation ul > * {
   background: white;
@@ -9902,6 +9907,15 @@ div.accordion section.active div.content {
 /* line 1, sass/element/sidebar/widget.scss */
 .widget {
   font-size: .88em;
+}
+/* line 4, sass/element/sidebar/widget.scss */
+.widget .widget-title {
+  font-size: .95em !important;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.8);
+}
+/* line 9, sass/element/sidebar/widget.scss */
+.widget ul {
+  font-size: .9em !important;
 }
 
 /* line 1, sass/element/woocommerce/_pagination.scss */
