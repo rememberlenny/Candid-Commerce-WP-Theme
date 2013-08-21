@@ -1,4 +1,19 @@
 
+@media only screen and (min-width: 768px){
+  .product{
+    .large-8{
+      .images{
+        #wrap{
+          width:80%;
+        }
+        .thumbnails{
+          width: 20%;
+          max-width: 90px;
+        }
+      }
+    }
+  }  
+}
 
 
 $default-spacing: 0.9375em;
