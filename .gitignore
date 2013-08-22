@@ -6,6 +6,8 @@
 *.swp
 Thumbs.db
 
+wp-content/themes/bullettshop/.sass-cache/ 
+
 # wordpress specific
 wp-config.php
 wp-content/uploads/
