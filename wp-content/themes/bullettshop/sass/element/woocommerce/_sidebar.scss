@@ -5,8 +5,12 @@
     }
     li{
       text-transform: capitalize;
+      list-style: none !important;
     }
   }
+}
+.woocommerce-ordering{
+  padding-left: .9735em;
 }
 select{ 
   border: none;
