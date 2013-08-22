@@ -50,10 +50,10 @@
             <nav class="top-bar">
                 <ul class="title-area">
                 	<li>
-										<a href="#" class="social-icon"><img src="<?php bloginfo('template_directory'); ?>/images/common-assets/icon-facebook.png"></a>
-										<a href="#" class="social-icon"><img src="<?php bloginfo('template_directory'); ?>/images/common-assets/icon-twitter.png"></a>
-										<a href="#" class="social-icon"><img src="<?php bloginfo('template_directory'); ?>/images/common-assets/icon-insta.png"></a>
-										<a href="#" class="social-icon"><img src="<?php bloginfo('template_directory'); ?>/images/common-assets/icon-tumblr.png"></a>     
+										<a href="http://www.facebook.com/pages/Bullett-Magazine/143235499055215" class="social-icon"><img src="<?php bloginfo('template_directory'); ?>/images/common-assets/icon-facebook.png"></a>
+										<a href="http://twitter.com/#!/bullettmedia/" class="social-icon"><img src="<?php bloginfo('template_directory'); ?>/images/common-assets/icon-twitter.png"></a>
+										<a href="http://instagram.com/bullettmagazine" class="social-icon"><img src="<?php bloginfo('template_directory'); ?>/images/common-assets/icon-insta.png"></a>
+										<a href="http://bullettmedia.tumblr.com/" class="social-icon"><img src="<?php bloginfo('template_directory'); ?>/images/common-assets/icon-tumblr.png"></a>     
                   </li>
                   <li class="toggle-topbar menu-icon"><a href="#"><span>Menu</span></a></li>
                 </ul>

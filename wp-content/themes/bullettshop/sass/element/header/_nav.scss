@@ -65,12 +65,12 @@
   .cart-menu-holder{
     display: block;
     i{
-      font-size: 3em;
+      font-size: 2.6em;
       color: rgb(229, 0, 230);
     }
     margin-bottom: 0em;
     padding-bottom: 0em;
-    margin-top: -49px;
+    margin-top: -63px;
     float: right;
     .sub-menu{
       display: block !important;
@@ -83,7 +83,7 @@
       li{
         padding: 4px 10px !important;
         &:hover{
-          background: darken(#fff, 5%);
+          background: darken(#fff, 5%) !important;
         }
       }
     }

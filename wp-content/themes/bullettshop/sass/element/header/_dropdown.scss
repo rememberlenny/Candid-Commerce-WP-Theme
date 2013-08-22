@@ -31,8 +31,10 @@
   }
   .top-bar-section .has-dropdown{
     &:hover{
+      background: darken(white, 10%) !important;
       visibility: visible !important;
       a{
+        background: darken(white, 10%) !important;
         visibility: visible !important;
         li{
           visibility: visible !important;
