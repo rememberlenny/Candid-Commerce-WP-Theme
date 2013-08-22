@@ -3,3 +3,8 @@
 .woocommerce-checkout #secondary {
   display: none;
 }
+
+/* line 9, ../../sass/element/checkout/cart.scss */
+.cart_totals p {
+  clear: both;
+}
