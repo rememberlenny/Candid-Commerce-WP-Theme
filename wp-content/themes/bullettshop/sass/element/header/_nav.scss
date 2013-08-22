@@ -1,5 +1,16 @@
-.top-bar-section li.has-dropdown > a:hover {
-  background: darken(white, 10%);
+#main-menu-header{
+  li:hover{
+    a{
+      background: darken(white, 10%) !important;
+    }
+  }
+  ul.dropdown{
+    li:hover{
+      a{
+        background: darken(white, 10%) !important;
+      }
+    }
+  }
 }
 
 @media only screen and (max-width: 768px){
