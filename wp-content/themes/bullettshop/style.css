@@ -10296,11 +10296,22 @@ select {
   list-style: none !important;
 }
 
-/* line 2, sass/element/woocommerce/_breadcrumbs.scss */
+/* line 3, sass/element/woocommerce/_breadcrumbs.scss */
+.woocommerce-breadcrumb {
+  display: none;
+  padding-left: .9735em;
+}
+/* line 5, sass/element/woocommerce/_breadcrumbs.scss */
 .woocommerce-breadcrumb a.home {
   display: none;
 }
 
+@media only screen and (min-width: 768px) {
+  /* line 12, sass/element/woocommerce/_breadcrumbs.scss */
+  .woocommerce-breadcrumb {
+    display: inline-block;
+  }
+}
 /* line 2, sass/state/content-body/_pre.scss */
 .home #content {
   padding-top: 26px;
