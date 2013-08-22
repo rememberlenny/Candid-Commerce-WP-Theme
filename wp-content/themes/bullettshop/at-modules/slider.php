@@ -1,5 +1,5 @@
 
-<?php if(get_field('image_slider_repeater')): ?>
+<?php if(get_field('image_slider_repeater', 'option')): ?>
   <div id="slide-case" class="slideshow-wrapper row slide-case">
     <div class="preloader"></div>
     <ul data-orbit data-options="animation:fade; bullets: false; slide_number: false; timer: false;">
