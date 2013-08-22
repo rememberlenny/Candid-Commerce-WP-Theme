@@ -9780,10 +9780,15 @@ nav.woocommerce-breadcrumb a {
   top: 0;
   z-index: 100;
   background: white;
-  border-bottom: 1px solid black;
 }
 
-/* line 10, sass/element/header/_headpos.scss */
+@media only screen and (max-width: 768px) {
+  /* line 12, sass/element/header/_headpos.scss */
+  #masthead {
+    border-bottom: 1px solid black;
+  }
+}
+/* line 16, sass/element/header/_headpos.scss */
 #content {
   margin-top: 248px;
 }
