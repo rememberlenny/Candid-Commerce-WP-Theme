@@ -14,7 +14,9 @@
 
 	<footer id="colophon" class="site-footer row" role="contentinfo">
 		<div class="foot">
-			<div class="logo"></div>
+      <a href="#content">
+        <div class="logo"></div>
+      </a>
     </div>
     <div class="row text-center">
       <ul class="inline-list text-center privacy-links" style="">

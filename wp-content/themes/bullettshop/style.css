@@ -9787,12 +9787,12 @@ nav.woocommerce-breadcrumb a {
   #masthead {
     border-bottom: 1px solid black;
   }
-}
-/* line 16, sass/element/header/_headpos.scss */
-#content {
-  margin-top: 248px;
-}
 
+  /* line 15, sass/element/header/_headpos.scss */
+  #content {
+    margin-top: 248px;
+  }
+}
 /* line 1, sass/element/header/search.scss */
 input[type="search"] {
   background-color: #e6e6e6;
@@ -10013,19 +10013,30 @@ div.accordion section.active div.content {
 }
 
 /* line 1, sass/element/sidebar/widget.scss */
+#secondary {
+  display: none;
+}
+
+@media only screen and (max-width: 768px) {
+  /* line 6, sass/element/sidebar/widget.scss */
+  #secondary {
+    display: block;
+  }
+}
+/* line 11, sass/element/sidebar/widget.scss */
 .widget {
   font-size: .88em;
 }
-/* line 4, sass/element/sidebar/widget.scss */
+/* line 14, sass/element/sidebar/widget.scss */
 .widget .widget-title {
   font-size: .95em !important;
   border-bottom: 1px solid rgba(0, 0, 0, 0.8);
 }
-/* line 9, sass/element/sidebar/widget.scss */
+/* line 19, sass/element/sidebar/widget.scss */
 .widget ul {
   font-size: .9em !important;
 }
-/* line 13, sass/element/sidebar/widget.scss */
+/* line 23, sass/element/sidebar/widget.scss */
 .widget .count {
   display: none;
 }
