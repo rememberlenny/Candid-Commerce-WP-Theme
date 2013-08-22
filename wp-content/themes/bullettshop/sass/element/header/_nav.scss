@@ -1,3 +1,7 @@
+.top-bar-section li.has-dropdown > a:hover {
+  background: darken(white, 10%);
+}
+
 @media only screen and (max-width: 768px){
 
   #masthead .site-branding {
