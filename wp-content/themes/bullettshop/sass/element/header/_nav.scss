@@ -1,17 +1,18 @@
-#main-menu-header{
+.top-bar-section{
   li:hover{
-    a{
+    a:not(.button){
       background: darken(white, 10%) !important;
     }
   }
   ul.dropdown{
     li:hover{
-      a{
+      a:not(.button){
         background: darken(white, 10%) !important;
       }
     }
   }
 }
+
 
 @media only screen and (max-width: 768px){
 
