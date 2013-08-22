@@ -14,7 +14,7 @@
 
 	<footer id="colophon" class="site-footer row" role="contentinfo">
 		<div class="foot">
-      <a href="#content">
+      <a href="<?php echo home_url(); ?>">
         <div class="logo"></div>
       </a>
     </div>
