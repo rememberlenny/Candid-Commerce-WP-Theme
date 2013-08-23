@@ -8,8 +8,8 @@ h1.site-title {
 }
 /* line 6, ../../sass/element/header/site-title.scss */
 h1.site-title:hover {
-  background-size: contain;
   background: url("http://shop.bullettmedia.com/wp-content/uploads/2013/08/hover1.png") center center no-repeat;
+  background-size: contain;
 }
 
 /* line 13, ../../sass/element/header/site-title.scss */
@@ -20,7 +20,7 @@ h1.site-title:hover {
 @media only screen and (max-width: 768px) {
   /* line 18, ../../sass/element/header/site-title.scss */
   .top-bar-container {
-    padding-bottom: .8em;
+    padding-bottom: .3em;
   }
 
   /* line 21, ../../sass/element/header/site-title.scss */

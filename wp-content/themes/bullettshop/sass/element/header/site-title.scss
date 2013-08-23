@@ -4,8 +4,8 @@ h1.site-title{
     background: url('http://bullettstoreat.wpengine.com/wp-content/uploads/2013/08/bullettshop-logo.png') center center no-repeat;
     background-size: contain;
     &:hover{
-      background-size: contain;
       background: url('http://shop.bullettmedia.com/wp-content/uploads/2013/08/hover1.png') center center no-repeat;
+      background-size: contain;
     }
     margin: 0 auto;
 }
@@ -16,7 +16,7 @@ h1.site-title{
 
 @media only screen and (max-width: 768px) {
   .top-bar-container {
-    padding-bottom: .8em;
+    padding-bottom: .3em;
   }
   .site-branding{
   padding-bottom: .5em;
