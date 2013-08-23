@@ -9629,7 +9629,7 @@ label {
 @media only screen and (max-width: 58.75em) {
   /* line 59, sass/element/header/_nav.scss */
   li.social-icon-wrap {
-    height: 59px;
+    height: 50px;
   }
 }
 @media only screen and (min-width: 58.75em) {
@@ -9817,46 +9817,58 @@ h1.site-title {
 }
 /* line 6, sass/element/header/site-title.scss */
 h1.site-title:hover {
+  background-size: contain;
   background: url("http://shop.bullettmedia.com/wp-content/uploads/2013/08/hover1.png") center center no-repeat;
 }
 
-/* line 12, sass/element/header/site-title.scss */
+/* line 13, sass/element/header/site-title.scss */
 #page {
   margin-top: 84px;
 }
 
+@media only screen and (max-width: 768px) {
+  /* line 18, sass/element/header/site-title.scss */
+  .top-bar-container {
+    padding-bottom: .8em;
+  }
+
+  /* line 21, sass/element/header/site-title.scss */
+  .site-branding {
+    padding-bottom: .5em;
+  }
+}
 @media only screen and (min-width: 768px) {
-  /* line 17, sass/element/header/site-title.scss */
+  /* line 27, sass/element/header/site-title.scss */
   h1.site-title {
     position: relative;
   }
 }
 @media only screen and (max-width: 58.75em) {
-  /* line 22, sass/element/header/site-title.scss */
+  /* line 32, sass/element/header/site-title.scss */
   h1.site-title {
     width: 200px;
     height: 33px;
   }
 }
 @media only screen and (max-width: 58.75em) and (min-width: 768px) {
-  /* line 28, sass/element/header/site-title.scss */
+  /* line 38, sass/element/header/site-title.scss */
   #page {
     margin-top: 153px;
   }
 
-  /* line 31, sass/element/header/site-title.scss */
+  /* line 41, sass/element/header/site-title.scss */
   h1.site-title {
     width: 380px;
     height: 63px;
   }
 }
 @media only screen and (min-width: 58.75em) {
-  /* line 37, sass/element/header/site-title.scss */
+  /* line 47, sass/element/header/site-title.scss */
   #page {
     margin-top: 213px;
   }
 
-  /* line 40, sass/element/header/site-title.scss */
+  /* line 50, sass/element/header/site-title.scss */
   h1.site-title {
     width: 594px;
     height: 98px;
