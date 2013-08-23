@@ -21,11 +21,11 @@
     <div class="row text-center">
       <ul class="inline-list text-center privacy-links" style="">
         <li>
-          <a href="<?php echo get_page_link('privacy'); ?>">Privacy</a>
+          <a href="http://shop.bullettmedia.com/privacy-policy/">Privacy</a>
         </li>
         <li>|</li>
         <li>
-          <a href="<?php echo get_page_link('store-policy'); ?>">Store Policy</a>
+          <a href="http://shop.bullettmedia.com/store-policy/">Store Policy</a>
         </li>
       </ul>
     </div>
