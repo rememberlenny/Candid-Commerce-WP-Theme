@@ -1,13 +1,11 @@
 .top-bar-section{
   li:hover{
     a:not(.button){
-      background: darken(white, 10%) !important;
     }
   }
   ul.dropdown{
     li:hover{
       a:not(.button){
-        background: darken(white, 10%) !important;
       }
     }
   }
@@ -135,7 +133,7 @@
 
 @media only screen{
   .title-area{
-    margin-top: .5em;
+    margin-top: .5em !important;
     .social-icon{
       visibility: hidden;
     }
