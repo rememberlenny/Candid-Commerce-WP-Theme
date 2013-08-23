@@ -9935,39 +9935,37 @@ input[type="search"]:focus {
 
   /* line 33, sass/element/header/_dropdown.scss */
   .top-bar-section .has-dropdown:hover {
-    background: #e6e6e6 !important;
     visibility: visible !important;
   }
-  /* line 36, sass/element/header/_dropdown.scss */
+  /* line 35, sass/element/header/_dropdown.scss */
   .top-bar-section .has-dropdown:hover a {
-    background: #e6e6e6 !important;
     visibility: visible !important;
   }
-  /* line 39, sass/element/header/_dropdown.scss */
+  /* line 37, sass/element/header/_dropdown.scss */
   .top-bar-section .has-dropdown:hover a li {
     visibility: visible !important;
   }
-  /* line 41, sass/element/header/_dropdown.scss */
+  /* line 39, sass/element/header/_dropdown.scss */
   .top-bar-section .has-dropdown:hover a li ul {
     visibility: visible !important;
   }
-  /* line 43, sass/element/header/_dropdown.scss */
+  /* line 41, sass/element/header/_dropdown.scss */
   .top-bar-section .has-dropdown:hover a li ul li {
     visibility: visible !important;
   }
-  /* line 50, sass/element/header/_dropdown.scss */
+  /* line 48, sass/element/header/_dropdown.scss */
   .top-bar-section .has-dropdown .dropdown {
     min-width: 232px;
   }
-  /* line 52, sass/element/header/_dropdown.scss */
+  /* line 50, sass/element/header/_dropdown.scss */
   .top-bar-section .has-dropdown .dropdown li {
     width: 116px;
   }
-  /* line 54, sass/element/header/_dropdown.scss */
+  /* line 52, sass/element/header/_dropdown.scss */
   .top-bar-section .has-dropdown .dropdown li ul {
     min-width: 100%;
   }
-  /* line 56, sass/element/header/_dropdown.scss */
+  /* line 54, sass/element/header/_dropdown.scss */
   .top-bar-section .has-dropdown .dropdown li ul li {
     width: 100% !important;
   }
