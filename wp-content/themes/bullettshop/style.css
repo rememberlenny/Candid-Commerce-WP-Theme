@@ -9905,13 +9905,8 @@ input[type="search"]:focus {
   list-style: none;
 }
 
-/* line 3, sass/element/header/_dropdown.scss */
-.main-navigation ul > * {
-  background: white;
-}
-
 @media only screen and (min-width: 58.75em) {
-  /* line 14, sass/element/header/_dropdown.scss */
+  /* line 13, sass/element/header/_dropdown.scss */
   .top-bar-section .has-dropdown > a:after {
     content: "";
     display: none !important;
@@ -9927,45 +9922,45 @@ input[type="search"]:focus {
     right: 0;
   }
 
-  /* line 28, sass/element/header/_dropdown.scss */
+  /* line 27, sass/element/header/_dropdown.scss */
   .top-bar-section .dropdown li .dropdown {
     left: 0%;
     top: auto;
   }
 
-  /* line 33, sass/element/header/_dropdown.scss */
+  /* line 32, sass/element/header/_dropdown.scss */
   .top-bar-section .has-dropdown:hover {
     visibility: visible !important;
   }
-  /* line 35, sass/element/header/_dropdown.scss */
+  /* line 34, sass/element/header/_dropdown.scss */
   .top-bar-section .has-dropdown:hover a {
     visibility: visible !important;
   }
-  /* line 37, sass/element/header/_dropdown.scss */
+  /* line 36, sass/element/header/_dropdown.scss */
   .top-bar-section .has-dropdown:hover a li {
     visibility: visible !important;
   }
-  /* line 39, sass/element/header/_dropdown.scss */
+  /* line 38, sass/element/header/_dropdown.scss */
   .top-bar-section .has-dropdown:hover a li ul {
     visibility: visible !important;
   }
-  /* line 41, sass/element/header/_dropdown.scss */
+  /* line 40, sass/element/header/_dropdown.scss */
   .top-bar-section .has-dropdown:hover a li ul li {
     visibility: visible !important;
   }
-  /* line 48, sass/element/header/_dropdown.scss */
+  /* line 47, sass/element/header/_dropdown.scss */
   .top-bar-section .has-dropdown .dropdown {
     min-width: 232px;
   }
-  /* line 50, sass/element/header/_dropdown.scss */
+  /* line 49, sass/element/header/_dropdown.scss */
   .top-bar-section .has-dropdown .dropdown li {
     width: 116px;
   }
-  /* line 52, sass/element/header/_dropdown.scss */
+  /* line 51, sass/element/header/_dropdown.scss */
   .top-bar-section .has-dropdown .dropdown li ul {
     min-width: 100%;
   }
-  /* line 54, sass/element/header/_dropdown.scss */
+  /* line 53, sass/element/header/_dropdown.scss */
   .top-bar-section .has-dropdown .dropdown li ul li {
     width: 100% !important;
   }
