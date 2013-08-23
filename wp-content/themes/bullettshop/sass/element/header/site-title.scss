@@ -1,0 +1,44 @@
+.site-title{
+  a{
+    background: url('http://bullettstoreat.wpengine.com/wp-content/uploads/2013/08/bullettshop-logo.png') center center no-repeat;
+    &:hover{
+      background: url('http://bullettstoreat.wpengine.com/wp-content/uploads/2013/08/bullettshop-logo.png') center center no-repeat;
+    }
+
+  }
+}
+
+#page{
+  margin-top: 84px;
+}
+
+@media only screen and (max-width: 58.75em) {
+  .site-title{
+    a{
+      width: 200px;
+      height: 33px;
+    }
+  }
+}
+@media only screen and (max-width: 58.75em) and (min-width: 768px) {
+  #page{
+    margin-top: 153px;
+  }
+  .site-title{
+    a{
+      width: 380px;
+      height: 63px;
+    }
+  }
+}
+@media only screen and (min-width: 58.75em) {
+  #page{
+    margin-top: 213px;
+  }
+  .site-title{
+    a{
+      width: 594px;
+      height: 98px;
+    }
+  }
+}
