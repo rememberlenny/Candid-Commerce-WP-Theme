@@ -9737,37 +9737,41 @@ nav.woocommerce-breadcrumb a {
   color: black !important;
 }
 
-/* line 156, sass/element/header/_nav.scss */
+/* line 155, sass/element/header/_nav.scss */
+#masthead {
+  border-bottom: 1px solid black;
+}
+/* line 157, sass/element/header/_nav.scss */
 #masthead #site-navigation {
   font-family: RaisonneDemibold, "RaisonneDemibold", Helvetica, Arial, san-serif;
   border-color: #333;
 }
-/* line 159, sass/element/header/_nav.scss */
+/* line 160, sass/element/header/_nav.scss */
 #masthead #site-navigation a {
   color: black;
 }
-/* line 163, sass/element/header/_nav.scss */
+/* line 164, sass/element/header/_nav.scss */
 #masthead .social-icon-case {
   float: left;
 }
-/* line 165, sass/element/header/_nav.scss */
+/* line 166, sass/element/header/_nav.scss */
 #masthead .social-icon-case .inline-list {
   display: inline-block;
 }
-/* line 168, sass/element/header/_nav.scss */
+/* line 169, sass/element/header/_nav.scss */
 #masthead .social-icon-case .inline-list li {
   margin-left: 0px;
 }
-/* line 178, sass/element/header/_nav.scss */
+/* line 179, sass/element/header/_nav.scss */
 #masthead form.search-form {
   display: inline-block !important;
   float: right;
 }
-/* line 185, sass/element/header/_nav.scss */
+/* line 186, sass/element/header/_nav.scss */
 #masthead form:hover .search-submit, #masthead form:focus .search-submit, #masthead form:active .search-submit {
   opacity: 1;
 }
-/* line 189, sass/element/header/_nav.scss */
+/* line 190, sass/element/header/_nav.scss */
 #masthead form .search-submit {
   opacity: 0;
 }
