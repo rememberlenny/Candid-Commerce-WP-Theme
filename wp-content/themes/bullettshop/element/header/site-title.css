@@ -13,32 +13,32 @@
 }
 
 @media only screen and (max-width: 58.75em) {
-  /* line 17, ../../sass/element/header/site-title.scss */
-  .site-title a {
+  /* line 16, ../../sass/element/header/site-title.scss */
+  h1.site-title {
     width: 200px;
     height: 33px;
   }
 }
 @media only screen and (max-width: 58.75em) and (min-width: 768px) {
-  /* line 24, ../../sass/element/header/site-title.scss */
+  /* line 22, ../../sass/element/header/site-title.scss */
   #page {
     margin-top: 153px;
   }
 
-  /* line 28, ../../sass/element/header/site-title.scss */
-  .site-title a {
+  /* line 25, ../../sass/element/header/site-title.scss */
+  h1.site-title {
     width: 380px;
     height: 63px;
   }
 }
 @media only screen and (min-width: 58.75em) {
-  /* line 35, ../../sass/element/header/site-title.scss */
+  /* line 31, ../../sass/element/header/site-title.scss */
   #page {
     margin-top: 213px;
   }
 
-  /* line 39, ../../sass/element/header/site-title.scss */
-  .site-title a {
+  /* line 34, ../../sass/element/header/site-title.scss */
+  h1.site-title {
     width: 594px;
     height: 98px;
   }

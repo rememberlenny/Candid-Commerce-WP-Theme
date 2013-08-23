@@ -13,32 +13,26 @@
 }
 
 @media only screen and (max-width: 58.75em) {
-  .site-title{
-    a{
+  h1.site-title{
       width: 200px;
       height: 33px;
-    }
   }
 }
 @media only screen and (max-width: 58.75em) and (min-width: 768px) {
   #page{
     margin-top: 153px;
   }
-  .site-title{
-    a{
+  h1.site-title{
       width: 380px;
       height: 63px;
-    }
   }
 }
 @media only screen and (min-width: 58.75em) {
   #page{
     margin-top: 213px;
   }
-  .site-title{
-    a{
+  h1.site-title{
       width: 594px;
       height: 98px;
-    }
   }
 }
