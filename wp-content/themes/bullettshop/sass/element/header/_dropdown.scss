@@ -62,10 +62,16 @@
 @media only screen and (min-width: 58.75em) {
   
   /* line 411, ../../../../../../.rvm/gems/ruby-1.9.3-p429/gems/zurb-foundation-4.3.1/scss/foundation/components/_top-bar.scss */
-  .top-bar-section li a:not(.button).hover {
-    background: #b3b3b3 !important;
+  .top-bar-section li{ 
+    .menu-item{
+      &:hover{
+        background: #b3b3b3 !important;
+      }
+    }
+    a:not(.button).hover {
+      background: #b3b3b3 !important;
+    }
   }
-
 
   /* line 510, ../../../../../../.rvm/gems/ruby-1.9.3-p429/gems/zurb-foundation-4.3.1/scss/foundation/components/_top-bar.scss */
   .no-js .top-bar-section ul li:hover > a {

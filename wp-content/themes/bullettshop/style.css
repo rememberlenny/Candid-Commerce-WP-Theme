@@ -9967,13 +9967,17 @@ input[type="search"]:focus {
 }
 @media only screen and (min-width: 58.75em) {
   /* line 411, ../../../../../../.rvm/gems/ruby-1.9.3-p429/gems/zurb-foundation-4.3.1/scss/foundation/components/_top-bar.scss */
-  /* line 65, sass/element/header/_dropdown.scss */
+  /* line 67, sass/element/header/_dropdown.scss */
+  .top-bar-section li .menu-item:hover {
+    background: #b3b3b3 !important;
+  }
+  /* line 71, sass/element/header/_dropdown.scss */
   .top-bar-section li a:not(.button).hover {
     background: #b3b3b3 !important;
   }
 
   /* line 510, ../../../../../../.rvm/gems/ruby-1.9.3-p429/gems/zurb-foundation-4.3.1/scss/foundation/components/_top-bar.scss */
-  /* line 71, sass/element/header/_dropdown.scss */
+  /* line 77, sass/element/header/_dropdown.scss */
   .no-js .top-bar-section ul li:hover > a {
     background: #f7f7f7 !important;
     color: #333;
