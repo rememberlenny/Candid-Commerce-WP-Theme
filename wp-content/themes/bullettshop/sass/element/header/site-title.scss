@@ -1,11 +1,9 @@
-.site-title{
-  a{
+h1.site-title{
     background: url('http://bullettstoreat.wpengine.com/wp-content/uploads/2013/08/bullettshop-logo.png') center center no-repeat;
     &:hover{
       background: url('http://bullettstoreat.wpengine.com/wp-content/uploads/2013/08/bullettshop-logo.png') center center no-repeat;
     }
-
-  }
+    margin: 0 auto;
 }
 
 #page{
