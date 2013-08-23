@@ -15,6 +15,12 @@
 
 
 @media only screen and (max-width: 768px){
+  .woocommerce-result-count,
+  .woocommerce-ordering
+  {
+    display: none;
+  }
+
   .top-bar-container{
     padding-bottom: 0.3em;
   }
