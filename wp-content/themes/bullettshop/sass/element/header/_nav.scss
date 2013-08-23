@@ -15,6 +15,9 @@
 
 
 @media only screen and (max-width: 768px){
+  .top-bar-container{
+    padding-bottom: 0.3em;
+  }
 
   #masthead .site-branding {
     margin-bottom: -1.4em;
@@ -52,6 +55,11 @@
   }
 }
 
+@media only screen and (max-width: 58.75em){
+  li.social-icon-wrap{
+    height: 45px;
+  }
+}
 @media only screen and (min-width: 58.75em){
   #masthead .site-branding {
     margin-bottom: 20px;
@@ -121,6 +129,7 @@
 
 @media only screen{
   .title-area{
+    margin-top: .5em;
     .social-icon{
       visibility: hidden;
     }
@@ -162,6 +171,7 @@ nav.woocommerce-breadcrumb{
     }
   }
   .social-icon-case{
+
     float:left;
     .inline-list{
       display: inline-block; 

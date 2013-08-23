@@ -5,11 +5,11 @@
   a.home{
     display: none;
   }
-  padding-left: .9735em;
 }
 
 @media only screen and (min-width: 768px){
   .woocommerce-breadcrumb{
     display: inline-block;
+    padding-left: .9735em !important;
   }
 }

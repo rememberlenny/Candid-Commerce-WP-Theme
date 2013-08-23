@@ -52,7 +52,7 @@
 	        <div class="top-bar-container contain-to-grid">
             <nav class="top-bar">
                 <ul class="title-area">
-                	<li>
+                	<li class="social-icon-wrap">
 										<a href="http://www.facebook.com/pages/Bullett-Magazine/143235499055215" class="social-icon"><img src="<?php bloginfo('template_directory'); ?>/images/common-assets/icon-facebook.png"></a>
 										<a href="http://twitter.com/#!/bullettmedia/" class="social-icon"><img src="<?php bloginfo('template_directory'); ?>/images/common-assets/icon-twitter.png"></a>
 										<a href="http://instagram.com/bullettmagazine" class="social-icon"><img src="<?php bloginfo('template_directory'); ?>/images/common-assets/icon-insta.png"></a>

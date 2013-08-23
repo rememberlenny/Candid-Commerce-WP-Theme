@@ -1,44 +1,53 @@
 /* line 1, ../../sass/element/header/site-title.scss */
 h1.site-title {
+  position: absolute;
+  z-index: 100;
   background: url("http://bullettstoreat.wpengine.com/wp-content/uploads/2013/08/bullettshop-logo.png") center center no-repeat;
+  background-size: contain;
   margin: 0 auto;
 }
-/* line 3, ../../sass/element/header/site-title.scss */
+/* line 6, ../../sass/element/header/site-title.scss */
 h1.site-title:hover {
   background: url("http://shop.bullettmedia.com/wp-content/uploads/2013/08/hover1.png") center center no-repeat;
 }
 
-/* line 9, ../../sass/element/header/site-title.scss */
+/* line 12, ../../sass/element/header/site-title.scss */
 #page {
   margin-top: 84px;
 }
 
+@media only screen and (min-width: 768px) {
+  /* line 17, ../../sass/element/header/site-title.scss */
+  h1.site-title {
+    position: relative;
+  }
+}
 @media only screen and (max-width: 58.75em) {
-  /* line 14, ../../sass/element/header/site-title.scss */
+  /* line 22, ../../sass/element/header/site-title.scss */
   h1.site-title {
     width: 200px;
     height: 33px;
   }
 }
 @media only screen and (max-width: 58.75em) and (min-width: 768px) {
-  /* line 20, ../../sass/element/header/site-title.scss */
+  /* line 28, ../../sass/element/header/site-title.scss */
   #page {
     margin-top: 153px;
   }
 
-  /* line 23, ../../sass/element/header/site-title.scss */
+  /* line 31, ../../sass/element/header/site-title.scss */
   h1.site-title {
     width: 380px;
     height: 63px;
   }
 }
 @media only screen and (min-width: 58.75em) {
-  /* line 29, ../../sass/element/header/site-title.scss */
+  /* line 37, ../../sass/element/header/site-title.scss */
   #page {
     margin-top: 213px;
   }
 
-  /* line 32, ../../sass/element/header/site-title.scss */
+  /* line 40, ../../sass/element/header/site-title.scss */
   h1.site-title {
     width: 594px;
     height: 98px;
