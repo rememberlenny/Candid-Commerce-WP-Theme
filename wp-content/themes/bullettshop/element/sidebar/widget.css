@@ -3,10 +3,10 @@
   display: none;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (min-width: 768px) {
   /* line 6, ../../sass/element/sidebar/widget.scss */
   #secondary {
-    display: block;
+    display: block !important;
   }
 }
 /* line 11, ../../sass/element/sidebar/widget.scss */
