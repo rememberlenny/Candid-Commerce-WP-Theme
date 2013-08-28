@@ -1603,14 +1603,13 @@ p.demo_store {
 				border: 1px solid rgb(0, 0, 0);
 				a {
 					padding: 0 6px 0 18px;
-					background: white url('/wp-content/themes/bullettshop/images/cross-flip.png') no-repeat left top;
+					background: url('/wp-content/themes/bullettshop/images/cross-flip.png') no-repeat left top;
 					// @include inset_box_shadow(0, 1px, 1px, rgba(255,255,255,0.5));
 					color: black;
 					// @include border_radius(3px);
 					background-position: 3px -12px;
 				}
 				&:hover{
-					background: white !important;
 				}
 			}
 			small.count {
