@@ -33,7 +33,7 @@ $classes = array();
 
 ?>
 <?php 
-	if ( the_ID() == "419"){
+	if ( get_the_ID() == "419"){
 		echo 'hollaback';
 	}
 ?>  
