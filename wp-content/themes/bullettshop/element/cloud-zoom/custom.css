@@ -14,12 +14,13 @@ body .cloud-zoom-big {
   -moz-box-shadow: none !important;
   -webkit-box-shadow: none !important;
   box-shadow: none !important;
+  border: 2px solid black;
 }
-/* line 15, ../../sass/element/cloud-zoom/custom.scss */
+/* line 17, ../../sass/element/cloud-zoom/custom.scss */
 body .cloud-center {
   text-align: center;
 }
-/* line 19, ../../sass/element/cloud-zoom/custom.scss */
+/* line 21, ../../sass/element/cloud-zoom/custom.scss */
 body .cloud-zoom-lens {
   border: 2px solid black;
   margin: -2px;
@@ -27,7 +28,7 @@ body .cloud-zoom-lens {
   background-color: #fff;
   cursor: move;
 }
-/* line 27, ../../sass/element/cloud-zoom/custom.scss */
+/* line 29, ../../sass/element/cloud-zoom/custom.scss */
 body .cloud-zoom-title {
   font-family: Arial, Helvetica, sans-serif;
   position: absolute !important;
@@ -40,19 +41,19 @@ body .cloud-zoom-title {
   font-size: 10px;
   top: 0px;
 }
-/* line 41, ../../sass/element/cloud-zoom/custom.scss */
+/* line 43, ../../sass/element/cloud-zoom/custom.scss */
 body .cloud-zoom-big {
   border: 20px solid #fff;
   overflow: hidden;
 }
-/* line 47, ../../sass/element/cloud-zoom/custom.scss */
+/* line 49, ../../sass/element/cloud-zoom/custom.scss */
 body .cloud-zoom-loading {
   color: white;
   background: #222;
   padding: 3px;
   border: 1px solid #000;
 }
-/* line 54, ../../sass/element/cloud-zoom/custom.scss */
+/* line 56, ../../sass/element/cloud-zoom/custom.scss */
 body a#cloud-link {
   position: relative;
   top: 10px;
