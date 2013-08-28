@@ -33,7 +33,7 @@ $classes = array();
 
 ?>
 <?php 
-	if (post_class( $classes ) == "post-419"){
+	if ( the_ID() == "419"){
 		echo 'hollaback';
 	}
 ?>  
