@@ -35,3 +35,8 @@
 .widget li.chosen {
   backgrond: none !important;
 }
+
+/* line 41, ../../sass/element/sidebar/widget.scss */
+.error404 #secondary {
+  display: none !important;
+}

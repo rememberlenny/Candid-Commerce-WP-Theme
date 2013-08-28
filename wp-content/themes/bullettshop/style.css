@@ -10123,6 +10123,11 @@ div.accordion section.active div.content {
   backgrond: none !important;
 }
 
+/* line 41, sass/element/sidebar/widget.scss */
+.error404 #secondary {
+  display: none !important;
+}
+
 /* line 1, sass/element/cloud-zoom/custom.scss */
 body {
   /* This is the zoom window. */
