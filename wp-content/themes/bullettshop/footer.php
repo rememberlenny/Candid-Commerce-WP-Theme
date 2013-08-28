@@ -13,7 +13,7 @@
 	</div><!-- #content -->
 
 	<footer id="colophon" class="site-footer row" role="contentinfo">
-		<div class="row text-center" style="margin-bottom:1em;">
+		<div class="row text-center" style="margin-bottom:1em; opacity: .5;">
       <a href="#back-top">▲ Back to Top</a>
     </div>
     <div class="foot">
