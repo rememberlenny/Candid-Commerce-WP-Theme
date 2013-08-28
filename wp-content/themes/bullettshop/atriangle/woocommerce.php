@@ -112,6 +112,12 @@ function atc_end_shoploop_text_box(){
   echo '</div>';
 }
 
+function after_thething(){
+  echo "/* after */";
+}
+function before_thething(){
+  echo "/* before */";
+}
 
   add_action(     'woocommerce_after_shop_loop_item_title',       'atc_title_display_cat',   7 );
   add_action(     'woocommerce_after_shop_loop_item_title',       'atc_display_tag',    5 );
@@ -121,6 +127,8 @@ function atc_end_shoploop_text_box(){
   add_action( 'woocommerce_after_shop_loop_item_title', 'atc_begin_shoploop_text_box', 3);
   add_action( 'woocommerce_after_shop_loop_item_title', 'atc_end_shoploop_text_box', 15);
   add_action( 'woocommerce_after_shop_loop_item_title', 'atc_end_shoploop_item_perma', 20);
+  add_action( 'woocommerce_after_shop_loop_item_title', 'before_thething', 9);
+  add_action( 'woocommerce_after_shop_loop_item_title', 'after_thething', 11);
 
 
 
