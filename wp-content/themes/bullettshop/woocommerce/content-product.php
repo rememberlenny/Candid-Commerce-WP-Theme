@@ -33,9 +33,7 @@ $classes = array();
 
 ?>
 <?php 
-	if ( get_the_ID() == "419"){
 		echo '<!--'. $classes .'-->';
-	}
 ?>  
 
 <li <?php post_class( $classes ); ?>>
