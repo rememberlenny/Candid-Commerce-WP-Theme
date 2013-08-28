@@ -1609,6 +1609,9 @@ p.demo_store {
 					// @include border_radius(3px);
 					background-position: 3px -12px;
 				}
+				&:hover{
+					background: white !important;
+				}
 			}
 			small.count {
 				float: right;
