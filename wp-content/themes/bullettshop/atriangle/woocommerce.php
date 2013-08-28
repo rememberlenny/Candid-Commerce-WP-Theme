@@ -113,10 +113,12 @@ function atc_end_shoploop_text_box(){
 }
 
 function after_thething(){
-  echo "/* after */";
+    echo '</a>';
 }
 function before_thething(){
-  echo "/* before */";
+    echo '<a href="';
+  the_permalink(); 
+  echo '">';
 }
 
   add_action(     'woocommerce_after_shop_loop_item_title',       'atc_title_display_cat',   7 );
