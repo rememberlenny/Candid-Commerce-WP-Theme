@@ -29,13 +29,12 @@
     top: auto;
   }
 
-  @media only screen and (min-width: 58.75em)
-.top-bar-section li.has-dropdown a {
-text-decoration: none !important;
-}
-.top-bar-section li.has-dropdown > a {
-text-decoration: underline;
-}
+  .top-bar-section li.has-dropdown a {
+  text-decoration: none !important;
+  }
+  .top-bar-section li.has-dropdown > a {
+  text-decoration: underline;
+  }
   .top-bar-section .has-dropdown{
     &:hover{
       visibility: visible !important;
