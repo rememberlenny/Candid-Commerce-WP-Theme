@@ -38,7 +38,7 @@ $classes = array();
 	}
 ?>  
 
-<li <?php post_class( $classes ); ?>>
+<li <?php echo get_the_ID(); ?><?php post_class( $classes ); ?>>
 
 	<?php do_action( 'woocommerce_before_shop_loop_item' ); ?>
 
