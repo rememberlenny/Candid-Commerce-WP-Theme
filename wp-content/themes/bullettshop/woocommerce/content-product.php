@@ -32,6 +32,12 @@ $woocommerce_loop['loop']++;
 $classes = array();
 
 ?>
+<?php 
+	if (post_class( $classes ) == "post-419"){
+		echo 'hollaback';
+	}
+?>  
+
 <li <?php post_class( $classes ); ?>>
 
 	<?php do_action( 'woocommerce_before_shop_loop_item' ); ?>
