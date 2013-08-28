@@ -38,8 +38,8 @@ $classes = array();
 	}
 ?>  
 
-<li <?php echo get_the_ID(); ?><?php post_class( $classes ); ?>>
-
+<li <?php post_class( $classes ); ?>>
+	<?php get_the_ID(); ?>
 	<?php do_action( 'woocommerce_before_shop_loop_item' ); ?>
 
 		<?php
