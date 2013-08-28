@@ -14,7 +14,7 @@
 
 	<footer id="colophon" class="site-footer row" role="contentinfo">
 		<div class="row text-center">
-      <a href="<?php echo home_url(); ?>">Back to Top</a>
+      <a href="#content">Back to Top</a>
     </div>
     <div class="foot">
       <a href="http://bullettmedia.com">
