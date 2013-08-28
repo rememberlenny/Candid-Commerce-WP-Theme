@@ -74,12 +74,13 @@
 		</div><!-- #site-navigation -->
 	
 	</header><!-- #masthead -->
-	
-	<?php
+  
+  <div id="back-top" class="row"></div>
+  
+  <?php
   if (is_page('47'))
-		get_template_part( 'at-modules/slider'); 
-	?>
-
+    get_template_part( 'at-modules/slider'); 
+  ?>
 	<div id="content" class="site-content row">
 
 	

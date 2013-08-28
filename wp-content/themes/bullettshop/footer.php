@@ -13,8 +13,8 @@
 	</div><!-- #content -->
 
 	<footer id="colophon" class="site-footer row" role="contentinfo">
-		<div class="row text-center">
-      <a href="#content">Back to Top</a>
+		<div class="row text-center" style="margin-bottom:1em;">
+      <a href="#back-top">▲ Back to Top</a>
     </div>
     <div class="foot">
       <a href="http://bullettmedia.com">
