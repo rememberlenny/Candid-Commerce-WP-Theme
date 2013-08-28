@@ -1,0 +1,4 @@
+/* line 1, ../../sass/base/admin/login.scss */
+body.login #login h1 a {
+  background-size: contain !important;
+}
