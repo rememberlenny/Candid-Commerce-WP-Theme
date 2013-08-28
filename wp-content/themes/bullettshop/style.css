@@ -9716,7 +9716,7 @@ label {
 
   /* line 141, sass/element/header/_nav.scss */
   .top-bar-menu.right {
-    visibility: hidden;
+    display: none;
   }
 }
 @media only screen and (min-width: 58.75em) {
@@ -9727,7 +9727,7 @@ label {
 
   /* line 151, sass/element/header/_nav.scss */
   .top-bar-menu.right {
-    visibility: visible;
+    display: inline;
   }
 }
 /* line 159, sass/element/header/_nav.scss */

@@ -139,7 +139,7 @@
     }
   }
   .top-bar-menu.right{
-    visibility: hidden;
+    display: none;
   }
 }
 @media only screen and (min-width: 58.75em){
@@ -149,7 +149,7 @@
     }
   }
   .top-bar-menu.right{
-      visibility: visible;
+      display: inline;
   }
 }
 
