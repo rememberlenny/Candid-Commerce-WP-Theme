@@ -36,11 +36,11 @@
 
 	<header id="masthead" class="row site-header" role="banner">
 		<div class="site-branding ">
-			<h1 class="site-title">
-        <a class="logo-head" href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home">
-        </a>
-      </h1>
-			<h2 class="site-description"><?php bloginfo( 'description' ); ?></h2>
+      <a class="logo-head" href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home">
+        <h1 class="site-title">
+        </h1>
+        <h2 class="site-description"><?php bloginfo( 'description' ); ?></h2>
+      </a>
 		</div>
     <nav class="cart-menu-holder">
       <section>
