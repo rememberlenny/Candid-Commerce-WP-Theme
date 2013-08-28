@@ -36,7 +36,9 @@ $classes = array();
 
 	<?php do_action( 'woocommerce_before_shop_loop_item' ); ?>
 
-	<?php echo '<a href="<?php the_permalink(); ?>">'; ?>
+	<?php echo '<a href="';
+	the_permalink();
+	echo '">'; ?>
 
 		<?php
 			/**
