@@ -1,5 +1,17 @@
 body{
 
+  /* This is the zoom window. */
+  .cloud-zoom-big {
+    
+    -webkit-border-radius: 0px!important;
+      -moz-border-radius: 0px!important;
+      border-radius: 0px!important;
+        
+    -moz-box-shadow: none !important;
+    -webkit-box-shadow:none !important;
+    box-shadow: none !important; 
+  }
+
   .cloud-center {
     text-align:center;
   }

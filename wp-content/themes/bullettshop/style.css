@@ -10103,16 +10103,26 @@ div.accordion section.active div.content {
 
 /* line 1, sass/element/cloud-zoom/custom.scss */
 body {
+  /* This is the zoom window. */
   /* This is the moving lens square underneath the mouse pointer. */
   /* This is for the title text. */
   /* This is the zoom window. */
   /* This is the loading message. */
 }
-/* line 3, sass/element/cloud-zoom/custom.scss */
+/* line 4, sass/element/cloud-zoom/custom.scss */
+body .cloud-zoom-big {
+  -webkit-border-radius: 0px !important;
+  -moz-border-radius: 0px !important;
+  border-radius: 0px !important;
+  -moz-box-shadow: none !important;
+  -webkit-box-shadow: none !important;
+  box-shadow: none !important;
+}
+/* line 15, sass/element/cloud-zoom/custom.scss */
 body .cloud-center {
   text-align: center;
 }
-/* line 7, sass/element/cloud-zoom/custom.scss */
+/* line 19, sass/element/cloud-zoom/custom.scss */
 body .cloud-zoom-lens {
   border: 2px solid black;
   margin: -2px;
@@ -10120,7 +10130,7 @@ body .cloud-zoom-lens {
   background-color: #fff;
   cursor: move;
 }
-/* line 15, sass/element/cloud-zoom/custom.scss */
+/* line 27, sass/element/cloud-zoom/custom.scss */
 body .cloud-zoom-title {
   font-family: Arial, Helvetica, sans-serif;
   position: absolute !important;
@@ -10133,19 +10143,19 @@ body .cloud-zoom-title {
   font-size: 10px;
   top: 0px;
 }
-/* line 29, sass/element/cloud-zoom/custom.scss */
+/* line 41, sass/element/cloud-zoom/custom.scss */
 body .cloud-zoom-big {
   border: 20px solid #fff;
   overflow: hidden;
 }
-/* line 35, sass/element/cloud-zoom/custom.scss */
+/* line 47, sass/element/cloud-zoom/custom.scss */
 body .cloud-zoom-loading {
   color: white;
   background: #222;
   padding: 3px;
   border: 1px solid #000;
 }
-/* line 42, sass/element/cloud-zoom/custom.scss */
+/* line 54, sass/element/cloud-zoom/custom.scss */
 body a#cloud-link {
   position: relative;
   top: 10px;
