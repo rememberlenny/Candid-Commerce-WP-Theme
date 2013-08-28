@@ -13,8 +13,11 @@
 	</div><!-- #content -->
 
 	<footer id="colophon" class="site-footer row" role="contentinfo">
-		<div class="foot">
-      <a href="<?php echo home_url(); ?>">
+		<div class="row text-center">
+      <a href="<?php echo home_url(); ?>">Back to Top</a>
+    </div>
+    <div class="foot">
+      <a href="http://bullettmedia.com">
         <div class="logo"></div>
       </a>
     </div>
