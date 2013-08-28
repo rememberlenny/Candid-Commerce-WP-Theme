@@ -16,18 +16,15 @@ function woo_custom_cart_button_text() {
 
 function atc_display_tag(){
   if (get_brands()){
-    atc_begin_shoploop_item_perma();
+    
     echo '<h2 class="subheader brand-name brand-link">'. get_brands() .'</h2>';
-    atc_end_shoploop_item_perma();
   }
 }
 
 function atc_title_display(){
-  atc_begin_shoploop_item_perma();
   echo '<h3>'; 
   echo the_title(); 
   echo '</h3>';
-  atc_end_shoploop_item_perma();
 }
 
 // Remove all reviews
