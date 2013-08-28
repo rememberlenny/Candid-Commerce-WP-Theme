@@ -33,7 +33,7 @@ $classes = array();
 
 ?>
 <?php 
-		echo '<!--'. $classes .'-->';
+		echo '<!--'. get_the_ID() .'-->';
 ?>  
 
 <li <?php post_class( $classes ); ?>>
