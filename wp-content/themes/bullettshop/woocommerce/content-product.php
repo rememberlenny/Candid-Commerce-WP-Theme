@@ -36,10 +36,6 @@ $classes = array();
 
 	<?php do_action( 'woocommerce_before_shop_loop_item' ); ?>
 
-	<?php echo '<a href="';
-	the_permalink();
-	echo '">'; ?>
-
 		<?php
 			/**
 			 * woocommerce_before_shop_loop_item_title hook
@@ -49,23 +45,15 @@ $classes = array();
 			 */
 			do_action( 'woocommerce_before_shop_loop_item_title' );
 		?>
-		<?php echo '<div class="text-box">'; ?>
-			
-			
 
-			
-
-			<?php
-				/**
-				 * woocommerce_after_shop_loop_item_title hook
-				 *
-				 * @hooked woocommerce_template_loop_price - 10
-				 */
-				do_action( 'woocommerce_after_shop_loop_item_title' );
-			?>
-
-		<?php echo '</div>'; ?>
-	<?php echo '</a>'; ?>
+		<?php
+			/**
+			 * woocommerce_after_shop_loop_item_title hook
+			 *
+			 * @hooked woocommerce_template_loop_price - 10
+			 */
+			do_action( 'woocommerce_after_shop_loop_item_title' );
+		?>
 
 	<?php do_action( 'woocommerce_after_shop_loop_item' ); ?>
 	<hr>
