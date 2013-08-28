@@ -1833,10 +1833,13 @@ p.demo_store {
   padding: 1px 0;
   float: left;
 }
-/* line 1603, ../../sass/base/woocommerce/woocommerce.scss */
+/* line 1602, ../../sass/base/woocommerce/woocommerce.scss */
+.woocommerce .widget_layered_nav ul li.chosen, .woocommerce-page .widget_layered_nav ul li.chosen {
+  border: 1px solid black;
+}
+/* line 1604, ../../sass/base/woocommerce/woocommerce.scss */
 .woocommerce .widget_layered_nav ul li.chosen a, .woocommerce-page .widget_layered_nav ul li.chosen a {
   padding: 0 6px 0 18px;
-  border: 1px solid black;
   background: white url("/wp-content/themes/bullettshop/images/cross-flip.png") no-repeat left top;
   color: black;
   background-position: 3px -12px;

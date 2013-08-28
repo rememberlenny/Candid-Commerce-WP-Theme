@@ -24,4 +24,14 @@
     display: none;
   }
 
+  li{
+    &:hover{
+      background: rgb(230, 230, 230);
+      color: #333;
+    }
+    &.chosen{
+      backgrond: none !important;
+    }
+  }
+
 }

@@ -66,5 +66,6 @@ $classes = array();
 
 	<?php do_action( 'woocommerce_after_shop_loop_item' ); ?>
 	</a>
+	
 	<hr>
 </li>

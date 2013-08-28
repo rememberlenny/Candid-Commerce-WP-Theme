@@ -26,3 +26,12 @@
 .widget .count {
   display: none;
 }
+/* line 28, ../../sass/element/sidebar/widget.scss */
+.widget li:hover {
+  background: #e6e6e6;
+  color: #333;
+}
+/* line 32, ../../sass/element/sidebar/widget.scss */
+.widget li.chosen {
+  backgrond: none !important;
+}
