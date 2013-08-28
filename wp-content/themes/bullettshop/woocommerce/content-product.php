@@ -34,9 +34,9 @@ $classes = array();
 ?>
 <li <?php post_class( $classes ); ?>>
 
+	<a href="<?php the_permalink(); ?>">
 	<?php do_action( 'woocommerce_before_shop_loop_item' ); ?>
 
-	<a href="<?php the_permalink(); ?>">
 
 		<?php
 			/**
@@ -63,8 +63,8 @@ $classes = array();
 			?>
 
 		</div>
-	</a>
 
 	<?php do_action( 'woocommerce_after_shop_loop_item' ); ?>
+	</a>
 	<hr>
 </li>
