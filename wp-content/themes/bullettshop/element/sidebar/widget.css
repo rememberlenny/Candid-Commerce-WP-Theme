@@ -4,34 +4,34 @@
 }
 
 @media only screen and (min-width: 768px) {
-  /* line 6, ../../sass/element/sidebar/widget.scss */
-  #secondary {
+  /* line 7, ../../sass/element/sidebar/widget.scss */
+  .archive #secondary {
     display: block !important;
   }
 }
-/* line 11, ../../sass/element/sidebar/widget.scss */
+/* line 13, ../../sass/element/sidebar/widget.scss */
 .widget {
   font-size: .88em;
 }
-/* line 14, ../../sass/element/sidebar/widget.scss */
+/* line 16, ../../sass/element/sidebar/widget.scss */
 .widget .widget-title {
   font-size: .95em !important;
   border-bottom: 1px solid rgba(0, 0, 0, 0.8);
 }
-/* line 19, ../../sass/element/sidebar/widget.scss */
+/* line 21, ../../sass/element/sidebar/widget.scss */
 .widget ul {
   font-size: .9em !important;
 }
-/* line 23, ../../sass/element/sidebar/widget.scss */
+/* line 25, ../../sass/element/sidebar/widget.scss */
 .widget .count {
   display: none;
 }
-/* line 28, ../../sass/element/sidebar/widget.scss */
+/* line 30, ../../sass/element/sidebar/widget.scss */
 .widget li:hover {
   background: #e6e6e6;
   color: #333;
 }
-/* line 32, ../../sass/element/sidebar/widget.scss */
+/* line 34, ../../sass/element/sidebar/widget.scss */
 .widget li.chosen {
   backgrond: none !important;
 }

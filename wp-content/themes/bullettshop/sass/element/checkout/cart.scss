@@ -2,7 +2,7 @@
 .woocommerce-checkout,
 {
   #secondary{
-    display: none;
+    display: none !important;
   }
 }
 .cart_totals{

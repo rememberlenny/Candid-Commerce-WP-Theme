@@ -114,12 +114,12 @@ function atc_end_shoploop_text_box(){
   echo '</div>';
 }
 
-add_action( 'woocommerce_before_shop_loop_item_title', 'atc_begin_shoploop_item_perma', 5);
-add_action( 'woocommerce_before_shop_loop_item_title', 'atc_end_shoploop_item_perma', 13);
-add_action( 'woocommerce_before_shop_loop_item_title', 'atc_begin_shoploop_item_perma', 14);
-add_action( 'woocommerce_before_shop_loop_item_title', 'atc_begin_shoploop_text_box', 15);
-add_action( 'woocommerce_after_shop_loop_item_title', 'atc_end_shoploop_text_box', 15);
-add_action( 'woocommerce_after_shop_loop_item_title', 'atc_end_shoploop_item_perma', 20);
+// add_action( 'woocommerce_before_shop_loop_item_title', 'atc_begin_shoploop_item_perma', 5);
+// add_action( 'woocommerce_before_shop_loop_item_title', 'atc_end_shoploop_item_perma', 13);
+// add_action( 'woocommerce_before_shop_loop_item_title', 'atc_begin_shoploop_item_perma', 14);
+// add_action( 'woocommerce_before_shop_loop_item_title', 'atc_begin_shoploop_text_box', 15);
+// add_action( 'woocommerce_after_shop_loop_item_title', 'atc_end_shoploop_text_box', 15);
+// add_action( 'woocommerce_after_shop_loop_item_title', 'atc_end_shoploop_item_perma', 20);
 
 ?>
 
