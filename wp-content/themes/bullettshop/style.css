@@ -10125,7 +10125,7 @@ div.accordion section.active div.content {
 @media only screen and (min-width: 768px) {
   /* line 7, sass/element/sidebar/widget.scss */
   .archive #secondary {
-    display: block !important;
+    display: block;
   }
 }
 /* line 13, sass/element/sidebar/widget.scss */
@@ -10589,7 +10589,7 @@ section#products {
 
 /* line 42, sass/state/home/_product-loop.scss */
 .home section#products {
-  width: 100%;
+  width: 100% !important;
 }
 
 /* line 1, sass/state/infinitescroll/_style.scss */

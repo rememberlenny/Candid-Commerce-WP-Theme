@@ -6,7 +6,7 @@
 @media only screen and (min-width: 768px) {
   /* line 7, ../../sass/element/sidebar/widget.scss */
   .archive #secondary {
-    display: block !important;
+    display: block;
   }
 }
 /* line 13, ../../sass/element/sidebar/widget.scss */
