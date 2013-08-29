@@ -20,10 +20,25 @@
 <!--<![endif]-->
 <head>
 <meta charset="<?php bloginfo( 'charset' ); ?>" />
-<meta name="viewport" content="width=device-width" />
 <title><?php wp_title( '|', true, 'right' ); ?></title>
 <link rel="profile" href="http://gmpg.org/xfn/11" />
 <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>" />
+<meta name="title" content="The BULLETT Shop"  property="og:title">
+<meta name="viewport" content="width=device-width, user-scalable=no">
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<meta name="image" property="og:image" content="http://bullettmedia.com/wp-content/uploads/2013/08/032880.jpg" />
+<meta property="fb:admins" content="2337170" />
+<meta property="og:type" content="article" />
+<meta name="news_keywords" content="America, Depressing Games, Mad Libs, Obama, Politics">
+<link rel="shortcut icon" href="http://bullett.wpengine.netdna-cdn.com/wp-content/themes/BULLETTv4/favicon.ico">
+<link rel="apple-touch-icon-precomposed" href="http://bullett.wpengine.netdna-cdn.com/wp-content/themes/BULLETTv4/images/icon.png" />
+<link rel="apple-touch-icon-precomposed" sizes="29x29" href="http://bullett.wpengine.netdna-cdn.com/wp-content/themes/BULLETTv4/images/icon-29x29.png" />
+<link rel="apple-touch-icon-precomposed" sizes="58x58" href="http://bullett.wpengine.netdna-cdn.com/wp-content/themes/BULLETTv4/images/icon-58x58.png" />
+<link rel="apple-touch-icon-precomposed" sizes="114x114" href="http://bullett.wpengine.netdna-cdn.com/wp-content/themes/BULLETTv4/images/icon-114x114.png" />
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="http://bullett.wpengine.netdna-cdn.com/wp-content/themes/BULLETTv4/images/icon-144x144.png" />
+		
+
+
 <?php // Loads HTML5 JavaScript file to add support for HTML5 elements in older IE versions. ?>
 <!--[if lt IE 9]>
 <script src="<?php echo get_template_directory_uri(); ?>/js/html5.js" type="text/javascript"></script>
