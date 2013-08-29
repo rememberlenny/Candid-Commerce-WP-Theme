@@ -9535,7 +9535,7 @@ label {
 }
 
 /* line 14, sass/element/header/_nav.scss */
-.menu-item-object-custom a:hover {
+.menu-item a:hover {
   background: #fefefe !important;
 }
 
