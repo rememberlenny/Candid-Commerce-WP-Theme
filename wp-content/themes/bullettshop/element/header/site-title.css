@@ -14,7 +14,7 @@ h1.site-title:hover {
 
 /* line 13, ../../sass/element/header/site-title.scss */
 #page {
-  margin-top: 84px;
+  padding-top: 84px;
 }
 
 @media only screen and (max-width: 768px) {
@@ -44,7 +44,7 @@ h1.site-title:hover {
 @media only screen and (max-width: 58.75em) and (min-width: 768px) {
   /* line 38, ../../sass/element/header/site-title.scss */
   #page {
-    margin-top: 153px;
+    padding-top: 153px;
   }
 
   /* line 41, ../../sass/element/header/site-title.scss */
@@ -56,7 +56,7 @@ h1.site-title:hover {
 @media only screen and (min-width: 58.75em) {
   /* line 47, ../../sass/element/header/site-title.scss */
   #page {
-    margin-top: 213px;
+    padding-top: 213px;
   }
 
   /* line 50, ../../sass/element/header/site-title.scss */
