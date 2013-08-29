@@ -11,8 +11,10 @@
   }
 }
 
-.menu-item a:hover{
-  background: #fefefe!important;
+body .menu-item:hover a,
+body .menu-item a:hover
+{
+  background: #eee!important;
 }  
 
 @media only screen and (max-width: 768px){
