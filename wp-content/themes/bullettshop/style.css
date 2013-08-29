@@ -10548,33 +10548,44 @@ select {
   position: fixed;
 }
 
+/* line 1, sass/state/home/_product-loop.scss */
+section#products {
+  width: 100%;
+}
+
 @media only screen and (min-width: 768px) {
-  /* line 3, sass/state/home/_product-loop.scss */
+  /* line 5, sass/state/home/_product-loop.scss */
+  section#products {
+    width: 75%;
+    float: right;
+  }
+
+  /* line 11, sass/state/home/_product-loop.scss */
   #top-wrap .woocommerce-pagination {
     float: right;
     margin-top: -2.6em;
   }
 }
-/* line 14, sass/state/home/_product-loop.scss */
+/* line 22, sass/state/home/_product-loop.scss */
 .home #secondary {
   display: none !important;
 }
-/* line 17, sass/state/home/_product-loop.scss */
+/* line 25, sass/state/home/_product-loop.scss */
 .home .products {
   width: 100% !important;
   left: 0px !important;
 }
-/* line 21, sass/state/home/_product-loop.scss */
+/* line 29, sass/state/home/_product-loop.scss */
 .home #products {
   background: white;
   border-top: 1px solid #333;
   padding-top: 24px;
 }
-/* line 26, sass/state/home/_product-loop.scss */
+/* line 34, sass/state/home/_product-loop.scss */
 .home .page-title {
   display: none;
 }
-/* line 29, sass/state/home/_product-loop.scss */
+/* line 37, sass/state/home/_product-loop.scss */
 .home .woocommerce-ordering {
   display: none;
 }
