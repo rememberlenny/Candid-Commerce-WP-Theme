@@ -9536,7 +9536,7 @@ label {
 
 /* line 14, sass/element/header/_nav.scss */
 .menu-item-object-custom a:hover {
-  background: #eeeeee !important;
+  background: #fefefe !important;
 }
 
 @media only screen and (max-width: 768px) {
