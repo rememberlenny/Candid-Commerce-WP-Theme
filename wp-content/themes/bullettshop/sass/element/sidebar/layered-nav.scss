@@ -1,7 +1,7 @@
-.widget_layered_nav li a{
-  text-transform: uppercase;
+
+.widget_layered_nav li a:before {
+  content: "\2610 ";
 }
-.widget_layered_nav li a:before
-{ 
-  content:"X";
+.widget_layered_nav li.choosen a:before {
+  content: "\2612 ";
 }
