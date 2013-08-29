@@ -1,5 +1,5 @@
 /*
-Syntax error: File to import not found or unreadable: state/state/layered-nav.
+Syntax error: File to import not found or unreadable: state/sidebar/layered-nav.
               Load paths:
                 /Users/lkbogdonoff/LKBG/Bullett/store-at/wp-content/themes/bullettshop/sass
                 /Users/lkbogdonoff/.rvm/gems/ruby-1.9.3-p429/gems/compass-0.12.2/frameworks/blueprint/stylesheets
@@ -76,4 +76,4 @@ Backtrace:
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Syntax error: File to import not found or unreadable: state/state/layered-nav.\A               Load paths:\A                 /Users/lkbogdonoff/LKBG/Bullett/store-at/wp-content/themes/bullettshop/sass\A                 /Users/lkbogdonoff/.rvm/gems/ruby-1.9.3-p429/gems/compass-0.12.2/frameworks/blueprint/stylesheets\A                 /Users/lkbogdonoff/.rvm/gems/ruby-1.9.3-p429/gems/compass-0.12.2/frameworks/compass/stylesheets\A                 /Users/lkbogdonoff/.rvm/gems/ruby-1.9.3-p429/gems/zurb-foundation-4.3.1/scss\A                 Compass::SpriteImporter\A         on line 42 of /Users/lkbogdonoff/LKBG/Bullett/store-at/wp-content/themes/bullettshop/sass/style.scss"; }
+  content: "Syntax error: File to import not found or unreadable: state/sidebar/layered-nav.\A               Load paths:\A                 /Users/lkbogdonoff/LKBG/Bullett/store-at/wp-content/themes/bullettshop/sass\A                 /Users/lkbogdonoff/.rvm/gems/ruby-1.9.3-p429/gems/compass-0.12.2/frameworks/blueprint/stylesheets\A                 /Users/lkbogdonoff/.rvm/gems/ruby-1.9.3-p429/gems/compass-0.12.2/frameworks/compass/stylesheets\A                 /Users/lkbogdonoff/.rvm/gems/ruby-1.9.3-p429/gems/zurb-foundation-4.3.1/scss\A                 Compass::SpriteImporter\A         on line 42 of /Users/lkbogdonoff/LKBG/Bullett/store-at/wp-content/themes/bullettshop/sass/style.scss"; }
