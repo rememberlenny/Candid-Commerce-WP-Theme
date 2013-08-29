@@ -28,7 +28,7 @@ add_action( 'init', 'jk_remove_wc_breadcrumbs' );
 function jk_remove_wc_breadcrumbs() {
     remove_action( 'woocommerce_before_main_content', 'woocommerce_breadcrumb', 20, 0 );
     add_action( 'woocommerce_before_shop_loop', 'woocommerce_div_before', 12, 0 );
-    add_action( 'woocommerce_before_shop_loop', 'woocommerce_breadcrumb', 13, 0 );
+    // add_action( 'woocommerce_before_shop_loop', 'woocommerce_breadcrumb', 13, 0 );
     add_action('woocommerce_before_main_content', 'woocommerce_result_count', 14);
     add_action( 'woocommerce_before_shop_loop', 'woocommerce_div_after', 15, 0 );
 }
