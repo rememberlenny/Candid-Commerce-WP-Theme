@@ -9535,7 +9535,7 @@ label {
 }
 
 /* line 16, sass/element/header/_nav.scss */
-body .menu-item .menu-item:hover a,
+body .menu-item .dropdown .menu-item:hover a,
 body .menu-item a:hover {
   background: #eeeeee !important;
 }
