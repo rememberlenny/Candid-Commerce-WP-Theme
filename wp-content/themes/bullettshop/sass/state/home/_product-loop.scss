@@ -1,3 +1,12 @@
+@media only screen and (min-width: 768px) {
+  #top-wrap{
+    .woocommerce-pagination{
+      float: right;
+      margin-top: -2.6em;
+    }
+  }
+}
+
 .woocommerce-result-count{
 }
 .home{

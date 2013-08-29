@@ -1,0 +1,4 @@
+/* line 2, ../../sass/element/sidebar/layered-nav.scss */
+.widget_layered_nav li:before {
+  content: "X";
+}

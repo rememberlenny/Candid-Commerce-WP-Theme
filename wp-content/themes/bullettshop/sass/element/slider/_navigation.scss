@@ -47,3 +47,24 @@
   width: 180px;
   height: 478px;
 }*/
+
+
+.orbit-container .orbit-prev {
+  left: 0;
+  top: 0;
+  background: none;
+  height: 110%;
+  padding-right: 15%;
+}
+
+.orbit-container .orbit-next {
+  background: none;
+  height: 110%;
+  top: 0;
+  padding-left: 15%;
+}
+
+.orbit-container .orbit-next > span {
+right: 0px;
+left: auto;
+}
