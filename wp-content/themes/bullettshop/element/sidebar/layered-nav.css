@@ -1,4 +1,9 @@
-/* line 2, ../../sass/element/sidebar/layered-nav.scss */
+/* line 1, ../../sass/element/sidebar/layered-nav.scss */
+.widget_layered_nav li a {
+  text-transform: uppercase;
+}
+
+/* line 5, ../../sass/element/sidebar/layered-nav.scss */
 .widget_layered_nav li a:before {
   content: "X";
 }

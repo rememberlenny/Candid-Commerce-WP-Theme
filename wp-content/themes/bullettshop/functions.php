@@ -133,6 +133,8 @@ require get_template_directory() . '/atriangle/woocommerce-single-product.php';
 
 require get_template_directory() . '/atriangle/woocommerce-related-product.php';
 
+require get_template_directory() . '/atriangle/woocommerce-layered-nav.php';
+
 /**
  * Load Atriangle (atr-) hooks.
  */
@@ -157,5 +159,3 @@ require get_template_directory() . '/atriangle/atc-modals.php';
  * Load Modal Elements.
  */
 require get_template_directory() . '/atriangle/acf-options.php';
-
-
