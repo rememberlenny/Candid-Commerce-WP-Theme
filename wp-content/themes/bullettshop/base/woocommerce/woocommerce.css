@@ -645,7 +645,7 @@ p.demo_store {
   float: left;
   display: inline;
   overflow: hidden;
-  font-size: 2em;
+  font-size: 1em;
 }
 /* line 531, ../../sass/base/woocommerce/woocommerce.scss */
 .woocommerce nav.woocommerce-pagination ul li a, .woocommerce nav.woocommerce-pagination ul li span, .woocommerce #content nav.woocommerce-pagination ul li a, .woocommerce #content nav.woocommerce-pagination ul li span, .woocommerce-page nav.woocommerce-pagination ul li a, .woocommerce-page nav.woocommerce-pagination ul li span, .woocommerce-page #content nav.woocommerce-pagination ul li a, .woocommerce-page #content nav.woocommerce-pagination ul li span {
