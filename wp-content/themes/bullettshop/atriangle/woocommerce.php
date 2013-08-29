@@ -70,7 +70,8 @@ function atc_alter_product_top(){
 add_action( 'init', 'atc_pagination' );
 // Move Pagnation to top
 function atc_pagination(){
-  add_action( 'woocommerce_before_shop_loop', 'atc_pagination_top_wrap', 35, 0 );
+  add_action( 'woocommerce_before_shop_loop', 'woocommerce_pagination', 35, 0 );
+  // add_action( 'woocommerce_before_shop_loop', 'atc_pagination_top_wrap', 35, 0 );
   remove_action( 'woocommerce_after_shop_loop', 'woocommerce_pagination', 10, 0 );
   // add_action( 'woocommerce_before_shop_loop', 'atc_showall_button', 34, 0 );
   add_action( 'woocommerce_sidebar', 'woocommerce_pagination', 15, 0 );
