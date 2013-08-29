@@ -10587,6 +10587,11 @@ section#products {
   display: none;
 }
 
+/* line 42, sass/state/home/_product-loop.scss */
+.home section#products {
+  width: 100%;
+}
+
 /* line 1, sass/state/infinitescroll/_style.scss */
 #infscr-loading {
   display: block;
