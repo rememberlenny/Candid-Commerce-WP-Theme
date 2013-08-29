@@ -4,6 +4,7 @@
 
   function aln_add_custom_container($containers){
       $containers[] = ‘#content';
+      $containers[] = ‘#content';
       return $containers;
   }
 
