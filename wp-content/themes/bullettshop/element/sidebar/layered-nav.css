@@ -4,6 +4,6 @@
 }
 
 /* line 5, ../../sass/element/sidebar/layered-nav.scss */
-.widget_layered_nav li.choosen a:before {
+.widget_layered_nav li.chosen a:before {
   content: "\2612 ";
 }

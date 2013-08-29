@@ -1603,12 +1603,9 @@ p.demo_store {
 			li.chosen {
 				background: #eee;
 				a {
-					padding: 0 6px 0 18px;
-					background: url('/wp-content/themes/bullettshop/images/cross-flip.png') no-repeat left top;
 					// @include inset_box_shadow(0, 1px, 1px, rgba(255,255,255,0.5));
 					color: black;
 					// @include border_radius(3px);
-					background-position: 96% -12px;
 					width: 100%;
 				}
 				&:hover{
