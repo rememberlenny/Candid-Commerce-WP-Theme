@@ -42,6 +42,8 @@ function woocommerce_div_after() {
 // Changing order of single product pages
 add_action( 'init', 'atc_reorder_single_product' );
 
+remove_action( 'woocommerce_before_shop_loop', 'woocommerce_catalog_ordering', 30);
+
 function atc_reorder_single_product() {
     remove_action(  'woocommerce_single_product_summary',       'woocommerce_template_single_add_to_cart', 30 );
     add_action(     'woocommerce_single_product_summary',       'woocommerce_template_single_add_to_cart', 15 );
