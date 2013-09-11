@@ -1,5 +1,0 @@
-To use your own version of the CSS file instead of the included CSS please do the following
-
-1 - In your theme folder (wp-content/themes/YOUR-THEME-NAME/) create a folder called professor_cloud
-2 - Copy the existing CSS file into that folder (you end up with wp-content/themes/YOUR-THEME-NAME/professor_cloud/woocomm-professor-cloud.css )
-3 - Now edit the woocomm-professor-cloud.css file to your hearts content
